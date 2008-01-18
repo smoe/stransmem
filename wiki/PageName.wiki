@@ -1,4 +1,4 @@
-#PageName Welcome to sTransmem
+#name Welcome to sTransmem
 #summary Welcome to
 
 = sTransmem =
