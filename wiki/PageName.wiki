@@ -1,6 +1,6 @@
-#summary Welcome page
+#summary Welcome to
 
-= Introduction =
+= sTransmem =
 
 This project addresses the bioinformatics support for the investigation of soluble variants of transmembrane proteins. Data from this project was previousl published as
 
@@ -8,3 +8,5 @@ Steffen Möller, Eilhard Mix, Martin Blüggel, Pablo Serrano-Fernández, Dirk Ko
 In Silico Biology 5, 0028 (2005)
 
 which is freely accessible [http://www.bioinfo.de/isb/2005/05/0028/ here].
+
+Today we have moved away from the previous motivation which was on helping protomics labs to make better sense of their data and think more about routes towards predictors of soluble variants.
