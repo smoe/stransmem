@@ -1,0 +1,970 @@
+<?xml-stylesheet type="text/xsl" href="soluble.xsl"  encoding="ISO-8859-1" ?>
+<sol:variantlist
+	xmlns:sol="http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble"
+>
+<sol:variant gene="Laminin gamme-2 chain (LAMC2) (Kalinin/nicein/epiligrin 100 kDa subunit)" shedBy="MT1-MMP" UniProt="Q13753" spid="LMG2_HUMAN" >
+   <sol:reference type="pubmed" pmid="15525652" title="Membrane-type matrix metalloproteinase-1 (MT1-MMP) is a processing enzyme for human laminin gamma 2 chain." authors="Koshikawa N, Minegishi T, Sharabi A, Quaranta V, Seiki M." year="2004" journal="J Biol Chem." />
+</sol:variant>
+<sol:variant gene="prostate-specific membrane antigen (PSM) (Glutamate carboxypeptidase II) (N-acetylated-alpha-linked acidic dipeptidase I) (NAALADase I)" UniProt="Q04609" spid="FOH1_HUMAN">
+  <sol:reference type="pubmed" pmid="7882349" title="Alternatively spliced variants of prostate-specific membrane antigen RNA: ratio of expression as a potential measurement of progression." authors="Su SL, Huang IP, Fair WR, Powell CT, Heston WD." year="1995" journal="Cancer Res." pages="1441-3" volume="55" number="7" />
+  <sol:reference type="pubmed" pmid="10221263" title="Characterization of the enzymatic activity of PSM: comparison with brain NAALADase." authors="Tiffany CW, Lapidus RG, Merion A, Calvin DC, Slusher BS." year="1999" />
+</sol:variant>
+<sol:variant gene="aspartyl aminopeptidase (aminopeptidase D)" UniProt="Q9ULA0" spid="DMPE_HUMAN">
+  <sol:reference type="pubmed" pmid="10871154" authors="Ramirez-Exposito MJ, Martinez JM, Prieto I, Alba F, Ramirez M." title="Comparative distribution of glutamyl and aspartyl aminopeptidase activities in mouse organs." year="2000" />
+</sol:variant>
+<sol:variant gene="glutamyl aminopeptidase (aminopeptidase A)" UniProt="Q07075" spid="AMPE_HUMAN">
+  <sol:reference type="pubmed" pmid="10871154" authors="Ramirez-Exposito MJ, Martinez JM, Prieto I, Alba F, Ramirez M." title="Comparative distribution of glutamyl and aspartyl aminopeptidase activities in mouse organs." year="2000" />
+</sol:variant>
+<sol:variant gene="heparin-binding epidermal growth factor-like growth factor (HB-EGF)" shedBy="MMP, induced by chelerythrine" UniProt="Q99075" spid="HBGF_HUMAN">
+  <sol:reference type="pubmed" pmid="15490481" title="An oxidative stress mechanism mediates chelerythrine-induced heparin-binding EGF-like growth factor ectodomain shedding." authors="Kim J, Lin J, Adam RM, Lamb C, Shively SB, Freeman MR." year="2004" />
+</sol:variant>
+<sol:variant gene="HLA-A" >
+   <sol:reference type="pubmed" pmid="12594841" title="Soluble HLA-A,-B,-C and -G molecules induce apoptosis in T and NK CD8+ cells and inhibit cytotoxic T cell activity through CD8 ligation." authors="Contini P, Ghio M, Poggi A, Filaci G, Indiveri F, Ferrone S, Puppo F." journal="Eur J Immunol." year="2003" volume="33" number="1" pages="125-34" />
+</sol:variant>
+<sol:variant gene="HLA-B" >
+   <sol:reference type="pubmed" pmid="12594841" title="Soluble HLA-A,-B,-C and -G molecules induce apoptosis in T and NK CD8+ cells and inhibit cytotoxic T cell activity through CD8 ligation." authors="Contini P, Ghio M, Poggi A, Filaci G, Indiveri F, Ferrone S, Puppo F." journal="Eur J Immunol." year="2003" volume="33" number="1" pages="125-34" />
+</sol:variant>
+<sol:variant gene="HLA-C" >
+   <sol:reference type="pubmed" pmid="12594841" title="Soluble HLA-A,-B,-C and -G molecules induce apoptosis in T and NK CD8+ cells and inhibit cytotoxic T cell activity through CD8 ligation." authors="Contini P, Ghio M, Poggi A, Filaci G, Indiveri F, Ferrone S, Puppo F." journal="Eur J Immunol." year="2003" volume="33" number="1" pages="125-34" />
+</sol:variant>
+<sol:variant gene="HLA-G1">
+    <sol:reference type="pubmed" pmid="12842408" 
+	authors="Le Bouteiller P, Legrand-Abravanel F, Solier C."
+	title="Soluble HLA-G1 at the materno-foetal interface--a review"
+	year="2003"
+    />
+    <sol:reference type="pubmed" pmid="11161440"
+        authors="Claus R, Bittorf T, Walzel H, Brock J, Uhde R, Meiske D, Schulz U, Hobusch D, Schumacher K, Witt M, Bartel F, Hausmann S."
+        title="High concentration of soluble HLA-DR in the synovial fluid: generation and significance in 'rheumatoid-like' inflammatory joint diseases."
+	year="2000" />
+</sol:variant>
+<sol:variant gene="HLA-G5">
+   <sol:reference type="pubmed" pmid="12878353" title="Soluble HLA-G inhibits human dendritic cell-triggered allogeneic T-cell proliferation without altering dendritic differentiation and maturation processes." authors="Le Friec G, Laupeze B, Fardel O, Sebti Y, Pangault C, Guilloux V, Beauplet A, Fauchet R, Amiot L." journal="Hum Immunol." year="2003" volume="64" number="8" pages="752-761" />
+</sol:variant>
+<sol:variant gene="CD4" UniProt="P01730" spid="CD4_HUMAN">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1246540099_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" pmid="10607770"
+       authors="Grunewald, R. W., Fiedler, G. M., Stock, B., Grunewald, J. M., M&#xFC;ller, G. A."
+       title="Soluble CD-4 and CD-8 as markers of immunological activation in renal transplant recipients."
+       href="http://ndt.oupjournals.org/cgi/content/abstract/15/1/71"
+    />
+    <sol:reference type="pubmed" pmid="11339478"
+        authors="Zajkowska J, Hermanowska-Szpakowicz T, Swierzbinska R."
+	title="Concentration of soluble CD4, CD8 and CD25 receptors in early localized and early disseminated Lyme borreliosis."
+	year="2001" />
+</sol:variant>
+<sol:variant gene="CD8" UniProt="">
+<!--
+CD8A_HUMAN (P01732)
+	T-cell surface glycoprotein CD8 alpha chain precursor (T-lymphocyte differentiation antigen T8/Leu-2). {GENE: Name=CD8A; Synonyms=MAL} - Homo sapiens (Human) 
+CD8B_HUMAN (P10966)
+	T-cell surface glycoprotein CD8 beta chain precursor (Antigen CD8B). {GENE: Name=CD8B1; Synonyms=CD8B} - Homo sapiens (Human)
+-->
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1259923168_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" pmid="10607770"
+       authors="Grunewald, R. W., Fiedler, G. M., Stock, B., Grunewald, J. M., M&#62;ller, G. A."
+       title="Soluble CD-4 and CD-8 as markers of immunological activation in renal transplant recipients."
+       href="http://ndt.oupjournals.org/cgi/content/abstract/15/1/71"
+    />
+    <sol:reference type="pubmed" pmid="11339478"
+        authors="Zajkowska J, Hermanowska-Szpakowicz T, Swierzbinska R."
+	title="Concentration of soluble CD4, CD8 and CD25 receptors in early localized and early disseminated Lyme borreliosis."
+	year="2001" />
+    <sol:reference type="pubmed" pmid="9793264"
+        authors="Perez-Encinas M, Villamayor M, Campos A, Gonzalez S, Bello JL."
+	title="Tumor burden and serum level of soluble CD25, CD8, CD23, CD54 and CD44 in non-Hodgkin's lymphoma."
+    	year="1998" />
+</sol:variant>
+<sol:variant gene="CD14" UniProt="P08571" spid="CD14_HUMAN">
+  <sol:reference type="pubmed" pmid="1880416" authors="Bazil V., Strominger JL."
+	title="Shedding as a mechanism of down-modulation of CD14 on stimulated human monocytes"
+	year="1991"
+  />
+</sol:variant>
+<sol:variant gene="CD21 (complement receptor type II) (CR2)" UniProt="P20023">
+  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/295345001_g.htm" title="NCBI PROW" />
+  <sol:reference type="pubmed" pmid="10408363" authors="Fremeaux-Bacchi V, Kolb JP, Rakotobe S, Kazatchkine MD, Fischer EM." 
+	title="Functional properties of soluble CD21"
+	year="1999" />
+  <sol:reference type="pubmed" authors="Madhan Masilamani,* Daniela Kassahn, Stefan Mikkat, Michael O. Glocker, Harald Illges"
+	title="The concentration sCD21 in blood is found reduced by 50% in several autoimmune conditions such as rheumatoid arthritis"
+	pmid="12867574" year="2003" />
+  <sol:reference type="pubmed" authors="Masilamani M, Kassahn D, Mikkat S, Glocker MO, Illges H." 
+        year="2003"
+	title="B cell activation leads to shedding of complement receptor type II (CR2/CD21)" />
+<!--
+	People:
+	<ul>
+	<li><a href="http://info.uibk.ac.at/c/c5/c513/staff/wmp.html">Wolfgang Prodinger, Insbruck</a>
+	<li><a href="http://www.uchsc.edu/sm/immuno/holers.html">Michael Holers</a>
+	</ul>
+-->
+</sol:variant>
+<sol:variant gene="CX3CL1 (Fractalkine) (FKN) (CX(3)CL1) (Neurotactin) (SCYD1) (FKN) (NTT) (A-152E5.2)" interactsWith="CX(3)CR1" UniProt="P78423" spid="SYD1_HUMAN" shedBy="ADAM10">
+   <sol:reference type="url" href="http://users.path.ox.ac.uk/~ciu/FPgroup/articles.pdf/ajp0302lucas.pdf" title="Lucas et al. 2001" />
+  <sol:reference type="pubmed" pmid="15131578"
+  	authors="Echigo T, Hasegawa M, Shimada Y, Takehara K, Sato S."
+	year="2004"
+	title="Expression of fractalkine and its receptor, CX3CR1, in atopic dermatitis: possible contribution to skin inflammation." />
+   <sol:reference type="pubmed" pmid="11583978"
+        authors="Volin MV, Woods JM, Amin MA, Connors MA, Harlow LA, Koch AE."
+   	title="Fractalkine: a novel angiogenic chemokine in rheumatoid arthritis."
+        year="2001" />
+   <sol:reference type="pubmed" pmid="12714508" title="The disintegrin-like metalloproteinase ADAM10 is involved in constitutive cleavage of CX3CL1 (fractalkine) and regulates CX3CL1-mediated cell-cell adhesion." authors="Hundhausen C, Misztela D, Berkhout TA, Broadway N, Saftig P, Reiss K, Hartmann D, Fahrenholz F, Postina R, Matthews V, Kallen KJ, Rose-John S, Ludwig A." journal="Blood" year="2003" volume="102" number="4" pages="1186-95" />
+</sol:variant>
+<sol:variant gene="CD23 (low affinity IgE receptor) (Lymphocyte IgE receptor) (Fc-epsilon-RII) (FCER2) (IGEBF)" UniProt="P06734">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1267951442_g.htm" title="NCBI PROW" />
+	<summary>
+	sCD23 plays an important role in various chronic inflammation disorders as well as allergy. sCD23 can trigger the release of TNF-alpha. Neither TACE nor MMP nor MT-MMPs involved in shedding but some non-disclosed member of the ADAM family.
+	</summary>
+    <sol:reference type="url" title="Poster on sCD23 and Rheumatoid Arthritis"
+	href="http://www.ms-fund.keio.ac.jp/pdf/S22.pdf"
+	/>
+    <sol:reference type="pubmed" pmid="9793264"
+        authors="Perez-Encinas M, Villamayor M, Campos A, Gonzalez S, Bello JL."
+	title="Tumor burden and serum level of soluble CD25, CD8, CD23, CD54 and CD44 in non-Hodgkin's lymphoma."
+    	year="1998" />
+</sol:variant>
+<sol:variant gene="CD25 (interleukin-2 receptor alpha chain) (P55) (TAC antigen) (IL2RA)" UniProt="P01589">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1424085285_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="11339478"
+        authors="Zajkowska J, Hermanowska-Szpakowicz T, Swierzbinska R."
+	title="Concentration of soluble CD4, CD8 and CD25 receptors in early localized and early disseminated Lyme borreliosis."
+	year="2001" />
+    <sol:reference type="pubmed" pmid="11161440"
+        authors="Claus R, Bittorf T, Walzel H, Brock J, Uhde R, Meiske D, Schulz U, Hobusch D, Schumacher K, Witt M, Bartel F, Hausmann S."
+        title="High concentration of soluble HLA-DR in the synovial fluid: generation and significance in 'rheumatoid-like' inflammatory joint diseases."
+	year="2000" />
+    <sol:reference type="pubmed" pmid="10942367"
+        authors="Akin C, Schwartz LB, Kitoh T, Obayashi H, Worobec AS, Scott LM, Metcalfe DD."
+ 	title="Soluble stem cell factor receptor (CD117) and IL-2 receptor alpha chain (CD25) levels in the plasma of patients with mastocytosis: relationships to disease severity and bone marrow pathology."
+        year="2000" />
+    <sol:reference type="pubmed" pmid="9793264"
+        authors="Perez-Encinas M, Villamayor M, Campos A, Gonzalez S, Bello JL."
+	title="Tumor burden and serum level of soluble CD25, CD8, CD23, CD54 and CD44 in non-Hodgkin's lymphoma."
+    	year="1998" />
+    <sol:reference pmid="10498355"
+        authors="Peteiro-Cartelle FJ, Alvarez-Jorge A."
+	title="Dynamic profiles of interleukin-6 and the soluble form of CD25 in burned patients."
+        year="1999" />
+<!--	<li>Multiple Sclerosis [8] -->
+</sol:variant>
+<sol:variant gene="CD26 (surface dipeptidyl petdidase) (TP103) (ADCP2) (DPP4) (ADABP)" UniProt="P27487">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/61856995_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="10931130"
+        authors="Katoh N, Hirano S, Suehiro M, Ikenaga K, Yamashita T, Sugawara N, Yasuno H."
+	title="Soluble CD30 is more relevant to disease activity of atopic dermatitis than soluble CD26."
+	year="2000" />
+</sol:variant>
+<sol:variant gene="CD27 (CD27L receptor) (T-cell activation antigen CD27) (T14) (TNFRSF7) (S152)" UniProt="P26842">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1771108682_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="8938100"
+        authors="Font J, Pallares L, Martorell J, Martinez E, Gaya A, Vives J, Ingelmo M."
+        title="Elevated soluble CD27 levels in serum of patients with systemic lupus erythematosus."
+	year="1996" />
+    <sol:reference type="pubmed" pmid="9658722"
+        authors="Molica S, Vitelli G, Levato D, Crispino G, Dell'Olio M, Dattilo A, Matera R, Gandolfo GM, Musto P."
+        title="CD27 in B-cell chronic lymphocytic leukemia. Cellular expression, serum release and correlation with other soluble molecules belonging to nerve growth factor receptors (NGFr) superfamily."
+        year="1998" />
+   <sol:reference type="pubmed" 
+      authors="Atlas A, Thanh Ha TT, Lindstrom A, Nilsson A, Alaeus A, Chiodi F, De Milito A."
+      title="Effects of potent antiretroviral therapy on the immune activation marker soluble CD27 in patients infected with HIV-1 subtypes A-D."
+      year="2004" pmid="14748056" />
+   <sol:reference type="pubmed"
+      authors="Kok M, Bonfrer JM, Korse CM, de Jong D, Kersten MJ."
+      title="Serum soluble CD27, but not thymidine kinase, is an independent prognostic factor for outcome in indolent non-Hodgkin's lymphoma."
+      year="2003" pmid="12743427" />
+   <sol:reference type="pubmed"
+      authors="Nakatsuji T."
+      title="High levels of serum soluble CD27 correlated with renal dysfunction."
+      year="2003" pmid="12624711" />
+   <sol:reference type="pubmed" 
+      authors="Bohnhorst JO, Bjorgan MB, Thoen JE, Jonsson R, Natvig JB, Thompson KM."
+      title="Abnormal B cell differentiation in primary Sjogren's syndrome results in a depressed percentage of circulating memory B cells and elevated levels of soluble CD27 that correlate with Serum IgG concentration."
+      year="2002"
+      pmid="11987988" />
+   <sol:reference type="pubmed" pmid="11976819"
+      authors="van den Bent MJ, Lamers CH, van 't Veer MB, Sillevis Smitt PA, Bolhuis RL, Gratama JW."
+      title="Increased levels of soluble CD27 in the cerebrospinal fluid are not diagnostic for leptomeningeal involvement by lymphoid malignancies."
+      year="2002" />
+</sol:variant>
+<sol:variant gene="CD28 (TP44)" UniProt="P10747" spid="CD28_HUMAN" >
+    <sol:reference type="pubmed"
+      authors="Orabona C, Grohmann U, Belladonna ML, Fallarino F, Vacca C, Bianchi R, Bozza S, Volpi C, Salomon BL, Fioretti MC, Romani L, Puccetti P."
+      title="CD28 induces immunostimulatory signals in dendritic cells via CD80 and CD86."
+      journal="Nat Immunol." volume="5" number="11" pages="1134-1142" year="2004" pmid="15467723" />
+</sol:variant>
+<sol:variant gene="CD30" UniProt="P28908" shedBy="TACE" >
+    <sol:reference type="pubmed" pmid="11120787"
+	authors="H. P. Hansen, S. Dietrich, Kisseleva T, Mokros T, Mentlein R, Lange HH, Murphy G, Lemke H."
+	title="CD30 shedding from Karpas 299 lymphoma cells is mediated by TNF-alpha converting enzyme"
+	year="2000" />
+    <sol:reference type="pubmed" pmid="" authors="von Tresckow B, Kallen KJ, von Strandmann EP, Borchmann P, Lange H, Engert A, Hansen HP." title="Depletion of cellular cholesterol and lipid rafts increases shedding of CD30."
+    journal="J Immunol." year="2004" volume="172" number="7" pages="4324-4331" />
+</sol:variant>
+<sol:variant gene="CD40" UniProt="P25942" shedBy="TACE">
+    <sol:reference type="pubmed" pmid="12810728"
+        authors="Contin C, Pitard V, Itai T, Nagata S, Moreau JF, Dechanet-Merville J."
+	title="Membrane-anchored CD40 is processed by the tumor necrosis factor-alpha-converting enzyme. Implications for CD40 signaling."
+        year="2003" />
+    <sol:reference type="pubmed" pmid="11937531"
+        authors="Wittmann M, Kienlin P, Mommert S, Kapp A, Werfel T."
+	title="Suppression of IL-12 production by soluble CD40 ligand: evidence for involvement of the p44/42 mitogen-activated protein kinase pathway."
+	year="2002" />
+    <sol:reference type="pubmed" pmid="7512028"
+        authors="van Kooten C, Gaillard C, Galizzi JP, Hermann P, Fossiez F, Banchereau J, Blanchard D."
+	title="B cells regulate expression of CD40 ligand on activated T cells by lowering the mRNA level and through the release of soluble CD40."
+        year="1994" />
+   <sol:reference type="pubmed" pmid="15311154"
+   	authors="Malyszko J, Malyszko JS, Hryszko T, Mysliwiec M."
+        title="Increased soluble CD40L levels are reduced by long-term simvastatin treatment in peritoneally dialyzed patients."
+        journal="Blood Coagul Fibrinolysis"
+	year="2004"
+	volume="15"
+	number="6"
+	pages="463-467" />
+</sol:variant>
+<sol:variant gene="PECAM-1 (CD31)" UniProt="P16284">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/96035796_g.htm" title="NCBI PROW" />
+   <sol:reference type="url" href="http://www.rndsystems.com/asp/g_sitebuilder.asp?bodyId=218" title="R and D Systems" />
+   <!-- <li>Notion of physiological C-terminal variant of PECAM-1 -->
+   <sol:reference type="pubmed" href="8006026" 
+   	title=""
+	authors=""
+	year="" />
+   <sol:reference type="pubmed" href="7878654" 
+   	title=""
+	authors=""
+	year="" />
+   <sol:reference type="pubmed" href="8006026" 
+   	title="Changes in expression of the cell adhesion molecule PECAM-1 (CD31) during differentiation of human leukemic cell lines."
+	authors="Goldberger A, Middleton KA, Newman PJ."
+	year="1994 " />
+<!-- Multiple Sclerosis, Rheumatoid Arthritis -->
+   <sol:reference type="url" href="http://www.med.cornell.edu/gradschool/fac/muller.html" title="Graduate Scool on PECAM and autoimmune diseases (RA, MS)" />
+</sol:variant>
+<sol:variant gene="complement receptor type 1 (CD35) (CR1) (C3bR) (C4bR)" UniProt="P17927">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1107950722_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="10606985"
+        authors="R. M. GOODFELLOW, A. S. WILLIAMS, J. L. LEVIN, B. D. WILLIAMS, B. P. MORGAN"
+        title="Soluble complement receptor one (sCR1) inhibits the development and progression of rat collagen-induced arthritis"
+        year="2000" />
+    <refrence type="pubmed" pmid="15163541"
+    	authors="Arora V, Verma J, Dutta R, Marwah V, Kumar A, Das N."
+    	title="Reduced complement receptor 1 (CR1, CD35) transcription in systemic lupus erythematosus."
+    	year="2004" />
+    PMID: 15163541 [PubMed - indexed for MEDLINE]
+</sol:variant>
+<sol:variant gene="CD44 (Phagocytic glycoprotein I) (PGP-1) (HUTCH-I) (Extracellular matrix receptor-III) (ECMR-III) (GP90 lymphocyte homing/adhesion receptor) (Hermes antigen) (Hyaluronate receptor) (Heparan sulfate proteoglycan) (Epican) (CDw44) (LHR)" UniProt="P16070">
+   <summary>
+   Capacity to mediate inflammatory cell function and tumor growth and metastasis
+   </summary>
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1621804819_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" authors="Lesley J., Hyman R." pmid="9634544"
+   	title="CD44 structure and function" year="1998" />
+   <sol:reference type="pubmed" authors="Cichy J, Pure E."
+	title="The liberation of CD44."
+	year="2003" />
+    <sol:reference type="pubmed" pmid="9793264"
+        authors="Perez-Encinas M, Villamayor M, Campos A, Gonzalez S, Bello JL."
+	title="Tumor burden and serum level of soluble CD25, CD8, CD23, CD54 and CD44 in non-Hodgkin's lymphoma."
+    	year="1998" />
+</sol:variant>
+<sol:variant gene="CD46 (MCP) (Membrane cofactor protein) (Trophoblast leucocyte common antigen) (TLX)" UniProt="P15529">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/2027814670_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="7547700"
+	authors="Seya T, Hara T, Iwata K, Kuriyama S, Hasegawa T, Nagase Y, Miyagawa S, Matsumoto M, Hatanaka M, Atkinson JP et al."
+        title="Purification and functional properties of soluble forms of membrane cofactor protein (CD46) of complement: identification of forms increased in cancer patients' sera."
+	 year="1995" />
+</sol:variant>
+<sol:variant gene="ICAM-1 (CD54)" UniProt="P05362">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1295888667_g.htm" title="NCBI PROW" />
+    <sol:reference type="url" href="http://www.roche-applied-science.com/prod_inf/manuals/elisa_man/P83-86.pdf" title="h-sICAM-1 ELISA by Roche" />
+    <sol:reference type="pubmed" pmid="9724007" authors="Kraus, J., Oschmann, P., Engelhardt, B., Schiel, C., Hornig, C., Bauer, R., Kern, A., Traupe, H., and Dorndorf, W." year="1998" title="Soluble and cell surface ICAM-1 as markers for disease activity in multiple sclerosis"
+   />
+    <sol:reference type="pubmed" pmid="9695739" authors="Minnick, K.E., Kreisberg, R., and Dillon, P.W." year="1998" title="Soluble ICAM-1 (sICAM-1) in biliary atresia and its relationship to disease activity" />
+    <sol:reference type="pubmed" pmid="9793264"
+        authors="Perez-Encinas M, Villamayor M, Campos A, Gonzalez S, Bello JL."
+	title="Tumor burden and serum level of soluble CD25, CD8, CD23, CD54 and CD44 in non-Hodgkin's lymphoma."
+    	year="1998" />
+    <sol:reference type="pubmed" pmid="9416885" authors="Hwang S-J, Ballantyne CM, Sharrett AR, Smith LC, Davis CE, Gotto AM Jr, Boerwinkle E. Circulating adhesion molecules VCAM-1, ICAM-1, and E-selectin in carotid atherosclerosis and incident coronary heart disease cases: the Atherosclerosis Risk in Communities (ARIC) study" year="1997"  />
+    <sol:reference type="pubmed" pmid="15297400"
+        authors="Mills PJ, Parker B, Jones V, Adler KA, Perez CJ, Johnson S, Cohen-Zion M, Marler M, Sadler GR, Dimsdale JE, Ancoli-Israel S."
+        title="The effects of standard anthracycline-based chemotherapy on soluble icam-1 and vascular endothelial growth factor levels in breast cancer."
+        journal="Clin Cancer Res." year="2004" volume="10" numner="15" pages="4998-5003" />
+</sol:variant>
+<sol:variant gene="ICAM-3 (CD50)" UniProt="P32942">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1889041842_g.htm" title="NCBI PROW" />
+   <sol:reference type="url"
+  	 href="http://www.tzm.uni-giessen.de/unigi/layout/englisch/schwer_e.cfm?FB=11&amp;Institut=3811" title="Neuroimmunology group in Giessen and their research on Multiple Sclerosis" />
+</sol:variant>
+<sol:variant gene="ICAM-5 (telencephalin)" UniProt="Q9Y6F3">
+  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/1578168059_g.htm" title="NCBI PROW" />
+  <sol:reference type="pubmed" pmid="11839847" authors="Lindsberg PJ, Launes J, Tian L, Valimaa H, Subramanian V, Siren J, Hokkanen L, Hyypia T, Carpen O, Gahmberg CG." title="Release of soluble ICAM-5, a neuronal adhesion molecule, in acute encephalitis." year="2002" volume="53" journal="Neurology" />
+</sol:variant>
+<sol:variant gene="CD55" UniProt="P08174">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/1347655307_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="10931136" href="http://www.blackwell-synergy.com/links/doi/10.1046/j.1365-2249.2000.01305.x/full/"
+    	authors="O. B. Spiller, O. Criado-Garcia*, S. Rodriguez De Cordoba, B. P. Morgan"
+	title="Cytokine-mediated up-regulation of CD55 and CD59 protects human hepatoma cells from complement attack"
+	year="2000" />
+</sol:variant>
+<sol:variant gene="P-Selectin (CD62P) (Granule membrane protein 140) (GMP-140) (PADGEM) (LECAM3) (SELP) (GMRP)" UniProt="P16109">
+    <sol:reference type="url" title="NCBI PROW" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1213700185_g.htm" />
+    <sol:reference type="pubmed" pmid="99034306" authors="Blann AD, Devine C, Amiral J, McCollum CN."
+        title="Soluble adhesion molecules, endothelial markers and atherosclerosis risk factors in abdominal aortic aneurysm: a comparison with claudicants and healthy controls." year="1998" />
+</sol:variant>
+<sol:variant gene="E-Selectin (CD62E) Endothelial leukocyte adhesion molecule 1) (ELAM-1) (Leukocyte-endothelial cell adhesion molecule 2) (LECAM2)" UniProt="P16581">
+    <sol:reference type="url" title="NCBI PROW" href="http://www.ncbi.nlm.nih.gov/PROW/guide/515234854_g.htm" />
+    <sol:reference type="pubmed" pmid="9416885" authors="Hwang S-J, Ballantyne CM, Sharrett AR, Smith LC, Davis CE, Gotto AM Jr, Boerwinkle E."
+       title="Circulating adhesion molecules VCAM-1, ICAM-1, and E-selectin in carotid atherosclerosis and incident coronary heart disease cases: the Atherosclerosis Risk in Communities (ARIC) study." year="1997" />
+   <sol:reference type="pubmed" pmid="15036705"
+       authors="Aydin S, Benian A, Madazli R, Uludag S, Uzun H, Kaya S."
+       title="Plasma malondialdehyde, superoxide dismutase, sE-selectin, fibronectin, endothelin-1 and nitric oxide levels in women with preeclampsia."
+       journal="Eur J Obstet Gynecol Reprod Biol."
+       year="2004" volume="113" number="1" pages="21-25" />
+</sol:variant>
+<sol:variant gene="L-Selectin (CD62L) (LAM-1) (Leukocyte surface antigen Leu-8) (TQ1) (gp90-MEL)  (LECAM1)" UniProt="P14151">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1790847313_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" pmid="15249540" title="Endomucin, a sialomucin expressed in high endothelial venules, supports L-selectin-mediated rolling." authors="Kanda H, Tanaka T, Matsumoto M, Umemoto E, Ebisuno Y, Kinoshita M, Noda M, Kannagi R, Hirata T, Murai T, Fukuda M, Miyasaka M." />
+   <sol:reference type="pubmed" pmid="15030584" title="Serum-soluble selectin levels in patients with rheumatoid arthritis and systemic sclerosis." authors="Ates A, Kinikli G, Turgay M, Duman M." />
+</sol:variant>
+<sol:variant gene="transferrin receptor (CD71) (T9) (p90)" UniProt="P02786" spid="TFR1_HUMAN" shedBy="Metalloproteinase">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1445562251_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" pmid="12904899" title="Decreased expression of membrane alpha4beta1, alpha5beta1 integrins and transferrin receptor on erythroblasts in splenectomized patients with beta-thalassemia intermedia. Parallel assessment of serum soluble transferrin receptors levels." authors="Kossiva L, Paterakis G, Tassiopoulos S, Papadhimitriou SI, Voukouti E, Gligori I, Rombos Y." year="2003" journal="Ann Hematol." volume="82" number="9" pages="579-584" />
+   <sol:reference type="pubmed" pmid="12163483" authors="Kaup M, Dassler K, Weise C, Fuchs H." title="Shedding of the transferrin receptor is mediated constitutively by an integral membrane metalloprotease sensitive to tumor necrosis factor alpha protease inhibitor-2" journal="J Biol Chem." year="2002" volume="277" number="41" pages="38494-39502" />
+</sol:variant>
+<sol:variant gene="CD80 (B7-1, CD28LG, CD28LG1, LAB7)" UniProt="P33681" spid="CD80_HUMAN">
+  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/642335762_g.htm" title="NCBI PROW" />
+  <sol:reference type="pubmed" title="Identification of a circulating soluble form of CD80: levels in patients with hematological malignancies."
+      authors="Hock BD, Starling GC, Patton WN, Salm N, Bond K, McArthur LT, McKenzie JL."
+      journal="Leuk Lymphoma." year="2004" volume="123" number="4" pages="781-787" pmid="15370258"/>
+</sol:variant>
+<sol:variant gene="CD86 (B7-2) (Activation B7-1 antigen) (CTLA-4 counter-receptor B7.1)" UniProt="P42081" spid="CD86_HUMAN">
+  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/354181017_g.htm" title="NCBI PROW" />
+  <sol:reference type="url" href="http://www.google.de/search?q=cache:e8xbU_bdQ2AC:www.acm-biotech.com/products/catalogue/other_human_soluble_molecule_e/body_other_human_soluble_molecule_e.html+soluble+CD21" title="ACM Biotech offers Human Soluble Molecule ELISA Kit" />
+  <sol:reference type="pubmed" pmid="15454653" title="Soluble CD86 protein in serum samples of patients with asthma." authors="Shi HZ, Xie ZF, Deng JM, Chen YQ, Xiao CQ." journal="Thorax" year="2004" volume="59" number="10" pages="870-875" />
+</sol:variant>
+<sol:variant gene="FasL (TNF ligand superfamily member 6) (CD178 antigen) (APTL) (Apoptosis antigen ligand)"
+	shedBy="Fas-Ligand Sheddase (FLiS)" UniProt="P48023" >
+	<sol:reference type="url" href="http://www.ms-fund.keio.ac.jp/pdf/p28.pdf" title="poster" />
+	<sol:reference type="url" title="SWISS-PROT knows cleavage site at 129-130"
+		href="http://www.expasy.org/cgi-bin/niceprot.pl?P48023" />
+</sol:variant>
+<sol:variant gene="Fas (CD95/Apo-1) (Fas receptor) (Fas B) (Fas beta)" UniProt="P25445">
+  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/800189472_g.htm" title="NCBI PROW" />
+  <sol:reference type="pubmed" pmid="12840807"
+         authors="Komatsu K, Manabe N, Kiso M, Shimabe M, Miyamoto H."
+	 title="Soluble Fas (FasB)  regulates luteal cell apoptosis during luteolysis in murine ovaries."
+	 year="2003" />
+  <sol:reference type="pubmed" pmid="12867600" authors="Felderhoff-Mueser U, Buhrer C, Groneck P, Obladen M, Bartmann P, Heep A."
+	title="Soluble Fas (CD95/Apo-1), Soluble Fas Ligand, and Activated Caspase 3 in the Cerebrospinal Fluid of Infants with Posthemorrhagic and Nonhemorrhagic Hydrocephalus." year="2003" />
+  <sol:reference type="pubmed" pmid="7595210"
+        title="A naturally occurring soluble isoform of murine Fas generated by alternative splicing."
+	authors="Hughes DP, Crispe IN."
+	year="1995"
+	journal="J. Exp. Med."
+	volume="182" number="5" pages="1395-1401" />
+</sol:variant>
+<sol:variant gene="CD100 (sematophorin 4D) (BB18) (SEMA4D) (A8) (GR3)" UniProt="Q92854">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1042397745_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="11369643"
+        authors="Wang X, Kumanogoh A, Watanabe C, Shi W, Yoshida K, Kikutani H."
+	title="Functional soluble CD100/Sema4D released from activated lymphocytes: possible role in normal and pathologic immune responses."
+	year="2001" />
+</sol:variant>
+<sol:variant gene="Soluble VCAM-1 (CD106)" UniProt="P19320">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/355609249_g.htm" title="NCBI PROW" />
+   <sol:reference type="url" href="http://www.roche-applied-science.com/prod_inf/manuals/elisa_man/P91-94.pdf" title="h-sVCAM-1 ELISA by Roche" />
+   <sol:reference type="pubmed" pmid="9416885" authors="Hwang S-J, Ballantyne CM, Sharrett AR, Smith LC, Davis CE, Gotto AM Jr, Boerwinkle E."
+  	 title="Circulating adhesion molecules VCAM-1, ICAM-1, and E-selectin in carotid atherosclerosis and incident coronary heart disease cases: the Atherosclerosis Risk in Communities (ARIC) study" year="1997" />
+</sol:variant>
+<sol:variant gene="M-CSFR (CD115)">
+  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1999017666_g.htm" title="NCBI PROW" />
+  <sol:reference type="pubmed" pmid="11532630" authors="Rao Q, Han JS, Geng YQ, Zheng GG, Qian LS, Wu KF." title="Decreased serum soluble macrophage colony stimulating factor receptor level in leukemia patients." year="2001" />
+  <sol:reference type="pubmed" pmid="9557689" authors="Strockbine LD, Cohen JI, Farrah T, Lyman SD, Wagener F, DuBose RF, Armitage RJ, Spriggs MK." title="The Epstein-Barr virus BARF1 gene encodes a novel, soluble colony-stimulating factor-1 receptor." year="1998" />
+</sol:variant>
+<sol:variant gene="Macrophage colony stimulating factor-1 precursor (CSF-1) (MCSF) (M-CSF)" UniProt="P09603">
+  <sol:reference type="pubmed" pmid="7919334" authors="Tuck DP, Cerretti DP, Hand A, Guha A, Sorba S, Dainiak N."
+  	year="1994"
+  	title="Human macrophage colony-stimulating factor is expressed at and shed from the cell surface"
+  />
+  <sol:reference type="pubmed" pmid="8931561"
+  	authors="Glocker MO, Kalkum M, Yamamoto R, Schreurs J."
+  	title="Selective biochemical modification of functional residues in recombinant human macrophage colony-stimulating factor beta (rhM-CSF beta): identification by mass spectrometry."
+	year="1996"
+  />
+</sol:variant>
+<sol:variant gene="CD117 (stem cell factor receptor) (SCFR) (c-Kit) (c-kit)" UniProt="P10721" shedBy="mediated by TACE">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/472932579_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="10942367"
+        authors="Akin C, Schwartz LB, Kitoh T, Obayashi H, Worobec AS, Scott LM, Metcalfe DD."
+ 	title="Soluble stem cell factor receptor (CD117) and IL-2 receptor alpha chain (CD25) levels in the plasma of patients with mastocytosis: relationships to disease severity and bone marrow pathology."
+        year="2000" />
+</sol:variant>
+<sol:variant gene="TNF receptor type 1 (p55) (CD120a) (TNFR-1)" UniProt="P19438">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1028691370_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" pmid="12712835"
+      authors="Modzelewski B."
+      title="[Soluble TNF p55 and p75 receptors in the development of sepsis syndrome] Review Polish."
+	year="2003" />
+   <sol:reference type="pubmed" pmid="15356028" authors="Gonzalez-Calvin JL, Gallego-Rojo F, Fernandez-Perez R, Casado-Caballero F, Ruiz-Escolano E, Olivares EG."
+   title="Osteoporosis, mineral metabolism, and serum soluble tumor necrosis factor receptor p55 in viral cirrhosis."
+   year="2004" />
+   <sol:reference type="pubmed" pmid="15514103" title="Soluble tumor necrosis factor (TNF) receptor-1 induces apoptosis via reverse TNF signaling and autocrine transforming growth factor-beta1." authors="Waetzig GH, Rosenstiel P, Arlt A, Till A, Brautigam K, Schafer H, Rose-John S, Seegert D, Schreiber S." year="2004" />
+</sol:variant>
+<sol:variant gene="TNF receptor type 2 (p75) (CD120b)" UniProt="P20333" >
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1722115236_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="14688072"
+    	authors="Lainez B, Fernandez-Real JM, Romero X, Esplugues E, Canete JD, Ricart W, Engel P."
+	title="Identification and characterization of a novel spliced variant that encodes human soluble tumor necrosis factor receptor 2."
+	year="2004" />
+   <reference type="pubmed" pmid="12712835"
+      authors="Modzelewski B."
+      title="[Soluble TNF p55 and p75 receptors in the development of sepsis syndrome] Rewview Polish."
+	year="2003" />
+   <sol:reference type="pubmed" pmid="14625290" authors="Cruz AC, Frank BT, Edwards ST, Dazin PF, Peschon JJ, Fang KC." title="Tumor necrosis factor-alpha-converting enzyme controls surface expression of c-Kit and survival of embryonic stem cell-derived mast cells." journal="J Biol Chem." year="2004" volume="279" number="7" pages="5612-20." />
+</sol:variant>
+<sol:variant gene="sInterleukin-1R-2" shedBy="TACE">
+        <sol:reference type="pubmed" pmid="12096138" year="2002" title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases." authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS." />
+</sol:variant>
+<sol:variant gene="sInterleukin-2R (IL-2R)">
+    <sol:reference type="pubmed" pmid="10970683"
+    authors="M D Boyano, M D Garcia-Vzquez, T Lpez-Michelena, J Gardeazabal, J Bilbao, M L Can~avate, A Garca De Galdeano, R Izu, L Daz-Ramn, J A Raton and J L Daz-Prez" title="Soluble interleukin-2 receptor, intercellular adhesion molecule-1 and interleukin-10 serum levels in patients withmelanoma" year="2000" href="http://www.nature.com/cgi-taf/DynaPage.taf?file=/bjc/journal/v83/n7/full/6691402a.html" />
+</sol:variant>
+<sol:variant gene="sInterleukin-4R (IL-4R) (CD124)" UniProt="P24394" splicing="yes" >
+   <sol:reference authors="Chilton PM, Fernandez-Botran R." title="Production of soluble IL-4 receptors by murine spleen cells is regulated by T cell activation and IL-4." journal="J Immunol." year="1993" volume="151" number="11" pages="5907-5917" />
+	</sol:variant>
+<sol:variant gene="sInterleukin-6R-1 (IL-6R-alpha) (CD126)" UniProt="P08887" shedBy="TACE (ADAM17) and ADAM10">
+  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/110467603_g.htm" title="NCBI PROW" />
+  <sol:reference type="pubmed" pmid="12096138" year="2002" title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases." authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS." />
+  <sol:reference type="pubmed" authors="Rose-John S."
+		title="Interleukin-6 biology is coordinated by membrane bound and soluble receptors."
+		pmid="14515143" year="2003" />
+  <sol:reference type="pubmed" authors="Rose-John S, Neurath MF." pmid="14738759"
+	 	title="IL-6 trans-signaling: the heat is on."
+	  	year="2004" />
+  <sol:reference type="pubmed" pmid="1633265"
+		authors="] Lust JA, Donovan KA, Kline MP, Greipp PR, Kyle RA, Maihle NJ"
+		title="Isolation of an mRNA encoding a soluble form of the human interleukin-6 receptor." year="1992" />
+  <sol:reference type="pubmed" pmid="15100312" authors="McLoughlin RM, Hurst SM, Nowell MA, Harris DA, Horiuchi S, Morgan LW, Wilkinson TS, Yamamoto N, Topley N, Jones SA." title="Differential regulation of neutrophil-activating chemokines by IL-6 and its soluble receptor isoforms." />
+  <sol:reference type="pubmed" pmid="12832423" title="Free Full Text 	Cellular cholesterol depletion triggers shedding of the human interleukin-6 receptor by ADAM10 and ADAM17 (TACE)." authors="Matthews V, Schuster B, Schutze S, Bussmeyer I, Ludwig A, Hundhausen C, Sadowski T, Saftig P, Hartmann D, Kallen KJ, Rose-John S." />
+  <sol:reference type="pubmed" pmid="12400844" authors="Disthabanchong S, Gonzalez EA, Martin KJ." title="Soluble IL-6 receptor levels in patients on chronic hemodialysis." />
+</sol:variant>
+<sol:variant gene="Interleukin-15Ralpha (IL-15Ralpha)" UniProt="Q7Z609" spid="">
+    <sol:reference type="pubmed" pmid="15215246"
+        authors="] Budagian V, Bulanova E, Orinska Z, Ludwig A, Rose-John S, Saftig P, Borden EC, Bulfone-Paus S."
+	title="Natural soluble IL-15Ralpha is generated by cleavage that involves the tumor necrosis factor-alpha -converting enzyme (TACE/ADAM17)."
+	year="2004" />
+</sol:variant>
+<!-- is only soluble :0/
+<sol:variant gene="Interleukin-22 receptor alpha-2 chain (IL-22RA2)" UniProt="Q969J5">
+   <sol:reference type="pubmed" pmid="11481447" title="A soluble class II cytokine receptor, IL-22RA2, is a naturally occurring IL-22 antagonist." authors="Xu W, Presnell SR, Parrish-Novak J, Kindsvogel W, Jaspers S, Chen Z, Dillon SR, Gao Z, Gilbert T, Madden K, Schlutsmeyer S, Yao L, Whitmore TE, Chandrasekher Y, Grant FJ, Maurer M, Jelinek L, Storey H, Brender T, Hammond A, Topouzis S, Clegg CH, Foster DC." journal="Proc Natl Acad Sci U S A." year="2001" volume="98" number="17" pages="9511-9516" />
+</sol:variant>
+-->
+<sol:variant gene="gp130 (sgp130) (Interleukin-6 receptor beta) (IL-6R-beta)" UniProt="P40189">
+  <sol:reference type="pubmed" pmid="15275965" authors="Michalopoulou M, Nikolaou C, Tavernarakis A, Alexandri NM, Rentzos M, Chatzipanagiotou S, Cambouri C, Vassilopoulos D." title="Soluble interleukin-6 receptor (sIL-6R) in cerebrospinal fluid of patients with inflammatory and non inflammatory neurological diseases." />
+  <sol:reference type="pubmed" pmid="10505978" authors=" 	Padberg F, Feneberg W, Schmidt S, Schwarz MJ, Korschenhausen D, Greenberg BD, Nolde T, Muller N, Trapmann H, Konig N, Moller HJ, Hampel H." title="CSF and serum levels of soluble interleukin-6 receptors (sIL-6R and sgp130), but not of interleukin-6 are altered in multiple sclerosis." year="1999" />
+  <sol:reference type="pubmed" pmid="10025579" title="Interleukin-6 and the soluble IL-6 receptor are decreased in cerebrospinal fluid of geriatric patients with major depression: no alteration of soluble gp130." authors=": 	Stubner S, Schon T, Padberg F, Teipel SJ, Schwarz MJ, Haslinger A, Buch K, Dukoff R, Lasser R, Muller N, Sunderland T, Rapoport SI, Moller HJ, Hampel H." />
+</sol:variant>
+<sol:variant gene="CD134 (OX-40)" UniProt="P43489" >
+    <sol:reference type="pubmed" pmid="11470287"
+        authors="Taylor L, Schwarz H."
+        title="Identification of a soluble OX40 isoform: development of a specific and quantitative immunoassay."
+        year="2001" />
+</sol:variant>
+<sol:variant gene="CD134 ligand (OX-40 ligand; gp34)" UniProt="P23510" spid="TNFL4_HUMAN">
+    <sol:reference type="pubmed" pmid="15259024"
+        authors="Baumann R, Yousefi S, Simon D, Russmann S, Mueller C, Simon HU."
+        title="Functional expression of CD134 by neutrophils."
+	year="2004" />
+</sol:variant>
+<sol:variant gene="CD138 (Syndecan-1) (SDC1) (SYND1)" UniProt="P18827"
+	shedBy="Recombinant syndecan-1 core protein was shown to be cleaved by recombinant MT1-MMP or MT3-MMP preferentially at the Gly245-Leu246 peptide bond. Substitution of Gly245 of syndecan-1 with Leu significantly reduced shedding from HT1080/SDC cells and cell migration. These results suggest that the shedding of syndecan-1 promoted by MT1-MMP through the preferential cleavage of Gly245-Leu246 peptide bond stimulates cell migration."
+	>
+  <sol:reference type="url" href="http://www.google.de/search?q=cache:e8xbU_bdQ2AC:www.acm-biotech.com/products/catalogue/other_human_soluble_molecule_e/body_other_human_soluble_molecule_e.html+soluble+CD21" title="ACM Biotech offers Human Soluble Molecule ELISA Kit" />
+  <sol:reference type="pubmed" pmid="12904296" title="Cleavage of syndecan-1 by membrane type matrix metalloproteinase-1 stimulates cell migration." authors="Endo K, Takino T, Miyamori H, Kinsen H, Yoshizaki T, Furukawa M, Sato H." />
+</sol:variant>
+<sol:variant gene="CD141 (Thrombomodulin) (Fetomodulin) (THBD) (THRM)" UniProt="P07204" >
+  <sol:reference type="url" href="http://www.google.de/search?q=cache:e8xbU_bdQ2AC:www.acm-biotech.com/products/catalogue/other_human_soluble_molecule_e/body_other_human_soluble_molecule_e.html+soluble+CD21" title="ACM Biotech offers Human Soluble Molecule ELISA Kit" />
+  <sol:reference type="pubmed" pmid="12865735" authors="Wu KK." year="2003" title="Soluble thrombomodulin and coronary heart disease." />
+</sol:variant>
+<sol:variant gene="Vascular endothelial-cadherin (CD144, VE-Cadherin, Cadherin-5)" UniProt="P33151" spid="CAD5_HUMAN" >
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1633660574_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="14695457" title="Elevated concentration of soluble vascular endothelial cadherin is associated with coronary atherosclerosis." journal="Circ J." year="2004" authors="Soeki T, Tamura Y, Shinohara H, Sakabe K, Onose Y, Fukuda N." volume="68" number="1" pages="1-5" />
+</sol:variant>
+<sol:variant gene="CD152 (CTLA-4)" UniProt="P16410">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/354181017_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="1055681"
+   		authors="Magistrelli, G., P. Jeannin, N. Herbault, A. Benoit De Coignac, J. F. Gauchat, J. Y. Bonnefoy, Y. Delneste"
+		year="1999"
+		title="A soluble form of CD152 generated by alternative splicing is expressed by nonstimulated human T cells."
+		href="http://www3.interscience.wiley.com/cgi-bin/fulltext/66003995/PDFSTART" />
+    <sol:reference type="pubmed" pmid="" title="Serum soluble CTLA-4 levels are increased in diffuse cutaneous systemic sclerosis." authors="Sato S, Fujimoto M, Hasegawa M, Komura K, Yanaba K, Hayakawa I, Matsushita T, Takehara K." journal="Rheumatology" year="2004" volume="43" number="10" pages="1261-6" />
+</sol:variant>
+<sol:variant gene="TNF-related activation protein (TRAP) (CD40-L) (CD154 antigen)" UniProt="P29965" shedBy="metalloproteinase">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1386987261_g.htm" title="NCBI PROW" />
+  <sol:reference type="pubmed" pmid="15176497"
+      authors="Garmendia JV, Zabaleta M, Blanca I, Bianco NE, De Sanctis JB."
+      title="Total and biologically active serum-soluble CD154 in patients with chronic idiopathic urticaria."
+      year="2004" />
+  <sol:reference type="pubmed" pmid="12166506"
+     authors="Zabaleta M, Marino R, Borges J, Camargo B, Ordaz P, De Sanctis JB, Bianco NE,"
+     title="Activity profile in multiple sclerosis: an integrative approach. A preliminary report."
+     year="2002" />
+  <sol:reference type="pubmed" pmid=""
+     authors="Kato K, Santana-Sahagun E, Rassenti LZ, Weisman MH, Tamura N, Kobayashi S, Hashimoto H, Kipps TJ."
+     title="The soluble CD40 ligand sCD154 in systemic lupus erythematosus."
+     year="1999" />
+  <sol:reference type="pubmed" pmid="12096138" year="2002"
+     title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases."
+     authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS."
+     journal="Molecular &amp; Cellular Proteomics" />
+</sol:variant>
+<sol:variant gene="CD169 (sialoadhesin)" UniProt="Q9BZZ2" spid="SN_HUMAN">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/985165905_g.htm" title="NCBI PROW" />
+</sol:variant>
+<sol:variant gene="CD200 (My033 protein) (OX-2 membrane glycoprotein)" UniProt="P41217" >
+	<sol:reference type="pubmed" authors="Clark DA, Keil A, Chen Z, Markert U, Manuel J, Gorczynski RM."
+		title="Placental trophoblast from successful human pregnancies expresses the tolerance signaling molecule, CD200 (OX-2)"
+		year="2003" />
+</sol:variant>
+<sol:variant gene="sCD200 receptor (sCD200R) (CRTR2) (OX2R) (MOX2R)" UniProt="Q8TD46" >
+	<sol:reference type="pubmed" pmid="12853143"
+		authors="Vieites JM, de la Torre R, Ortega MA, Montero T, Peco JM, Sanchez-Pozo A, Gil A, Suarez A."
+		title="Characterization of human cd200 glycoprotein receptor gene located on chromosome 3q12-13."
+		year="2003" />
+</sol:variant>
+<sol:variant gene="VEGFR-1 (vascular endothelial growth factor receptor 1) (Vascular permeability factor receptor) (Tyrosine-protein kinase receptor FLT) (Flt-1) (Tyrosine-protein kinase FRT) (Fms-like tyrosine kinase 1) (FLT) (FRT) (FLT1)" UniProt="P17948" >
+   <sol:reference type="pubmed" pmid="12820365"
+       authors="J. Drews" year="2003"
+       title="Soluble markers for the detection of hypoxia under antiangiogenic treatment"
+   />
+   <sol:reference type="pubmed" pmid="15209761"
+   	title="Angiopoietic factors and retinopathy in pregnancies complicated with Type 1 diabetes."
+	authors="Loukovaara S, Immonen I, Koistinen R, Rudge J, Teramo KA, Laatikainen L, Hiilesmaa V, Kaaja RJ."
+	year="2004"
+    />
+</sol:variant>
+<sol:variant gene="CD227 (MUC1)" UniProt="P15941" spid="MUC1_HUMAN" shedBy="MT1-MMP mediates MUC1 shedding independent of TACE/ADAM17">
+    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/921344893_g.htm" title="NCBI PROW" />
+    <sol:reference type="pubmed" pmid="15142990" title="Tumor necrosis factor alpha stimulates MUC1 synthesis and ectodomain release in a human uterine epithelial cell line." authors="Thathiah A, Brayman M, Dharmaraj N, Julian JJ, Lagow EL, Carson DD." journal="Endocrinology" year="2004" volume="145" number="9" pages="4192-203" />
+    <sol:reference type="pubmed" pmid="15130087" authors="Thathiah A, Carson DD." title="MT1-MMP mediates MUC1 shedding independent of TACE/ADAM17" journal="Biochem J."  year="2004" volume="382(Pt 1)" pages="363-373"/>
+</sol:variant>
+	
+<sol:variant gene="Integrin beta 1C" UniProt="P05556">
+    <summary>
+	a cytoplasmic variant
+    </summary>
+    <sol:reference type="pubmed" pmid="10075712"
+        authors="Meredith JE Jr, Kiosses WB, Takada Y, Schwartz MA."
+	title="Mutational analysis of cell cycle inhibition by integrin beta1C."
+	year="1999" />
+</sol:variant>
+<sol:variant gene="NGF receptor (NGFR) (TNFRSF16) (Gp80-LNGFR) (p75 ICD)" UniProt="P08138" >
+    <sol:reference type="pubmed" pmid="14686749"
+        authors="Yamamoto M, Ito Y, Mitsuma N, Hattori N, Sobue G."
+        title="Pain-related differential expression of NGF, GDNF, IL-6, and their receptors in human vasculitic neuropathies."
+        year="2003" />
+    <sol:reference type="pubmed" pmid="11932979"
+        authors="Yamamoto M, Ito Y, Mitsuma N, Li M, Hattori N, Sobue G."
+        title="Parallel expression of neurotrophic factors and their receptors in chronic inflammatory demyelinating polyneuropathy."
+        year="2002"
+    />
+</sol:variant>
+<sol:variant gene="TrkA receptor (High affinity nerve growth factor receptor) (TRK1 transforming tyrosine kinase protein)" UniProt="P04629" spid="TRKA_HUMAN">
+    <sol:reference type="pubmed" pmid="10103137 "
+       authors="Diaz-Rodriguez E, Cabrera N, Esparis-Ogando A, Montero JC, Pandiella A."
+       title="Cleavage of the TrkA neurotrophin receptor by multiple metalloproteases generates signalling-competent truncated forms."
+       year="1999" />
+</sol:variant>
+<sol:variant gene="Angiotensin-converting enzyme (ACE) (Dipeptidyl carboxypeptidase I) (Kininase II) (CD143 antigen) (DCP1)" UniProt="P12821" shedBy="ACE secretase which is some unidentified ADAM">
+	<sol:reference  href="http://www.bmb.leeds.ac.uk/staff/nmh/project1.html"
+	   title="Membrane Protein Scretases &amp; Alzheimer's Disease" />
+	<sol:reference type="pubmed" pmid="12799421" authors="Parkin ET, Tan F, Skidgel RA, Turner AJ, Hooper NM." title="The ectodomain shedding of angiotensin-converting enzyme is independent of its localisation in lipid rafts." journal="J Cell Sci." yaer="2003" volume="116(Pt 15)" pages="3079-3087" />
+</sol:variant>
+<sol:variant gene="Mucosal addressin cell adhesion molecule-1 (MAdCAM-1)" UniProt="Q13477" spid="MACA_HUMAN">
+  <sol:reference type="pubmed" pmid="15283850" title="Bioassay detects soluble MAdCAM-1 in body fluids." authors="Leung E, Lehnert KB, Kanwar JR, Yang Y, Mon Y, McNeil HP, Krissansen GW." year="2004" journal="Immunol Cell Biol." volume="82" pages="400-409" />
+</sol:variant>
+<sol:variant gene="Ciliary neurotrophic factor receptor (CNTFR)" UniProt="P26992" spid="CNTFR_HUMAN">
+	<sol:reference type="pubmed" authors="Man D, He W, Sze KH, Gong K, Smith DK, Zhu G, Ip NY."
+	    title="Solution structure of the C-terminal domain of the ciliary neurotrophic factor (CNTF) receptor and ligand free associations among components of the CNTF receptor complex."
+	    pmid="12707266" year="2003" />
+</sol:variant>
+<sol:variant gene="TGF-alpha" UniProt="P01135" spid="TGFA_HUMAN" shedBy="MMP/ADAM" >
+  <sol:reference type="pubmed" pmid="15502346" title="Effect of MMP/ADAM Inhibitors on Goblet Cell Hyperplasia in Cultured Human Bronchial Epithelial Cells." authors="Yoshisue H, Hasegawa K." year="2004"  />
+</sol:variant>
+<sol:variant gene="Betaglycan" synonyms="TGF-beta receptor" UniProt="Q03167"
+	shedBy="Regulated by Pervanadate and Mediated by Membrane Type Matrix Metalloprotease-1"
+	comment="A second (smaller) variant is said to be a product of MT-MMP2"
+	>
+	<sol:reference type="pubmed" pmid="14672946" title="The shedding of betaglycan is regulated by pervanadate and mediated by membrane type matrix metalloprotease-1." authors="Velasco-Loyden G, Arribas J, Lopez-Casillas F." />
+</sol:variant>
+<sol:variant gene="Low-density lipoprotein receptor-related protein 1 (LPR)" UniProt="Q07954"
+	synonyms="LRP, LRP1, Alpha-2-macroglobulin receptor, A2MR, Apolipoprotein E receptor, APOER, CD91"
+	shedBy="MMP-2, its activator MT1-MMP, the metalloproteinases MT2-MMP, MT3-MMP and MT4-MMP also degrade LRP"
+	>
+	<sol:reference type="pubmed" pmid="14645246" title="The low density lipoprotein receptor-related protein LRP is regulated by membrane type-1 matrix metalloproteinase (MT1-MMP) proteolysis in malignant cells." authors="Rozanov DV, Hahn-Dantona E, Strickland DK, Strongin AY." />
+</sol:variant>
+<!-- <sol:variant gene="LG-selectin" /> -->
+<sol:variant gene="CD93" UniProt="Q9NPY3" spid="C1QR1_HUMAN" shedBy="independent from TACE" >
+   <sol:reference type="pubmed" pmid="16002728" authors="Bohlson SS, Silva R, Fonseca MI, Tenner AJ."
+   title="CD93 Is Rapidly Shed from the Surface of Human Myeloid Cells and the Soluble Form Is Detected in Human Plasma."
+   journal="J Immunol." year="2005" volume="175" number="2" pages="1239-1247" />
+</sol:variant>
+<sol:variant gene="AXL (ARK, UFO)" spid="UFO_HUMAN" UniProt="P30530" >
+  <sol:reference type="pubmed" pmid="8816929" authors="Costa M, Bellosta P, Basilico C." title="Cleavage and release of a soluble form of the receptor tyrosine kinase ARK in vitro and in vivo." year="1996" />
+  <sol:rererence type="pubmed" pmid="1995" title="The transforming receptor tyrosine kinase, Axl, is post-translationally regulated by proteolytic cleavage." authors="O'Bryan JP, Fridell YW, Koski R, Varnum B, Liu ET." year="1995" />
+</sol:variant>
+<sol:variant gene="endothelial cell protein C receptor" spid="EPCR_HUMAN" UniProt="Q9UNN8" >
+  <sol:reference type="pubmed" pmid="15116250" title="Contribution of polymorphisms in the endothelial protein C receptor gene to soluble endothelial protein C receptor and circulating activated protein C levels, and thrombotic risk." authors="Medina P, Navarro S, Estelles A, Vaya A, Woodhams B, Mira Y, Villa P, Migaud-Fressart M, Ferrando F, Aznar J, Bertina RM, Espana F." year="2004" />
+  <sol:reference type="pubmed" pmid="11877022" title="Detection of soluble endothelial protein C receptor (sEPCR) in patients with CHD, DM and SLE" authors="Wu J, Zhou Z, Ye S, Dai H, Ma L, Xu X, Li X." year="2000" />
+  <sol:reference type="pubmed" pmid="11035113" title="The soluble endothelial protein C receptor binds to activated neutrophils: involvement of proteinase-3 and CD11b/CD18." authors="Kurosawa S, Esmon CT, Stearns-Kurosawa DJ." year="2000" />
+  <sol:reference type="pubmed" pmid="10681599" title="Metalloproteolytic release of endothelial cell protein C receptor." authors="Xu J, Qu D, Esmon NL, Esmon CT." />
+  <sol:reference type="pubmed" pmid="8663474" title="The endothelial cell protein C receptor. Inhibition of activated protein C anticoagulant function without modulation of reaction with proteinase inhibitors." authors="Regan LM, Stearns-Kurosawa DJ, Kurosawa S, Mollica J, Fukudome K, Esmon CT." year="1996" />
+</sol:variant>
+<sol:variant gene="Plexin-B1 (Semaphorin receptor SEP, PLXNB1)" UniProt="O43157" spid="PXB1_HUMAN" shedBy="subtilisin-like proprotein convertases" >
+  <sol:reference type="pubmed" pmid="12533544" authors="Artigiani S, Barberis D, Fazzari P, Longati P, Angelini P, van de Loo JW, Comoglio PM, Tamagnone L." title="Functional regulation of semaphorin receptors by proprotein convertases." />
+</sol:variant>
+<sol:variant gene="Plexin-B2 (MM1, PLXNB2)" UniProt="O15031" spid="PXB2_HUMAN" shedBy="subtilisin-like proprotein convertases" >
+  <sol:reference type="pubmed" pmid="12533544" authors="Artigiani S, Barberis D, Fazzari P, Longati P, Angelini P, van de Loo JW, Comoglio PM, Tamagnone L." title="Functional regulation of semaphorin receptors by proprotein convertases." />
+</sol:variant>
+<sol:variant gene="sortilin (neurotensin (NT) receptor-3) (NTR3)" UniProt="Q99523" spid="SORT_HUMAN">
+  <sol:reference type="pubmed" pmid="12419319" title="Shedding of the luminal domain of the neurotensin receptor-3/sortilin in the HT29 cell line." authors="Navarro V, Vincent JP, Mazella J." />
+</sol:variant>
+<sol:variant gene="LR11 (SorLA-1)"  UniProt="Q92673" shedBy="furin-mediated cleavage by a metalloproteinase" >
+  <sol:reference type="pubmed" pmid="14764453" title="LR11, an LDL receptor gene family member, is a novel regulator of smooth muscle cell migration." authors="Zhu Y, Bujo H, Yamazaki H, Ohwaki K, Jiang M, Hirayama S, Kanaki T, Shibasaki M, Takahashi K, Schneider WJ, Saito Y." year="2004" />
+  <sol:reference type="pubmed" title="Activation and functional characterization of the mosaic receptor SorLA/LR11" pmid="11294867" authors="Jacobsen L, Madsen P, Jacobsen C, Nielsen MS, Gliemann J, Petersen CM." year="2001" />
+  <sol:reference type="pubmed" pmid="11821067" authors="Jacobsen L, Madsen P, Nielsen MS, Geraerts WP, Gliemann J, Smit AB, Petersen CM." title="The sorLA cytoplasmic domain interacts with GGA1 and -2 and defines minimum requirements for GGA binding." />
+  <sol:reference type="pubmed=" pmid="11082041" title="Ectodomain shedding, translocation and synthesis of SorLA are stimulated by its ligand head activator." authors="Hampe W, Riedel IB, Lintzel J, Bader CO, Franke I, Schaller HC." />
+</sol:variant>
+<sol:variant gene="LOX-1 (Lectin-like oxidized LDL receptor-1)" UniProt="Q9TTK7" >
+  <sol:reference type="pubmed" pmid="15206153" year="2004" title="Measurement of oxidized LDL and its soluble receptors" authors="Kume N." />
+</sol:variant>
+<sol:variant gene="LDLr" UniProt="P01130" shedBy="TACE">
+  <sol:reference type="pubmed" pmid="14728679" authors="Begg MJ, Sturrock ED, van der Westhuyzen DR." title="Soluble LDL-R are formed by cell surface cleavage in response to phorbol esters." />
+</sol:variant>
+<sol:variant gene="SHPS-1 " UniProt="P78324" shedBy="TACE">
+   <sol:reference type="pubmed" title="Ectodomain shedding of SHPS-1 and its role in regulation of cell migration." authors="Ohnishi H, Kobayashi H, Okazawa H, Ohe Y, Tomizawa K, Sato R, Matozaki T." journal="J Biol Chem." year="2004" volume="279" number="27" pages="27878-2887" pmid="15123722" />
+</sol:variant>
+<sol:variant gene="Jagged 1 " UniProt="P78504" shedBy="alpha-secretase and presenilin/gamma-secretase" >
+  <sol:reference type="pubmed" pmid="12826675" authors="LaVoie MJ, Selkoe DJ." title="The Notch ligands, Jagged and Delta, are sequentially processed by alpha-secretase and presenilin/gamma-secretase and release signaling fragments." journal="J Biol Chem." year="2003" volume="278" pages="34427-37" />
+  <sol:reference type="pubmed" pmid="12551931" title="The Notch ligands, Delta1 and Jagged2, are substrates for presenilin-dependent 'gamma-secretase' cleavage." authors="Ikeuchi T, Sisodia SS." year="2003" journal="J Biol Chem." vol="278" pages="7751-4" />
+  <sol:reference type="pubmed" pmid="14769803" title="The non-transmembrane form of Delta1, but not of Jagged1, induces normal migratory behavior accompanied by fibroblast growth factor receptor 1-dependent transformation." authors="Trifonova R, Small D, Kacer D, Kovalenko D, Kolev V, Mandinova A, Soldi R, Liaw L, Prudovsky I, Maciag T." journal="J Biol Chem." year="2004" volume="279" number="14" pages="13285-8" />
+</sol:variant>
+<sol:variant gene="Notch receptor" comment="Cytoplasmic cleavage">
+ <sol:reference type="pubmed" pmid="9244302" authors="Blaumueller CM, Qi H, Zagouras P, Artavanis-Tsakonas S." year="1997" title="Intracellular cleavage of Notch leads to a heterodimeric receptor on the plasma membrane." />
+</sol:variant>
+<sol:variant gene="GHBP, soluble form of GHR (groth hormone receptor)" UniProt="P10912" shedBy="TACE" >
+   <sol:reference authors="Yue Zhang, Jing Jiang, Roy A. Black, Gerhard Baumann and Stuart J. Frank"
+    title="Tumor Necrosis Factor- Converting Enzyme (TACE) Is a Growth Hormone Binding Protein (GHBP) Sheddase: The Metalloprotease TACE/ADAM-17 Is Critical for (PMA-Induced) GH Receptor Proteolysis and GHBP Generation" year="2000" />
+</sol:variant>
+
+<sol:variant gene="TNF-alpha" UniProt="P01375" shedBy="TACE">
+	<summary>
+[2] (SWISS-PROT:<a href="http://srs.ebi.ac.uk/srs6bin/cgi-bin/wgetz?-e+[SWALL-ACC:'P01375']">P01375</a>), a cytokine<br/>
+SWISS-PROT describes it well, cleavage site also mentioned in [2]. 
+		Proteinase 3 (PRTN 3) (PR-3)" (<a href="http://srs.ebi.ac.uk/srs6bin/cgi-bin/wgetz?-e+[SWALL:'PRN3_HUMAN']">SWISS-PROT</a>)
+		has been reported to be in involved in TNF alpha processing (Gearing, 1995), presumed to modulating the activity of the metalloproteinase [2]
+		<br/>
+	TNF-alpha Converting Enzyme (TNF-alpha convertase) (ADAM17, TACE, CSVP, CD156b antigen)
+		(<a href="http://www.ncbi.nlm.nih.gov/prow/guide/1152032712_g.htm">NCBI PROW</a>)
+		(SWISS-PROT:<a href="http://srs.ebi.ac.uk/srs6bin/cgi-bin/wgetz?-e+[SWALL-ACC:'P78536']">P78536</a>)<br/>
+	From SWISS-PROT:<br/>
+	<pre>
+CC   -!- FUNCTION: CLEAVES THE MEMBRANE-BOUND PRECURSOR OF TNF-ALPHA TO ITS
+CC       MATURE SOLUBLE FORM. RESPONSIBLE FOR THE PROTEOLYTIC RELEASE OF
+CC       SEVERAL OTHER CELL-SURFACE PROTEINS, INCLUDING P75 TNF-RECEPTOR,
+CC       INTERLEUKIN 1 RECEPTOR TYPE II, P55 TNF-RECEPTOR, TRANSFORMING
+CC       GROWTH FACTOR-ALPHA, L-SELECTIN, AND THE AMYLOID PRECURSOR
+CC       PROTEIN. ALSO INVOLVED IN THE ACTIVATION OF NOTCH PATHWAY (BY
+CC       SIMILARITY).
+CC   -!- CATALYTIC ACTIVITY: CLEAVES TNF-ALPHA AT 76-ALA-|-VAL-77.
+	</pre><br/>
+	</summary>
+  <sol:reference type="pubmed" pmid="15333331" title="Importance of Tumor Necrosis Factor-{alpha} Cleavage Process in Post-transplantation Lung Injury in Rats." year="2004" authors="Goto T, Ishizaka A, Kobayashi F, Kohno M, Sawafuji M, Tasaka S, Ikeda E, Okada Y, Maruyama I, Kobayashi K." journal="Am J Respir Crit Care Med." />
+</sol:variant>
+<sol:variant gene="Amyloid beta A4 protein precursor (APP) (ABPP) (Alzheimer's disease amyloid protein) (CVAP) (Protease nexin-II) (PN-II) (APPI) (PreA4)" UniProt="P05067" shedBy="alpha-, beta- and gamma-secretases" >
+	<sol:reference type="url" href="http://www.bmb.leeds.ac.uk/staff/nmh/project1.html"
+	    title="Membrane Protein Scretases &amp; Alzheimer's Disease" />
+</sol:variant>
+<sol:variant gene="Kit-ligand (Stem cell factor) (SCF) (Mast cell growth factor) (MGF) (C-kit ligand)" UniProt="P21583">
+    <summary>
+	The protein represents a link of my interest for soluble variants of membrane proteins (splice-variant with cleavage site) with the apical-basolateral sorting<br/>
+	Abstract: The primary structure of human kit ligand (KL) growth factor mRNA was analyzed by polymerase chain reaction (PCR) and nucleotide sequencing. Two bands from the total RNAs of a variety of human tumor cell lines were amplified by RT-PCR. Nucleotide sequences of these cloned cDNAs revealed that an 84-nucleotide stretch, corresponding to a spacer chain which contains the site for proteolytic release of the cytokine domain, was missing in the shorter clone, resulting in a transmembrane-bound form of KL. The relative intensity of the two bands in human bone marrow and tumor cells was then determined. In the bone marrow cells, THP1 and HuH7, the band for the membrane-bound type of KL was relatively more intense, whereas the reverse was the case in Daudi, K562 and HT1080 cells, suggesting that there are variations in the expression level of these two human KL mRNAs.<br/>
+	Abstract: Kit-ligand also known as Stem Cell factor, Mast cell growth factor or Steel factor has been implicated in the proliferation, survival and migration of embryonic melanoblasts. In addition, in the adult epidermis, melanocytes remain under the influence of kit-ligand produced by the keratinocyte environment. Consequently, changes in kit-ligand level and presentation exemplified e.g. in cutaneous mastocytosis, has shown to influence melanocyte numbers and morphology. We have recently determined the intracellular trafficking signals required for kit-ligand presentation at the basolateral membrane of epithelial cells. In order to determine the morphogenetic capacity of altered kit-ligand presentation towards responsive melanoblasts, we have established a co-culture system comprised of kit-ligand responsive melb-a cells and kidney epithelial cells (MDCK) expressing wildtype or mutant kit-ligand. In this co-culture system, melanoblast survival in the basolateral aspect of the MDCK monolayer depends on the expression of wildtype kit-ligand. In contrast, melanoblasts are "guided" to leave the epithelial monolayer in response to "apical" presentation of mutant kit-ligand missing the basolateral targeting sequence. These data will be discussed in the context of melanoma progression and kit-ligand independent survival of melanocytes in the epidermis.
+    </summary>
+    <sol:reference type="pubmed" pmid="92360843" authors="Toyota M, Hinoda Y, Itoh F, Tsujisaki M, Imai K, Yachi A."
+	year="1992" title="Expression of two types of kit ligand mRNAs in human tumor cells." />
+    <sol:reference type="pubmed" pmid="12950743" authors="Wehrle-Haller B, Paulhe F, Jacquier M, Rossier C, Wehrle-Haller M, Imhof BA."
+	title="IL-04 The role of kit-ligand presentation in the development of the epidermal melanocyte niche." year="2003" />
+    <sol:reference type="pubmed" title="Differential expression and processing of two cell associated forms of the kit-ligand: KL-1 and KL-2." authors="Huang EJ, Nocka KH, Buck J, Besmer P." year="1992" pmid="1378327" />
+</sol:variant>
+<sol:variant UniProt="Q9Y275"
+	gene="Tumor necrosis factor ligand superfamily member 13B (TNF-and APOL- related leukocyte expressed ligand 1) (TALL-1) (B lymphocyte stimulator) (BLyS) (B cell-activating factor) (BAFF) (Dendritic cell- derived TNF-like molecule)" >
+	<sol:reference type="pubmed" pmid="12721620"
+		href="http://www.nature.com/cgi-taf/DynaPage.taf?file=/nature/journal/v423/n6935/full/nature01543_fs.html"
+		authors="Liu Y, Hong X, Kappler J, Jiang L, Zhang R, Xu L, Pan CH, Martin WE, Murphy RC, Shu HB, Dai S, Zhang G."
+		title="Ligand-receptor binding revealed by the TNF family member TALL-1" year="2003" 
+	/>
+	<sol:reference type="pubmed" pmid="14749821" authors="Zhukovsky EA, Lee JO, Villegas M, Chan C, Chu S, Mroske C."
+		title="TNF ligands (communication arising): Is TALL-1 a trimer or a virus-like cluster?"
+		year="2004"
+	/>
+</sol:variant>
+<sol:variant gene="c-erbB-2 (MLN 19) (Her-2)" UniProt="P04626" spid="ERB2_HUMAN">
+  <sol:reference type="pubmed" title="Serum levels of c-erbb-2 correlate with advanced stage and liver metastasis in colorectal cancer." authors="Polychronidis AC, Tsaroucha AK, Anagnostoulis SK, Efstathiou EE, Georgiadis PG, Simopoulos CE." pmid="12943051" />
+  <sol:reference type="pubmed" pmid="12767812" title="Purification of Her-2 extracellular domain and identification of its cleavage site." authors="Yuan CX, Lasut AL, Wynn R, Neff NT, Hollis GF, Ramaker ML, Rupar MJ, Liu P, Meade R." year="2003" comment="PAEQR ASP was identified most likely as a primary site of cleavage, PA EQRASP as a minor site, that generate the ECD. The sites of cleavage are within the signature motif P/GX(5-7)P/G highly conserved in the EGF receptor family." />
+</sol:variant>
+<comments>
+<h3>Hm...</h3>
+
+<ul>
+<li>Alphavirus E1 plasma membrane protein is degrated yielding soluble E1 fragments in medium.
+	<ul>
+		<li><a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=240383">Role of cell surface spikes in alphavirus budding.</a> H Zhao and H Garoff</li>
+	</ul> </li> 
+</ul>
+
+<h3>Vocabulary</h3>
+<ul>
+<li><a href="http://www.copewithcytokines.de/cope.cgi?006860">retrocrine</a></li>
+<li><a href="http://www.copewithcytokines.de/cope.cgi?7245">sheddase</a></li>
+<li><a href="http://www.copewithcytokines.de/cope.cgi?005218">matrix metalloproteinases</a></li>
+<li><a href="http://www.copewithcytokines.de/cope.cgi?001342">caspases</a></li>
+	<ul>
+	<li>Garcia-Calvo M et al Inhibition of human caspases by peptide-based and macromolecular inhibitors. Journal of Biological Chemistry 273(49): 32608-32613 (1998)</li>
+	<li>Rano TA et al A combinatorial approach for determining protease specificities: application to interleukin-1beta converting enzyme (ICE). Chem. Biol. 4(2): 149-155 (1997)</li>
+	<li>Thornberry NA et al A combinatorial approach defines specificities of members of the caspase family and granzyme B. Journal of Biological Chemistry 272: 17907-17911 (1997) </li>
+	<li>Villa P et al Caspases and caspase inhibitors Trends in Biochemical Sciences 22(10): 388-393 (1997) </li>
+	</ul>
+<li>ADAM family
+	<ul>
+	<li>Review: <a href="http://hometown.weppy.com/~spermlab/adam.pdf">Primakoff P, Myles DG.</a><br/>
+	    <i>The ADAM gene family: surface proteins with adhesion and protease activity.</i><br/>
+	    Trends Genet. 2000 Feb;16(2):83-87.</li>
+	</ul></li>
+</ul>
+	
+</comments>
+<!--
+
+<h3>Bibliography</h3>
+<ul>
+<li><b>[1]</b>
+<sol:reference type="book" href="http://www.udel.edu/bio/people/faculty/smousa.html"
+    authors="Shaker A. Mousa (Ed.) (mousa(@)dupontpharma.com, mousas(@)mail.acp.edu)"
+    title="Cell Edhesion Molecules and Matrix Proteins, Role in Health and Diseases"
+    year="1998"
+    ismb="1-57059-541-0" />
+<li><b>[2]</b>
+<sol:reference type="book" author="Angus Thomson"
+    title="The Cytokine Handbook"
+    edition="3rd" publisher="Academic Press"
+    year="1998" isbn="0-12-689662-3" />
+
+[3]
+        <sol:reference type="pubmed" pmid="12096138" year="2002" title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases." authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS." journal="Molecular & Cellular Proteomics" volume="1" number="1" pages="30-36" />
+
+[7]
+
+<sol:reference type="pubmed" pmid="11278735"
+href="http://www.jbc.org/cgi/content/full/276/18/14665"
+   authors="Johannes Schl&#xF6;ndorff, Lawrence Lum, and Carl P. Blobel"
+   title="Biochemical and Pharmacological Criteria Define Two Shedding Activities for TRANCE/OPGL That Are Distinct from the Tumor Necrosis Factor alpha  Convertase"
+   year="2001" />
+
+[8] <a href="http://archneur.ama-assn.org/issues/v58n5/ffull/nlt0501-3.html">http://archneur.ama-assn.org/issues/v58n5/ffull/nlt0501-3.html</a>
+
+[9]
+
+<sol:reference type="pubmed" pmid="12733143" authors="Lauta VM."
+    title="A review of the cytokine network in multiple myeloma: diagnostic, prognostic, and therapeutic implications."
+    year="2003" />
+
+-->
+<sol:variant gene="Endothelin-converting enzyme-1 (ECE-1)" UniProt="P42892" spid="ECE1_HUMAN">
+  <sol:reference type="pubmed" pmid="9808768" year="1998" authors="Ahn K, Herman SB, Fahnoe DC." title="Soluble human endothelin-converting enzyme-1: expression, purification, and demonstration of pronounced pH sensitivity." />
+  <sol:reference type="pubmed" pmid="9409753" year="1997" authors="Korth P, Egidy G, Parnot C, LeMoullec JM, Corvol P, Pinet F." title="Abstract 	Construction, expression and characterization of a soluble form of human endothelin-converting-enzyme-1." />
+</sol:variant>
+<sol:variant gene="Endothelin-1 (ET-1) (EDN-1)" shedBy="endothelin-converting enzyme-1 (ECE-1 P42892) cleaves at Trp(21)-Val(22)" UniProt="P05305" >
+    <summary>ET-1 is a soluble protein, the cleavage is 21 residues into the mature peptide, not from the N-terminus.</summary>
+    <sol:reference type="url"
+        authors="K. Hork1, Z. Hlubock1, V. Umnerov1, S. Heller1, J. Peleka1, A. Jindra 1, M. Jchymov 1, J. Kvasnicka"
+	title="INTERCELLULAR CELL ADHESION MOLECULE-1, ENDOTHELIN-1 AND VONWILLEBRAND FACTOR: MARKERS OF ENDOTHELIAL DYSFUNCTION IN HYPERTENSION"
+	href="http://www.knt-ec.com/event/icim/abstract/2-PO-31.html"  />
+    <sol:reference type="pubmed" pmid="14695117 "
+        authors="Kelly LK, Wedgwood S, Steinhorn RH, Black SM."
+        title="Nitric oxide decreases endothelin-1 secretion through the activation of soluble guanylate cyclase."
+        journal="Am J Physiol Lung Cell Mol Physiol."
+	year="2004" volume="286" number="5" pages="L984-L991" />
+   <sol:reference type="pubmed" pmid="10620363" authors="Fahnoe DC, Johnson GD, Herman SB, Ahn K." title="Disulfide bonds in big ET-1 are essential for the specific cleavage at the Trp(21)-Val(22) bond by soluble endothelin converting enzyme-1 from baculovirus/insect cells." />
+</sol:variant>
+<sol:variant gene="Atrial natriuretic peptide receptor A (guanylate cyclase) (ANP-A) (ANPRA) NPR-A" UniProt="P16066" spid="ANPA_HUMAN">
+  <sol:reference type="pubmed"  pmid="14695117 "
+          authors="Kelly LK, Wedgwood S, Steinhorn RH, Black SM."
+	  title="Nitric oxide decreases endothelin-1 secretion through the activation of soluble guanylate cyclase."
+	  journal="Am J Physiol Lung Cell Mol Physiol."
+	  year="2004" volume="286" number="5" pages="L984-L991" />
+</sol:variant>
+<sol:variant gene="neuregulin-1" UniProt="Q02297" spid="NRG1_HUMAN" >
+   <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q8WWG1" title="SWISS-PROT entry for neuregulin-4" />
+   <sol:reference type="pubmed" pmid="15498868" title="Role of proneuregulin 1 cleavage and human epidermal growth factor receptor activation in hypertonic aquaporin induction." authors="Herrlich A, Leitch V, King LS." year="2004" journal="Proc Natl Acad Sci U S A." />
+   <sol:reference type="pubmed" pmid="9333014" authors="Schaefer G, Fitzpatrick VD, Sliwkowski MX."
+      title="Gamma-heregulin: a novel heregulin isoform that is an autocrine growth factor for the human breast cancer cell line, MDA-MB-175."
+      journal="Oncogene" year="1997" volume="15" number="12" pages="1385-1394" />
+</sol:variant>
+<sol:variant gene="Soluble E-Cadherin" UniProt="P12830">
+   <sol:reference type="pubmed" pmid="10390008"
+        author="A S Protheroe, R E Banks, M Mzimba1, W H Porter, J Southgate, P N Singh, M Bosomworth, P Harnden, P H Smith, P Whelan and P J Selby"
+	title="Urinary concentrations of the soluble adhesion molecule E-cadherin and total protein in patients with bladder cancer"
+	year="1999"
+   />
+</sol:variant>
+<sol:variant gene="band 3 (CD233)" UniProt="P02730" spid="B3AT_HUMAN" shedBy="Caspase-3 at N45 and N225">
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1494855912_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" pmid="14570914" title="Free Full Text 	Caspase 3-mediated proteolysis of the N-terminal cytoplasmic domain of the human erythroid anion exchanger 1 (band 3)." authors="Mandal D, Baudin-Creuza V, Bhattacharyya A, Pathak S, Delaunay J, Kundu M, Basu J." journal="J Biol Chem." year="2003" volume="278" number="52" pages="52551-8" />
+</sol:variant>
+<sol:variant gene="FGF receptor 1 (FGFR1)" UniProt="P11362" spid="FGR1_HUMAN" >
+   <sol:reference type="pubmed" pmid="11744033" authors="Segev A, Aviezer D, Safran M, Gross Z, Yayon A." title="Inhibition of vascular smooth muscle cell proliferation by a novel fibroblast growth factor receptor antagonist." year="2002" />
+</sol:variant>
+<sol:variant gene="FGF receptor 2 (FGFR2)" UniProt="P21802" spid="FGR2_HUMAN" >
+   <sol:reference type="pubmed" pmid="15310757" authors=" 	Tanimoto Y, Yokozeki M, Hiura K, Matsumoto K, Nakanishi H, Matsumoto T, Marie PJ, Moriyama K." title="A soluble form of fibroblast growth factor receptor 2 (FGFR2) with S252W mutation acts as an efficient inhibitor for the enhanced osteoblastic differentiation caused by FGFR2 activation in Apert syndrome." year="2004" journal="J. Biol. Chem." volume="279" number="44" pages="45926-34" />
+</sol:variant>
+<sol:variant gene="Delta 1" UniProt="O00548" spid="DLL1_HUMAN" >
+  <sol:reference type="pubmed" pmid="14769803" title="The non-transmembrane form of Delta1, but not of Jagged1, induces normal migratory behavior accompanied by fibroblast growth factor receptor 1-dependent transformation." authors="Trifonova R, Small D, Kacer D, Kovalenko D, Kolev V, Mandinova A, Soldi R, Liaw L, Prudovsky I, Maciag T." journal="J Biol Chem." year="2004" volume="279" number="14" pages="13285-8" />
+</sol:variant>
+<sol:variant gene="P-selectin glycoprotein ligand-1 (PSGL-1) (CD162)" UniProt="Q14242" spid="SEPL_HUMAN" shedBy="BACE1">
+  <sol:reference type="pubmed" pmid="15466853" authors="Hirata T, Furukawa Y, Yang BG, Hieshima K, Fukuda M, Kannagi R, Yoshie O, Miyasaka M." title="Human PSGL-1 interacts with the skin-associated chemokine CCL27 via sulfated tyrosines at the PSGL-1 amino terminus." journal="J Biol Chem." year="2004" />
+  <sol:reference type="pubmed" pmid="14507929" title="The cell adhesion protein P-selectin glycoprotein ligand-1 is a substrate for the aspartyl protease BACE1." authors="Lichtenthaler SF, Dominguez DI, Westmeyer GG, Reiss K, Haass C, Saftig P, De Strooper B, Seed B." journal="J Biol Chem." year="2003" volume="278" number="49" pages="48713-9" />
+</sol:variant>
+<sol:variant gene="" UniProt="Q9JIC4" spid="Q9JIC4">
+   <sol:reference type="pubmed" pmid="15389518" title="Expression and localization of Muc4/sialomucin complex (SMC) in the adult and developing rat intestine: Implications for Muc4/SMC function." authors="Rong M, Rossi EA, Zhang J, McNeer RR, van den Brande JM, Yasin M, Weed DT, Carothers Carraway CA, Thompson JF, Carraway KL." journal="J Cell Physiol." year="2005" volume="202" number="1" pages="275-84" />
+</sol:variant>
+<sol:variant gene="netrin-G1 ligand (NGL-1)" UniProt="Q7L0N3" >
+   <sol:reference type="pubmed" pmid="14595443" title="The netrin-G1 ligand NGL-1 promotes the outgrowth of thalamocortical axons." authors="Lin JC, Ho WH, Gurney A, Rosenthal A." journal="Nat Neurosci." year="2003" volume="6" number="12" pages="1270-6" />
+</sol:variant>
+<sol:variant gene="adenylyl cyclase" UniProt="" spid="" >
+   <sol:reference type="pubmed" pmid="1851925" title="Purification of soluble form of adenylyl cyclase from testes." authors="Braun T." journal="Methods Enzymol." year="1991" volume="195" pages="130-6." />
+   <sol:reference type="pubmed" pmid="15117409" title="[HCO3-]-regulated expression and activity of soluble adenylyl cyclase in corneal endothelial and Calu-3 cells." authors="Sun XC, Cui M, Bonanno JA." journal="BMC Physiol." year="2004" volume="4" number="1" pages="8" />
+</sol:variant>
+<sol:variant gene="platelet-derived growth factor (PDGF)" UniProt="" spid="" >
+   <sol:reference type="pubmed" pmid="15077122" authors="Borkham-Kamphorst E, Herrmann J, Stoll D, Treptau J, Gressner AM, Weiskirchen R." title="Dominant-negative soluble PDGF-beta receptor inhibits hepatic stellate cell activation and attenuates liver fibrosis." journal="Lab Invest." year="2004" volume="84" number="6" pages="766-777" />
+</sol:variant>
+<sol:variant gene="bax" UniProt="Q07812" spid="BAXA_HUMAN">
+  <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q07812" title="SWISS-PROT membrane form" />
+  <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q07814" title="SWISS-PROT cytoplasmic form" />
+</sol:variant>
+<sol:variant gene="CMP-N-acetylneuraminate-beta-1,4-galactoside alpha-2,3-sialyltransferase (ST3GalIII) (SIAT6) (Sialyltransferase 6)" UniProt="Q11203" spid="SIA6_HUMAN" >
+  <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q11203" title="SWISS-PROT knows both variants" />
+</sol:variant>
+<sol:variant gene="alanine aminopeptidase" UniProt="P15144" spid="AMPN_HUMAN">
+  <sol:reference type="pubmed" pmid="6152536" authors="Jung K, Pergande M, Wischke UW." title="Characterization of particulate and soluble variants of the brush-border enzymes alanine aminopeptidase, alkaline phosphatase and gamma-glutamyltransferase in human urine." journal="Biomed Biochim Acta. 1984;43(12):1357-64." />
+</sol:variant>
+<sol:variant gene="gamma-glutamyltransferase" UniProt="Q07075" spid="AMPE_HUMAN">
+  <sol:reference type="pubmed" pmid="6152536" authors="Jung K, Pergande M, Wischke UW." title="Characterization of particulate and soluble variants of the brush-border enzymes alanine aminopeptidase, alkaline phosphatase and gamma-glutamyltransferase in human urine." journal="Biomed Biochim Acta. 1984;43(12):1357-64." />
+</sol:variant>
+<sol:variant gene="Qa1b (Qa1)" UniProt="" spid="">
+  <sol:reference type="pubmed" pmid="10477585" title="Stochastic acquisition of Qa1 receptors during the development of fetal NK cells in vitro accounts in part but not in whole for the ability of these cells to distinguish between class I-sufficient and class I-deficient targets." authors="Toomey JA, Salcedo M, Cotterill LA, Millrain MM, Chrzanowska-Lightowlers Z, Lawry J, Fraser K, Gays F, Robinson JH, Shrestha S, Dyson PJ, Brooks CG." journal="J Immunol." year="1999" volume="163" number="6" pages="3176-84" />
+</sol:variant>
+<sol:variant gene="RANKL (receptor activator of NF-kappaB ligand) TRANCE (OPGL, Tumor necrosis factor (TNF)-related activation-induced cytokine, osteoprotegerin ligand)" UniProt="O14788" spid="TN11_HUMAN" shedBy="ADAM-17 and ADAM-19">
+  <sol:reference type="pubmed" pmid="15275972" title="Expression of membrane-bound and soluble receptor activator of NF-kappaB ligand (RANKL) in human T cells." authors="Kanamaru F, Iwai H, Ikeda T, Nakajima A, Ishikawa I, Azuma M." journal="Immunol Lett." year="2004" volume="94" number="3" pages="239-46" /> 
+  <sol:reference type="pubmed" pmid="11278735" title="Biochemical and pharmacological criteria define two shedding activities for TRANCE/OPGL that are distinct from the tumor necrosis factor alpha convertase." authors="Schlondorff J, Lum L, Blobel CP." journal="J Biol Chem." year="2001" volume="276" number="18" pages="14665-74" />
+  <sol:reference type="pubmed" pmid="12682046" author="Chesneau V, Becherer JD, Zheng Y, Erdjument-Bromage H, Tempst P, Blobel CP." title="Catalytic properties of ADAM19." journal="J Biol Chem." year="2003" volume="278" number="25" pages="22331-40" />
+</sol:variant>
+<sol:variant gene="human airway trypsin-like protease (HAT)" UniProt="O60235" spid="HATT_HUMAN" >
+   <reference type="pubmed" pmid="12784999" authors="Netzel-Arnett S, Hooper JD, Szabo R, Madison EL, Quigley JP, Bugge TH, Antalis TM." title="Membrane anchored serine proteases: a rapidly expanding group of cell surface proteolytic enzymes with potential roles in cancer." journal="Cancer Metastasis Rev" year="2003" volume="22" number="2-3" pages="237-58" />
+   <reference type="pubmed" pmid="9565616" title="Cloning and characterization of the cDNA for human airway trypsin-like protease." authors="Yamaoka K, Masuda K, Ogawa H, Takagi K, Umemoto N, Yasuoka S." year="1998" journal="J Biol Chem." pages="11895-901" volume="273" number="19" />
+</sol:variant>
+<sol:variant gene="prostasin" UniProt="Q16651" spid="PSS8_HUMAN">
+   <sol:reference type="pubmed" pmid="12784999" authors="Netzel-Arnett S, Hooper JD, Szabo R, Madison EL, Quigley JP, Bugge TH, Antalis TM." title="Membrane anchored serine proteases: a rapidly expanding group of cell surface proteolytic enzymes with potential roles in cancer." journal="Cancer Metastasis Rev" year="2003" volume="22" number="2-3" pages="237-58" />
+   <sol:reference type="pubmed" pmid="11584061" title="Prostasin, a potential serum marker for ovarian cancer: identification through microarray technology." authors="Mok SC, Chao J, Skates S, Wong K, Yiu GK, Muto MG, Berkowitz RS, Cramer DW." journal="J Natl Cancer Inst." year="2001" volume="93" number="19" pages="1458-64" />
+</sol:variant>
+<sol:variant gene="epidermal growth factor receptor (EGFR,ErbB1)" UniProt="P00533" spid="EGFR_HUMAN" splicing="yes" >
+   <sol:reference type="pubmed" pmid="12784999" authors="Netzel-Arnett S, Hooper JD, Szabo R, Madison EL, Quigley JP, Bugge TH, Antalis TM." title="Membrane anchored serine proteases: a rapidly expanding group of cell surface proteolytic enzymes with potential roles in cancer." journal="Cancer Metastasis Rev" year="2003" volume="22" number="2-3" pages="237-58" />
+   <sol:reference type="pubmed" pmid="12582019" journal="Cancer Epidemiol Biomarkers Prev." volume="12" number="2" pages="103-113" title="Soluble epidermal growth factor receptor (sEGFR/sErbB1) as a potential risk, screening, and diagnostic serum biomarker of epithelial ovarian cancer." authors="Baron AT, Cora EM, Lafky JM, Boardman CH, Buenafe MC, Rademaker A, Liu D, Fishman DA, Podratz KC, Maihle NJ." />
+</sol:variant>
+<sol:variant gene="TMPRSS2" UniProt="O15393" spid="TMPS2_HUMAN" shedBy="autocatalytically" >
+   <sol:reference type="pubmed" pmid="12784999" authors="Netzel-Arnett S, Hooper JD, Szabo R, Madison EL, Quigley JP, Bugge TH, Antalis TM." title="Membrane anchored serine proteases: a rapidly expanding group of cell surface proteolytic enzymes with potential roles in cancer." journal="Cancer Metastasis Rev" year="2003" volume="22" number="2-3" pages="237-58" />
+   <sol:reference type="pubmed" pmid="11245484" authors="Afar DE, Vivanco I, Hubert RS, Kuo J, Chen E, Saffran DC, Raitano AB, Jakobovits A." title="Catalytic cleavage of the androgen-regulated TMPRSS2 protease results in its secretion by prostate and prostate cancer epithelia." year="2001" volume="61" number="4" pages="1686-92" />
+</sol:variant>
+<sol:variant gene="Enteropeptidase (enterokinase)" UniProt="P98073" spid="ENTK_HUMAN" >
+   <sol:reference type="pubmed" pmid="12784999" authors="Netzel-Arnett S, Hooper JD, Szabo R, Madison EL, Quigley JP, Bugge TH, Antalis TM." title="Membrane anchored serine proteases: a rapidly expanding group of cell surface proteolytic enzymes with potential roles in cancer." journal="Cancer Metastasis Rev" year="2003" volume="22" number="2-3" pages="237-58" />
+   <sol:reference type="pubmed" pmid="4708671" authors="Louvard D, Maroux S, Baratti J, Desnuelle P." title="On the distribution of enterokinase in porcine intestine and on its subcellular localization." journal="Biochim Biophys Acta." year="1973" volume="309" number="1" pages="127-37" />
+   <sol:reference type="pubmed" Pmid="6358222" authors="Fonseca P, Light A." title="The purification and characterization of bovine enterokinase from membrane fragments in the duodenal mucosal fluid." journal="J Biol Chem." year="1983" volume="258" number="23" pages="14516-20" />
+</sol:variant>
+<sol:variant gene="matriptase (prostamin) (membrane-type serine protease 1)" UniProt="Q9Y5Y6" spid="" cleavedAt="149-150" >
+   <sol:reference type="pubmed" pmid="15669920 " journal="Biochem J." year="2005" authors="Tsuzuki S, Murai N, Miyake Y, Inouye K, Hirayasu H, Iwanaga T, Fushiki T." title="Evidence for the occurrence of membrane-type serine protease 1/matriptase on the basolateral sides of enterocytes." />
+   <sol:reference type="pubmed" pmid="12784999" authors="Netzel-Arnett S, Hooper JD, Szabo R, Madison EL, Quigley JP, Bugge TH, Antalis TM." title="Membrane anchored serine proteases: a rapidly expanding group of cell surface proteolytic enzymes with potential roles in cancer." journal="Cancer Metastasis Rev" year="2003" volume="22" number="2-3" pages="237-58" />
+   <sol:reference type="pubmed" pmid="11567025" authors="Cho EG, Kim MG, Kim C, Kim SR, Seong IS, Chung C, Schwartz RH, Park D." title="N-terminal processing is essential for release of epithin, a mouse type II membrane serine protease." journal="J Biol Chem." year="2001" volume="276" number="48" pages="44581-9" />
+   <sol:reference type="pubmed" pmid="1123129" authors="Benaud C, Dickson RB, Lin CY." title="Regulation of the activity of matriptase on epithelial cell surfaces by a blood-derived factor." journal="Eur J Biochem." year="2001" volume="268" number="5" pages="1439-47" />
+</sol:variant>
+<sol:variant gene="Hepatocyte growth factor activator inhibitor type 1 (HAI-1)" UniProt="O43278" spid="SPT1_HUMAN">
+   <sol:reference type="pubmed" pmid="11805118" authors="Denda K, Shimomura T, Kawaguchi T, Miyazawa K, Kitamura N." title="Functional characterization of Kunitz domains in hepatocyte growth factor activator inhibitor type 1." journal="J Biol Chem." year="2002" volume="277" number="16" pages="14053-14059" />
+</sol:variant>
+<sol:variant gene="coxsackie-adenovirus receptor (CAR)" UniProt="Q8WWT8" spid="Q8WWT8_HUMAN" splicing="yes" >
+   <sol:reference type="pubmed" pmid="14978041" authors="Andrea Dorner, Dingding Xiong, Kellie Couch, Toshitaka Yajima, and Kirk U. Knowlton" title="Alternatively spliced soluble coxsackie-adenovirus receptors inhibit coxsackievirus infection." journal="J. Biol. Chem." volume="279" number="18" pages="18497-18503" />
+   <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q8WWT6" title="Q8WWT6_HUMAN Coxsackie-adenovirus-receptor isoform CAR4/7 {GENE:Name=CXADR} - Homo sapiens (Human)" />
+   <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q8WWT7" title="Q8WWT7_HUMAN Coxsackie-adenovirus-receptor isoform CAR3/7 {GENE:Name=CXADR} - Homo sapiens (Human)" />
+</sol:variant>
+	<sol:variant gene="Endothelial protein C receptor (EPCR)" UniProt="Q9UNN8" shedBy="metalloprotease" >
+   <sol:reference authors="Jun Xu, Dongfeng Qu, Naomi L. Esmon, and Charles T. Esmon" title="Metalloproteolytic Release of Endothelial Cell Protein C Receptor" journal="J. Biol. Chem." voume="27" number="8" pages="6038-6044" year="2000" />
+</sol:variant>
+<sol:variant gene="Collagen XVII" UniProt="Q9UMD9" shedBy="sheddases of disintegrin and metalloproteinase(ADAM) family; TACE, TNF-alpha converting enzyme, is the major physiological proteinase" cleavedAt="analysis of defined smaller deletions pointed to the stretch of amino acid residues 528-547 as important for sheddase recognition and cleavage">
+   <sol:reference type="pubmed" pmid="16020548" authors="Zimina EP, Bruckner-Tuderman L, Franzke CW." title="Shedding of collagen XVII ectodomain depends on plasma membrane microenvironment." journal="J Biol Chem." year="2005" />
+   <sol:reference type="pubmed" pmid="15047704" authors="Franzke CW, Tasanen K, Borradori L, Huotari V, Bruckner-Tuderman L." title="Shedding of collagen XVII/BP180: structural motifs influence cleavage from cell surface." journal="J. Biol. Chem." year="2004" volume="279" number="23" pages="24521-24529" />
+</sol:variant>
+<sol:variant gene="Advanced glycosylation end product-specific receptor (RAGE) (AGER)" UniProt="Q15109" spid="RAGE_HUMAN" shedBy="" splicing="yes">
+  <comment>Mice do no have alternate splicing but a C-terminal termination</comment>
+  <sol:reference type="pubmed" pmid="" authors="Moser B, Hudson BI, Schmidt AM." title="Soluble RAGE: a hot new biomarker for the hot joint?" journal="Arthritis Res Ther." year="2005" volume="7" number="4" pages="142-144" />
+  <sol:reference type="pubmed" pmid="15987483" authors="Pullerits R, Bokarewa M, Dahlberg L, Tarkowski A." title="Decreased levels of soluble receptor for advanced glycation end products in patients with rheumatoid arthritis indicating deficient inflammatory control." journal="Arthritis Res Ther." year="2005" volume="7" number="4" pages="R817-824" />
+  <sol:reference type="pubmed" pmid="15930093" authors="Forbes JM, Thorpe SR, Thallas-Bonke V, Pete J, Thomas MC, Deemer ER, Bassal S, El-Osta A, Long DM, Panagiotopoulos S, Jerums G, Osicka TM, Cooper ME." title="Modulation of Soluble Receptor for Advanced Glycation End Products by Angiotensin Converting Enzyme-1 Inhibition in Diabetic Nephropathy." journal="J Am Soc Nephrol." year="2005" />
+  <sol:reference type="pubmed" pmid="" author="Hanford LE, Enghild JJ, Valnickova Z, Petersen SV, Schaefer LM, Schaefer TM, Reinhart TA, Oury TD." title="Purification and characterization of mouse soluble receptor for advanced glycation end products (sRAGE)." journal="J Biol Chem." year="2004" volume="279" number="48" pages="50019-50024" />
+</sol:variant>
+<sol:variant gene="CD74 (Ii) (DHLAG) (HLA class II histocompatibility antigen, gamma chain)" UniProt="P04233" spid="HG2A_HUMAN" shedBy="caspase B">
+  <sol:reference type="pubmed" pmid="7729872" authors="Beswick EJ, Bland DA, Suarez G, Barrera CA, Fan X, Reyes VE." title="Helicobacter pylori binds to CD74 on gastric epithelial cells and stimulates interleukin-8 production." journal="Infect Immun." year="2005" volume="73" number="5" pages="2736-2743" />
+</sol:variant>
+<sol:variant gene="CD5" UniProt="P06127" spid="CD5_HUMAN">
+   <sol:reference type="pubmed" pmid="10427974" authors="Calvo J, Places L, Padilla O, Vila JM, Vives J, Bowen MA, Lozano F." title="Interaction of recombinant and natural soluble CD5 forms with an alternative cell surface ligand." journal="Eur J Immunol." year="1999" volume="29" number="7" pages="2119-2129" />
+</sol:variant>
+<sol:variant gene="CD10 (Neutral endopeptidase 24.11) (Neprilysin) (MME) (NEP)" UniProt="P08473" spid="NEP_HUMAN">
+  <sol:reference type="pubmed" pmid="11309283" title="Neutral endopeptidase inhibits neuropeptide-mediated transactivation of the insulin-like growth factor receptor-Akt cell survival pathway." />
+</sol:variant>
+
+<!--
+ELISAs/Assays:
+Human TACE/ADAM17 Quantikine ELISA Kit | DTC00 | 1 KT
+http://www.rndsystems.com/pdf/DTC00.pdf
+-->
+
+<!--
+Not transmembrane but cleaved by the same set or apparently similar proteases.
+
+<sol:variant gene="alkaline phosphatase" UniProt="" spid="">
+  <sol:reference type="pubmed" pmid="6152536" authors="Jung K, Pergande M, Wischke UW." title="Characterization of particulate and soluble variants of the brush-border enzymes alanine aminopeptidase, alkaline phosphatase and gamma-glutamyltransferase in human urine." journal="Biomed Biochim Acta. 1984;43(12):1357-64." />
+</sol:variant>
+
+<sol:variant gene="lymphotoxin" UniProt="P01374">
+	<sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?P01374" title="SWISS-PROT knows membrane associated and sectreted forms."/>
+</sol:variant>
+<sol:variant gene="vonWillebrandFactor (vWF) (F8VWF)" UniProt="P04275" shedBy="ADAMTS13 cleaves between Tyr1605-Met1606" >
+    <sol:reference type="url"
+        authors="K. Hork1, Z. Hlubock1, V. Umnerov1, S. Heller1, J. Peleka1, A. Jindra 1, M. Jchymov 1, J. Kvasnicka"
+	title="INTERCELLULAR CELL ADHESION MOLECULE-1, ENDOTHELIN-1 AND VONWILLEBRAND FACTOR: MARKERS OF ENDOTHELIAL DYSFUNCTION IN HYPERTENSION"
+	href="http://www.knt-ec.com/event/icim/abstract/2-PO-31.html"
+    />
+    <sol:reference type="pubmed" pmid="12791682" authors="Zheng X, Nishio K, Majerus EM, Sadler JE."
+	    title="Cleavage of von Willebrand factor requires the spacer domain of the metalloprotease ADAMTS13."
+    />
+</sol:variant>
+<sol:variant gene="BID (BH3 interacting domain death agonist)" shedBy="Caspases" UniProt="P55957" spid="BID_HUMAN" >
+   <sol:reference type="pubmed" pmid="15500442" title="Pro-apoptotic Bid induces membrane perturbation by inserting selected lysolipids into the bilayer." authors="Goonesinghe A, Mundy ES, Smith M, Khosravi-Far R, Martinou JC, Degli Esposti M." />
+</sol:variant>
+
+<sol:variant gene="scatter factor (SF)" spid="" UniProt="">
+  <sol:reference type="pubmed" pmid="15545993" authors="Mazzone M, Basilico C, Cavassa S, Pennacchietti S, Risio M, Naldini L, Comoglio PM, Michieli P." title="An uncleavable form of pro-scatter factor suppresses tumor growth and dissemination in mice." journal="J Clin Invest." year="2004" volume="114" number="10" pages="1418-32" />
+</sol:variant>
+
+-->
+
+</sol:variantlist>
