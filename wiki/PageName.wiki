@@ -1,5 +1,5 @@
-#name Welcome to sTransmem
-#summary Welcome to
+#summary Welcome to sTransmem
+#labels Featured
 
 = sTransmem =
 
