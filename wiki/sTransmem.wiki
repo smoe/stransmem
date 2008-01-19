@@ -11,3 +11,7 @@ In Silico Biology 5, 0028 (2005)
 which is freely accessible [http://www.bioinfo.de/isb/2005/05/0028/ here].
 
 Today we have moved away from the previous motivation which was on helping protomics labs to make better sense of their data and think more about possible routes towards predictors of soluble variants.
+
+== See Also ==
+
+* [http://code.google.com/p/apibaso ApiBaso] - Collection of transmembrane porteins with polar distribution in epithelia
