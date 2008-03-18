@@ -6,7 +6,7 @@
    <sol:reference type="pubmed" pmid="15525652" title="Membrane-type matrix metalloproteinase-1 (MT1-MMP) is a processing enzyme for human laminin gamma 2 chain." authors="Koshikawa N, Minegishi T, Sharabi A, Quaranta V, Seiki M." year="2004" journal="J Biol Chem." />
 </sol:variant>
 <sol:variant gene="ADAM12" UniProt="O43184" spid="ADA12_HUMAN" alternativelySpliced="yes" notshedBy="any">
-  <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sørensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
+  <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sorensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
   <sol:reference type="pubmed" pmid="10849447" authors="Gilpin, B. J., Loechel, F., Mattei, M. G., Engvall, E., Albrechtsen, R., and Wewer, U. M." year="1998" title="A novel, secreted form of human ADAM 12 (meltrin ) provokes myogenesis in vivo" journal="J. Biol. Chem." volume="273" pages="157-166" />
 </sol:variant>
 <sol:variant gene="prostate-specific membrane antigen (PSM) (Glutamate carboxypeptidase II) (N-acetylated-alpha-linked acidic dipeptidase I) (NAALADase I)" UniProt="Q04609" spid="FOH1_HUMAN">
@@ -347,10 +347,10 @@ CD8B_HUMAN (P10966)
 </sol:variant>
 <sol:variant gene="Major prion protein (PRNP) (PRP)" UniProt="P04156" spid="PRIO_HUMAN" shedBy="ADAM10, ADAM17">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
-   <sol:reference type="pubmed" authors="Cissé MA, Sunyach C, Lefranc-Jullien S, Postina R, Vincent B, Checler F." title="The disintegrin ADAM9 indirectly contributes to the physiological processing of cellular prion by modulating ADAM10 activity." journal="J. Biol. Chem." year="2005" volume="280" number="49" pages="40624-31" pmid="16236709" />
+   <sol:reference type="pubmed" authors="Cisse MA, Sunyach C, Lefranc-Jullien S, Postina R, Vincent B, Checler F." title="The disintegrin ADAM9 indirectly contributes to the physiological processing of cellular prion by modulating ADAM10 activity." journal="J. Biol. Chem." year="2005" volume="280" number="49" pages="40624-31" pmid="16236709" />
 </sol:variant>
 <sol:variant gene="Serotransferrin (Transferrin) (TF)" UniProt="P02787" spid="TRFE_HUMAN" shedBy="ADAM12">
-  <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sørensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
+  <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sorensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
 </sol:variant>
 <sol:variant gene="transferrin receptor (CD71) (T9) (p90)" UniProt="P02786" spid="TFR1_HUMAN" shedBy="Metalloproteinase">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1445562251_g.htm" title="NCBI PROW" />
@@ -724,7 +724,7 @@ CC   -!- CATALYTIC ACTIVITY: CLEAVES TNF-ALPHA AT 76-ALA-|-VAL-77.
 </sol:variant>
 <sol:variant gene="Amyloid beta A4 protein precursor (APP) (ABPP) (Alzheimer's disease amyloid protein) (CVAP) (Protease nexin-II) (PN-II) (APPI) (PreA4)" UniProt="P05067" shedBy="alpha-, beta- and gamma-secretases, ADAM9, ADAM10, ADAM17" >
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
-   <sol:reference type="pubmed" authors="Asai M, Hattori C, Szabó B, Sasagawa N, Maruyama K, Tanuma S, Ishiura S." title="Putative function of ADAM9, ADAM10, and ADAM17 as APP alpha-secretase."
+   <sol:reference type="pubmed" authors="Asai M, Hattori C, Szabo B, Sasagawa N, Maruyama K, Tanuma S, Ishiura S." title="Putative function of ADAM9, ADAM10, and ADAM17 as APP alpha-secretase."
        journal="Biochem Biophys Res Commun."
        year="2003" volume="301" number="1" pages="231-5" pmid="12535668" />
    <sol:reference type="url" href="http://www.bmb.leeds.ac.uk/staff/nmh/project1.html"
