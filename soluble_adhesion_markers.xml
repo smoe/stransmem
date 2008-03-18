@@ -5,6 +5,10 @@
 <sol:variant gene="Laminin gamma-2 chain (LAMC2) (Kalinin/nicein/epiligrin 100 kDa subunit)" shedBy="MT1-MMP" UniProt="Q13753" spid="LMG2_HUMAN">
    <sol:reference type="pubmed" pmid="15525652" title="Membrane-type matrix metalloproteinase-1 (MT1-MMP) is a processing enzyme for human laminin gamma 2 chain." authors="Koshikawa N, Minegishi T, Sharabi A, Quaranta V, Seiki M." year="2004" journal="J Biol Chem." />
 </sol:variant>
+<sol:variant gene="ADAM12" UniProt="O43184" spid="ADA12_HUMAN" alternativelySpliced="yes" notshedBy="any">
+  <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sørensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
+  <sol:reference type="pubmed" pmid="10849447" authors="Gilpin, B. J., Loechel, F., Mattei, M. G., Engvall, E., Albrechtsen, R., and Wewer, U. M." year="1998" title="A novel, secreted form of human ADAM 12 (meltrin ) provokes myogenesis in vivo" journal="J. Biol. Chem." volume="273" pages="157-166" />
+</sol:variant>
 <sol:variant gene="prostate-specific membrane antigen (PSM) (Glutamate carboxypeptidase II) (N-acetylated-alpha-linked acidic dipeptidase I) (NAALADase I)" UniProt="Q04609" spid="FOH1_HUMAN">
   <sol:reference type="pubmed" pmid="7882349" title="Alternatively spliced variants of prostate-specific membrane antigen RNA: ratio of expression as a potential measurement of progression." authors="Su SL, Huang IP, Fair WR, Powell CT, Heston WD." year="1995" journal="Cancer Res." pages="1441-3" volume="55" number="7" />
   <sol:reference type="pubmed" pmid="10221263" title="Characterization of the enzymatic activity of PSM: comparison with brain NAALADase." authors="Tiffany CW, Lapidus RG, Merion A, Calvin DC, Slusher BS." year="1999" />
@@ -15,8 +19,9 @@
 <sol:variant gene="glutamyl aminopeptidase (aminopeptidase A)" UniProt="Q07075" spid="AMPE_HUMAN">
   <sol:reference type="pubmed" pmid="10871154" authors="Ramirez-Exposito MJ, Martinez JM, Prieto I, Alba F, Ramirez M." title="Comparative distribution of glutamyl and aspartyl aminopeptidase activities in mouse organs." year="2000" />
 </sol:variant>
-<sol:variant gene="heparin-binding epidermal growth factor-like growth factor (HB-EGF)" shedBy="MMP, induced by chelerythrine" UniProt="Q99075" spid="HBGF_HUMAN">
-  <sol:reference type="pubmed" pmid="15490481" title="An oxidative stress mechanism mediates chelerythrine-induced heparin-binding EGF-like growth factor ectodomain shedding." authors="Kim J, Lin J, Adam RM, Lamb C, Shively SB, Freeman MR." year="2004" />
+<sol:variant gene="heparin-binding epidermal growth factor-like growth factor (HB-EGF)" shedBy="MMP, induced by chelerythrine, ADAM10, ADAM17" UniProt="Q99075" spid="HBGF_HUMAN">
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+   <sol:reference type="pubmed" pmid="15490481" title="An oxidative stress mechanism mediates chelerythrine-induced heparin-binding EGF-like growth factor ectodomain shedding." authors="Kim J, Lin J, Adam RM, Lamb C, Shively SB, Freeman MR." year="2004" />
 </sol:variant>
 <sol:variant gene="HLA-A" >
    <sol:reference type="pubmed" pmid="12594841" title="Soluble HLA-A,-B,-C and -G molecules induce apoptosis in T and NK CD8+ cells and inhibit cytotoxic T cell activity through CD8 ligation." authors="Contini P, Ghio M, Poggi A, Filaci G, Indiveri F, Ferrone S, Puppo F." journal="Eur J Immunol." year="2003" volume="33" number="1" pages="125-34" />
@@ -112,6 +117,14 @@ CD8B_HUMAN (P10966)
         year="2001" />
    <sol:reference type="pubmed" pmid="12714508" title="The disintegrin-like metalloproteinase ADAM10 is involved in constitutive cleavage of CX3CL1 (fractalkine) and regulates CX3CL1-mediated cell-cell adhesion." authors="Hundhausen C, Misztela D, Berkhout TA, Broadway N, Saftig P, Reiss K, Hartmann D, Fahrenholz F, Postina R, Matthews V, Kallen KJ, Rose-John S, Ludwig A." journal="Blood" year="2003" volume="102" number="4" pages="1186-95" />
 </sol:variant>
+<sol:variant
+    gene="Neural cell adhesion molecule L1 (N-CAM L1) (CD171 antigen) (L1CAM) (CAML1) (MIC5)"
+    UniProt="P32004"
+    spid="L1CAM_HUMAN"
+    shedBy="ADAM10, ADAM17">
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+   <sol:reference type="pubmed" authors="Sabine Mechtersheimer1, Paul Gutwein1, Nancy Agmon-Levin1, Alexander Stoeck1, Matthias Oleszewski1, Svenja Riedle1, Rolf Postina4, Falk Fahrenholz4, Mina Fogel2, Vance Lemmon3 and Peter Altevogt1" title="Ectodomain shedding of L1 adhesion molecule promotes cell migration by autocrine binding to integrins " journal="J. Cell Biol." volume="155" number="4" pages="661-674" comment="Explicitly confirms ADAM10" />
+</sol:variant>
 <sol:variant gene="CD23 (low affinity IgE receptor) (Lymphocyte IgE receptor) (Fc-epsilon-RII) (FCER2) (IGEBF)" UniProt="P06734">
     <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1267951442_g.htm" title="NCBI PROW" />
 	<summary>
@@ -194,7 +207,8 @@ CD8B_HUMAN (P10966)
       title="CD28 induces immunostimulatory signals in dendritic cells via CD80 and CD86."
       journal="Nat Immunol." volume="5" number="11" pages="1134-1142" year="2004" pmid="15467723" />
 </sol:variant>
-<sol:variant gene="CD30" UniProt="P28908" shedBy="TACE" >
+<sol:variant gene="CD30" UniProt="P28908" shedBy="ADAM17, ADAM10" >
+    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
     <sol:reference type="pubmed" pmid="11120787"
 	authors="H. P. Hansen, S. Dietrich, Kisseleva T, Mokros T, Mentlein R, Lange HH, Murphy G, Lemke H."
 	title="CD30 shedding from Karpas 299 lymphoma cells is mediated by TNF-alpha converting enzyme"
@@ -255,14 +269,15 @@ CD8B_HUMAN (P10966)
     	year="2004" />
     PMID: 15163541 [PubMed - indexed for MEDLINE]
 </sol:variant>
-<sol:variant gene="CD44 (Phagocytic glycoprotein I) (PGP-1) (HUTCH-I) (Extracellular matrix receptor-III) (ECMR-III) (GP90 lymphocyte homing/adhesion receptor) (Hermes antigen) (Hyaluronate receptor) (Heparan sulfate proteoglycan) (Epican) (CDw44) (LHR)" UniProt="P16070">
+<sol:variant gene="CD44 (Phagocytic glycoprotein I) (PGP-1) (HUTCH-I) (Extracellular matrix receptor-III) (ECMR-III) (GP90 lymphocyte homing/adhesion receptor) (Hermes antigen) (Hyaluronate receptor) (Heparan sulfate proteoglycan) (Epican) (CDw44) (LHR)" UniProt="P16070" shedBy="ADAM17, ADAM10">
    <summary>
    Capacity to mediate inflammatory cell function and tumor growth and metastasis
    </summary>
+    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
     <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1621804819_g.htm" title="NCBI PROW" />
-   <sol:reference type="pubmed" authors="Lesley J., Hyman R." pmid="9634544"
+    <sol:reference type="pubmed" authors="Lesley J., Hyman R." pmid="9634544"
    	title="CD44 structure and function" year="1998" />
-   <sol:reference type="pubmed" authors="Cichy J, Pure E."
+    <sol:reference type="pubmed" authors="Cichy J, Pure E."
 	title="The liberation of CD44."
 	year="2003" />
     <sol:reference type="pubmed" pmid="9793264"
@@ -329,6 +344,13 @@ CD8B_HUMAN (P10966)
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="15249540" title="Endomucin, a sialomucin expressed in high endothelial venules, supports L-selectin-mediated rolling." authors="Kanda H, Tanaka T, Matsumoto M, Umemoto E, Ebisuno Y, Kinoshita M, Noda M, Kannagi R, Hirata T, Murai T, Fukuda M, Miyasaka M." />
    <sol:reference type="pubmed" pmid="15030584" title="Serum-soluble selectin levels in patients with rheumatoid arthritis and systemic sclerosis." authors="Ates A, Kinikli G, Turgay M, Duman M." />
+</sol:variant>
+<sol:variant gene="Major prion protein (PRNP) (PRP)" UniProt="P04156" spid="PRIO_HUMAN" shedBy="ADAM10, ADAM17">
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+   <sol:reference type="pubmed" authors="Cissé MA, Sunyach C, Lefranc-Jullien S, Postina R, Vincent B, Checler F." title="The disintegrin ADAM9 indirectly contributes to the physiological processing of cellular prion by modulating ADAM10 activity." journal="J. Biol. Chem." year="2005" volume="280" number="49" pages="40624-31" pmid="16236709" />
+</sol:variant>
+<sol:variant gene="Serotransferrin (Transferrin) (TF)" UniProt="P02787" spid="TRFE_HUMAN" shedBy="ADAM12">
+  <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sørensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
 </sol:variant>
 <sol:variant gene="transferrin receptor (CD71) (T9) (p90)" UniProt="P02786" spid="TFR1_HUMAN" shedBy="Metalloproteinase">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1445562251_g.htm" title="NCBI PROW" />
@@ -437,21 +459,22 @@ CD8B_HUMAN (P10966)
 <sol:variant gene="sInterleukin-4R (IL-4R) (CD124)" UniProt="P24394" splicing="yes" >
    <sol:reference authors="Chilton PM, Fernandez-Botran R." title="Production of soluble IL-4 receptors by murine spleen cells is regulated by T cell activation and IL-4." journal="J Immunol." year="1993" volume="151" number="11" pages="5907-5917" />
 	</sol:variant>
-<sol:variant gene="sInterleukin-6R-1 (IL-6R-alpha) (CD126)" UniProt="P08887" shedBy="TACE (ADAM17) and ADAM10">
-  <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/110467603_g.htm" title="NCBI PROW" />
-  <sol:reference type="pubmed" pmid="12096138" year="2002" title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases." authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS." />
-  <sol:reference type="pubmed" authors="Rose-John S."
+<sol:variant gene="sInterleukin-6R-1 (IL-6R-alpha) (CD126)" UniProt="P08887" shedBy="ADAM17, ADAM10">
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+   <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/110467603_g.htm" title="NCBI PROW" />
+   <sol:reference type="pubmed" pmid="12096138" year="2002" title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases." authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS." />
+   <sol:reference type="pubmed" authors="Rose-John S."
 		title="Interleukin-6 biology is coordinated by membrane bound and soluble receptors."
 		pmid="14515143" year="2003" />
-  <sol:reference type="pubmed" authors="Rose-John S, Neurath MF." pmid="14738759"
+   <sol:reference type="pubmed" authors="Rose-John S, Neurath MF." pmid="14738759"
 	 	title="IL-6 trans-signaling: the heat is on."
 	  	year="2004" />
-  <sol:reference type="pubmed" pmid="1633265"
+   <sol:reference type="pubmed" pmid="1633265"
 		authors="] Lust JA, Donovan KA, Kline MP, Greipp PR, Kyle RA, Maihle NJ"
 		title="Isolation of an mRNA encoding a soluble form of the human interleukin-6 receptor." year="1992" />
-  <sol:reference type="pubmed" pmid="15100312" authors="McLoughlin RM, Hurst SM, Nowell MA, Harris DA, Horiuchi S, Morgan LW, Wilkinson TS, Yamamoto N, Topley N, Jones SA." title="Differential regulation of neutrophil-activating chemokines by IL-6 and its soluble receptor isoforms." />
-  <sol:reference type="pubmed" pmid="12832423" title="Free Full Text 	Cellular cholesterol depletion triggers shedding of the human interleukin-6 receptor by ADAM10 and ADAM17 (TACE)." authors="Matthews V, Schuster B, Schutze S, Bussmeyer I, Ludwig A, Hundhausen C, Sadowski T, Saftig P, Hartmann D, Kallen KJ, Rose-John S." />
-  <sol:reference type="pubmed" pmid="12400844" authors="Disthabanchong S, Gonzalez EA, Martin KJ." title="Soluble IL-6 receptor levels in patients on chronic hemodialysis." />
+   <sol:reference type="pubmed" pmid="15100312" authors="McLoughlin RM, Hurst SM, Nowell MA, Harris DA, Horiuchi S, Morgan LW, Wilkinson TS, Yamamoto N, Topley N, Jones SA." title="Differential regulation of neutrophil-activating chemokines by IL-6 and its soluble receptor isoforms." />
+   <sol:reference type="pubmed" pmid="12832423" title="Free Full Text 	Cellular cholesterol depletion triggers shedding of the human interleukin-6 receptor by ADAM10 and ADAM17 (TACE)." authors="Matthews V, Schuster B, Schutze S, Bussmeyer I, Ludwig A, Hundhausen C, Sadowski T, Saftig P, Hartmann D, Kallen KJ, Rose-John S." />
+   <sol:reference type="pubmed" pmid="12400844" authors="Disthabanchong S, Gonzalez EA, Martin KJ." title="Soluble IL-6 receptor levels in patients on chronic hemodialysis." />
 </sol:variant>
 <sol:variant gene="Interleukin-15Ralpha (IL-15Ralpha)" UniProt="Q7Z609" spid="">
     <sol:reference type="pubmed" pmid="15215246"
@@ -597,7 +620,7 @@ CD8B_HUMAN (P10966)
   <sol:reference type="pubmed" pmid="15502346" title="Effect of MMP/ADAM Inhibitors on Goblet Cell Hyperplasia in Cultured Human Bronchial Epithelial Cells." authors="Yoshisue H, Hasegawa K." year="2004"  />
 </sol:variant>
 <sol:variant gene="TGF-beta-1 (Transforming growth factor beta-1) (TGFB1)" Uniprot="P01137" spid="TGFB1_HUMAN" shedBy="ADAM17" notshedBy="ADAM10" >
- <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+  <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
 </sol:variant>
 <sol:variant gene="Betaglycan" synonyms="TGF-beta receptor" UniProt="Q03167"
 	shedBy="Regulated by Pervanadate and Mediated by Membrane Type Matrix Metalloprotease-1"
@@ -657,7 +680,8 @@ CD8B_HUMAN (P10966)
   <sol:reference type="pubmed" pmid="12551931" title="The Notch ligands, Delta1 and Jagged2, are substrates for presenilin-dependent 'gamma-secretase' cleavage." authors="Ikeuchi T, Sisodia SS." year="2003" journal="J Biol Chem." vol="278" pages="7751-4" />
   <sol:reference type="pubmed" pmid="14769803" title="The non-transmembrane form of Delta1, but not of Jagged1, induces normal migratory behavior accompanied by fibroblast growth factor receptor 1-dependent transformation." authors="Trifonova R, Small D, Kacer D, Kovalenko D, Kolev V, Mandinova A, Soldi R, Liaw L, Prudovsky I, Maciag T." journal="J Biol Chem." year="2004" volume="279" number="14" pages="13285-8" />
 </sol:variant>
-<sol:variant gene="Notch receptor" comment="Cytoplasmic cleavage">
+<sol:variant gene="Notch1 (Notch receptor)" UniProt="P46531" spid="NOTC1_HUMAN" comment="Cytoplasmic cleavage" shedBy="ADAM10, ADAM17">
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
  <sol:reference type="pubmed" pmid="9244302" authors="Blaumueller CM, Qi H, Zagouras P, Artavanis-Tsakonas S." year="1997" title="Intracellular cleavage of Notch leads to a heterodimeric receptor on the plasma membrane." />
 </sol:variant>
 <sol:variant gene="GHBP, soluble form of GHR (groth hormone receptor)" UniProt="P10912" shedBy="TACE" >
@@ -693,9 +717,17 @@ CC   -!- CATALYTIC ACTIVITY: CLEAVES TNF-ALPHA AT 76-ALA-|-VAL-77.
 	</pre><br/>
 	</summary>
   <sol:reference type="pubmed" pmid="15333331" title="Importance of Tumor Necrosis Factor-{alpha} Cleavage Process in Post-transplantation Lung Injury in Rats." year="2004" authors="Goto T, Ishizaka A, Kobayashi F, Kohno M, Sawafuji M, Tasaka S, Ikeda E, Okada Y, Maruyama I, Kobayashi K." journal="Am J Respir Crit Care Med." />
+  <sol:reference type="pubmed" pmid="12514095" title="The ADAMs family of metalloproteases: multidomain proteins with multiple functions" authors="Darren F. Seals, and Sara A. Courtneidge" year="2003" volume="17" number="1" pages="7-30" /> 
+  <comment>
+  Seals and Courtneidge (12514095) say that ADAM9 and ADAM10 also cleave TNFalpha in vitro. 
+  </comment>
 </sol:variant>
-<sol:variant gene="Amyloid beta A4 protein precursor (APP) (ABPP) (Alzheimer's disease amyloid protein) (CVAP) (Protease nexin-II) (PN-II) (APPI) (PreA4)" UniProt="P05067" shedBy="alpha-, beta- and gamma-secretases" >
-	<sol:reference type="url" href="http://www.bmb.leeds.ac.uk/staff/nmh/project1.html"
+<sol:variant gene="Amyloid beta A4 protein precursor (APP) (ABPP) (Alzheimer's disease amyloid protein) (CVAP) (Protease nexin-II) (PN-II) (APPI) (PreA4)" UniProt="P05067" shedBy="alpha-, beta- and gamma-secretases, ADAM9, ADAM10, ADAM17" >
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+   <sol:reference type="pubmed" authors="Asai M, Hattori C, Szabó B, Sasagawa N, Maruyama K, Tanuma S, Ishiura S." title="Putative function of ADAM9, ADAM10, and ADAM17 as APP alpha-secretase."
+       journal="Biochem Biophys Res Commun."
+       year="2003" volume="301" number="1" pages="231-5" pmid="12535668" />
+   <sol:reference type="url" href="http://www.bmb.leeds.ac.uk/staff/nmh/project1.html"
 	    title="Membrane Protein Scretases &amp; Alzheimer's Disease" />
 </sol:variant>
 <sol:variant gene="Kit-ligand (Stem cell factor) (SCF) (Mast cell growth factor) (MGF) (C-kit ligand)" UniProt="P21583">
@@ -883,7 +915,7 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 <sol:variant gene="Qa1b (Qa1)" UniProt="" spid="">
   <sol:reference type="pubmed" pmid="10477585" title="Stochastic acquisition of Qa1 receptors during the development of fetal NK cells in vitro accounts in part but not in whole for the ability of these cells to distinguish between class I-sufficient and class I-deficient targets." authors="Toomey JA, Salcedo M, Cotterill LA, Millrain MM, Chrzanowska-Lightowlers Z, Lawry J, Fraser K, Gays F, Robinson JH, Shrestha S, Dyson PJ, Brooks CG." journal="J Immunol." year="1999" volume="163" number="6" pages="3176-84" />
 </sol:variant>
-<sol:variant gene="RANKL (receptor activator of NF-kappaB ligand) TRANCE (OPGL, Tumor necrosis factor (TNF)-related activation-induced cytokine, osteoprotegerin ligand)" UniProt="O14788" spid="TN11_HUMAN" shedBy="ADAM-17 and ADAM-19" notshedBy="">
+<sol:variant gene="RANKL (receptor activator of NF-kappaB ligand) TRANCE (OPGL, Tumor necrosis factor (TNF)-related activation-induced cytokine, osteoprotegerin ligand)" UniProt="O14788" spid="TN11_HUMAN" shedBy="ADAM17, ADAM19" notshedBy="">
   <sol:reference type="pubmed" pmid="15275972" title="Expression of membrane-bound and soluble receptor activator of NF-kappaB ligand (RANKL) in human T cells." authors="Kanamaru F, Iwai H, Ikeda T, Nakajima A, Ishikawa I, Azuma M." journal="Immunol Lett." year="2004" volume="94" number="3" pages="239-46" /> 
   <sol:reference type="pubmed" pmid="11278735" title="Biochemical and pharmacological criteria define two shedding activities for TRANCE/OPGL that are distinct from the tumor necrosis factor alpha convertase." authors="Schlondorff J, Lum L, Blobel CP." journal="J Biol Chem." year="2001" volume="276" number="18" pages="14665-74" />
   <sol:reference type="pubmed" pmid="12682046" author="Chesneau V, Becherer JD, Zheng Y, Erdjument-Bromage H, Tempst P, Blobel CP." title="Catalytic properties of ADAM19." journal="J Biol Chem." year="2003" volume="278" number="25" pages="22331-40" />
