@@ -78,7 +78,7 @@
 		<br />
 		Not shedBy: <xsl:value-of select="@notshedBy" /> 
 	</xsl:if>
-	</small>
+        </small>
       </td>
       <td>
 	<table cellpadding="5">
@@ -86,13 +86,7 @@
 	</table>
       </td>
   </tr>
- 
-
-
-
- 
- </xsl:template>
-
+  </xsl:template>    
 
  <xsl:template match="sol:reference">
   <xsl:variable name="url" select="@href" />
@@ -104,6 +98,12 @@
         <xsl:variable name="pmid" select="@pmid" />
     	<a href='http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids={$pmid}'>
         <xsl:value-of select="@title" /></a>
+       </xsl:when>
+       <xsl:when test="'personal-communication'=$type">
+  <xsl:variable name="name" select="@name" />
+  <xsl:variable name="email" select="@email" />
+	  Communicated by <xsl:value-of select="@name" />
+	  (<i><xsl:value-of select="@email" /></i>)
        </xsl:when>
        <xsl:otherwise>
          <a href="{$url}">
