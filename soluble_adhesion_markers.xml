@@ -100,7 +100,7 @@ CD8B_HUMAN (P10966)
 	</ul>
 -->
 </sol:variant>
-<sol:variant gene="CX3CL1 (Fractalkine) (FKN) (CX(3)CL1) (Neurotactin) (SCYD1) (FKN) (NTT) (A-152E5.2)" interactsWith="CX(3)CR1" UniProt="P78423" spid="SYD1_HUMAN" shedBy="ADAM10">
+<sol:variant gene="CX3CL1 (Fractalkine) (FKN) (CX(3)CL1) (Neurotactin) (SCYD1) (NTT) (A-152E5.2)" interactsWith="CX(3)CR1" UniProt="P78423" spid="SYD1_HUMAN" shedBy="ADAM10">
    <sol:reference type="url" href="http://users.path.ox.ac.uk/~ciu/FPgroup/articles.pdf/ajp0302lucas.pdf" title="Lucas et al. 2001" />
   <sol:reference type="pubmed" pmid="15131578"
   	authors="Echigo T, Hasegawa M, Shimada Y, Takehara K, Sato S."
@@ -324,8 +324,9 @@ CD8B_HUMAN (P10966)
        journal="Eur J Obstet Gynecol Reprod Biol."
        year="2004" volume="113" number="1" pages="21-25" />
 </sol:variant>
-<sol:variant gene="L-Selectin (CD62L) (LAM-1) (Leukocyte surface antigen Leu-8) (TQ1) (gp90-MEL)  (LECAM1)" UniProt="P14151">
+<sol:variant gene="L-Selectin (CD62L) (LAM-1) (Leukocyte surface antigen Leu-8) (TQ1) (gp90-MEL)  (LECAM1)" UniProt="P14151" shedBy="ADAM17" notshedBy="ADAM10">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1790847313_g.htm" title="NCBI PROW" />
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="15249540" title="Endomucin, a sialomucin expressed in high endothelial venules, supports L-selectin-mediated rolling." authors="Kanda H, Tanaka T, Matsumoto M, Umemoto E, Ebisuno Y, Kinoshita M, Noda M, Kannagi R, Hirata T, Murai T, Fukuda M, Miyasaka M." />
    <sol:reference type="pubmed" pmid="15030584" title="Serum-soluble selectin levels in patients with rheumatoid arthritis and systemic sclerosis." authors="Ates A, Kinikli G, Turgay M, Duman M." />
 </sol:variant>
@@ -402,8 +403,9 @@ CD8B_HUMAN (P10966)
  	title="Soluble stem cell factor receptor (CD117) and IL-2 receptor alpha chain (CD25) levels in the plasma of patients with mastocytosis: relationships to disease severity and bone marrow pathology."
         year="2000" />
 </sol:variant>
-<sol:variant gene="TNF receptor type 1 (p55) (CD120a) (TNFR-1)" UniProt="P19438">
+<sol:variant gene="TNF receptor type 1 (p55) (CD120a) (TNFR-1)" UniProt="P19438" shedBy="ADAM17" notshedBy="ADAM10">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1028691370_g.htm" title="NCBI PROW" />
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="12712835"
       authors="Modzelewski B."
       title="[Soluble TNF p55 and p75 receptors in the development of sepsis syndrome] Review Polish."
@@ -594,6 +596,9 @@ CD8B_HUMAN (P10966)
 <sol:variant gene="TGF-alpha" UniProt="P01135" spid="TGFA_HUMAN" shedBy="MMP/ADAM" >
   <sol:reference type="pubmed" pmid="15502346" title="Effect of MMP/ADAM Inhibitors on Goblet Cell Hyperplasia in Cultured Human Bronchial Epithelial Cells." authors="Yoshisue H, Hasegawa K." year="2004"  />
 </sol:variant>
+<sol:variant gene="TGF-beta-1 (Transforming growth factor beta-1) (TGFB1)" Uniprot="P01137" spid="TGFB1_HUMAN" shedBy="ADAM17" notshedBy="ADAM10" >
+ <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+</sol:variant>
 <sol:variant gene="Betaglycan" synonyms="TGF-beta receptor" UniProt="Q03167"
 	shedBy="Regulated by Pervanadate and Mediated by Membrane Type Matrix Metalloprotease-1"
 	comment="A second (smaller) variant is said to be a product of MT-MMP2"
@@ -659,8 +664,13 @@ CD8B_HUMAN (P10966)
    <sol:reference authors="Yue Zhang, Jing Jiang, Roy A. Black, Gerhard Baumann and Stuart J. Frank"
     title="Tumor Necrosis Factor- Converting Enzyme (TACE) Is a Growth Hormone Binding Protein (GHBP) Sheddase: The Metalloprotease TACE/ADAM-17 Is Critical for (PMA-Induced) GH Receptor Proteolysis and GHBP Generation" year="2000" />
 </sol:variant>
-
-<sol:variant gene="TNF-alpha" UniProt="P01375" shedBy="TACE">
+<sol:variant gene="gpV (CD42D antigen) (GP5)" UniProt="P40197" spid="GPV_HUMAN" shedBy="ADAM17" notshedBy="ADAM10" >
+ <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+</sol:variant>
+<sol:variant gene="Interleukin-15 receptor alpha chain (IL15RA)(IL-15R-alpha)" UniProt="Q13261" spid="I15RA_HUMAN" shedBy="ADAM17" notshedBy="ADAM10">
+<sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+</sol:variant>
+<sol:variant gene="TNF-alpha (Tumor necrosis factor)" UniProt="P01375" shedBy="ADAM17" notshedBy="ADAM10" spid="TNFA_HUMAN">
 	<summary>
 [2] (SWISS-PROT:<a href="http://srs.ebi.ac.uk/srs6bin/cgi-bin/wgetz?-e+[SWALL-ACC:'P01375']">P01375</a>), a cytokine<br/>
 SWISS-PROT describes it well, cleavage site also mentioned in [2]. 
@@ -814,12 +824,18 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
       title="Gamma-heregulin: a novel heregulin isoform that is an autocrine growth factor for the human breast cancer cell line, MDA-MB-175."
       journal="Oncogene" year="1997" volume="15" number="12" pages="1385-1394" />
 </sol:variant>
-<sol:variant gene="Soluble E-Cadherin" UniProt="P12830">
+
+<sol:variant gene="Soluble E-Cadherin" UniProt="P12830" shedBy="ADAM10" notshedBy="ADAM17" >
+<sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="10390008"
         author="A S Protheroe, R E Banks, M Mzimba1, W H Porter, J Southgate, P N Singh, M Bosomworth, P Harnden, P H Smith, P Whelan and P J Selby"
 	title="Urinary concentrations of the soluble adhesion molecule E-cadherin and total protein in patients with bladder cancer"
 	year="1999"
    />
+</sol:variant>
+<sol:variant gene="N-Cadherin (CDH2)" UniProt="P19022" spid="CADH2_HUMAN" shedBy="ADAM10" notshedBy="ADAM17" >
+ <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+ <sol:reference type="pubmed" name="De Wever O, Derycke L, Hendrix A, De Meerleer G, Godeau F, Depypere H, Bracke M." title="Soluble cadherins as cancer biomarkers." journal="Clin Exp Metastasis" year="2007" volume="24" number="8" pages="685-97" pmid="17952616" />
 </sol:variant>
 <sol:variant gene="band 3 (CD233)" UniProt="P02730" spid="B3AT_HUMAN" shedBy="Caspase-3 at N45 and N225">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1494855912_g.htm" title="NCBI PROW" />
