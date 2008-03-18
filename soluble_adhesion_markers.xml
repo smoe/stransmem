@@ -847,7 +847,7 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 <sol:variant gene="FGF receptor 2 (FGFR2)" UniProt="P21802" spid="FGR2_HUMAN" >
    <sol:reference type="pubmed" pmid="15310757" authors=" 	Tanimoto Y, Yokozeki M, Hiura K, Matsumoto K, Nakanishi H, Matsumoto T, Marie PJ, Moriyama K." title="A soluble form of fibroblast growth factor receptor 2 (FGFR2) with S252W mutation acts as an efficient inhibitor for the enhanced osteoblastic differentiation caused by FGFR2 activation in Apert syndrome." year="2004" journal="J. Biol. Chem." volume="279" number="44" pages="45926-34" />
 </sol:variant>
-<sol:variant gene="Delta 1" UniProt="O00548" spid="DLL1_HUMAN" >
+<sol:variant gene="Delta 1 (Delta1)" UniProt="O00548" spid="DLL1_HUMAN" shedBy="ADAM10" notshedBy="ADAM17">
   <sol:reference type="pubmed" pmid="14769803" title="The non-transmembrane form of Delta1, but not of Jagged1, induces normal migratory behavior accompanied by fibroblast growth factor receptor 1-dependent transformation." authors="Trifonova R, Small D, Kacer D, Kovalenko D, Kolev V, Mandinova A, Soldi R, Liaw L, Prudovsky I, Maciag T." journal="J Biol Chem." year="2004" volume="279" number="14" pages="13285-8" />
 </sol:variant>
 <sol:variant gene="P-selectin glycoprotein ligand-1 (PSGL-1) (CD162)" UniProt="Q14242" spid="SEPL_HUMAN" shedBy="BACE1">
@@ -957,6 +957,12 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 </sol:variant>
 <sol:variant gene="CD10 (Neutral endopeptidase 24.11) (Neprilysin) (MME) (NEP)" UniProt="P08473" spid="NEP_HUMAN">
   <sol:reference type="pubmed" pmid="11309283" title="Neutral endopeptidase inhibits neuropeptide-mediated transactivation of the insulin-like growth factor receptor-Akt cell survival pathway." />
+</sol:variant>
+<sol:variant gene="Pro-epidermal growth factor (EGF)" UniProt="P01133" spid="EGF_HUMAN" shedBy="ADAM10" notshedBy="ADAM17">
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+</sol:variant>
+<sol:variant gene="Betacellulin (BTC)" UniProt="P35070" spid="BTC_HUMAN" shedBy="ADAM10" notshedBy="ADAM17">
+   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
 </sol:variant>
 
 <!--
