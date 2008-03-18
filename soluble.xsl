@@ -29,18 +29,17 @@
     href="soluble_variants_of_membrane_proteins/">following list</a>
     of putative soluble splice-variants of proteins predicted to be
     transmembrane.
-    <h2>List of Variants</h2>
-    <table width="80%" border="1" cellpadding="2" align="center" >
+
      <xsl:apply-templates />
-    </table>
+
     <h2>Acknowledgements</h2>
     Dr. Harald Illges is thanked for his contribution to sCD21, Dr. Dr. Eilhard Mix is thanked for a couple of entries he initiated. Dr. Melissa Cline is thanked for her pointer to the related work in Chris Lee's group. 
     Them all, Dr. Saleh Ibrahim and Prof. Dr. Gudrun Brockmann is thanked for their positive and stimulating feedback.
     <hr/>
-    <a href="http://bioinformatics.pzr.uni-rostock.de/~moeller">Steffen Moeller </a>
-    <a href="mailto:steffen.moeller@med.uni-rostock.de"> steffen.moeller@med.uni-rostock.de</a><br/>
+    <a href="http://www.inb.uni-luebeck.de/">Steffen Moeller</a>
+    <a href="mailto:moeller@inb.uni-luebeck.de">moeller@inb.uni-luebeck.de</a><br/>
     <small>
-    <a href="http://bioinformatics.pzr.uni-rostock.de">Bioinformatics</a>@<a href="www.pzr.uni-rostock.de">PZR</a>
+    <a href="http://www.inb.uni-luebeck.de">Institute for Neuro- and Bioinformatics</a>
     </small><br/>
     This page lives at: <a href="http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble_adhesion_markers.xml">http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble_adhesion_markers.xml</a>
    </body>
@@ -48,24 +47,38 @@
  </xsl:template>
 
  <xsl:template match="sol:variantlist">
+    <h2>List of Variants</h2>
+    <table width="80%" border="1" cellpadding="2" align="center" >
     <tr bgcolor="orange"><th>Gene / Gene Product</th><th>References</th></tr>
     <xsl:apply-templates select="sol:variant"/>
- </xsl:template>
+    </table>
+ 
+</xsl:template>
  	<!-- <xsl:if test="not($uniprot='none')&$empty_string=$uniprot">  -->
 
  <xsl:template match="sol:variant">
- <xsl:variable name="uniprot" select="@UniProt" />
+  <xsl:variable name="uniprot" select="@UniProt" />
+  <xsl:variable name="shedby" select="@shedBy" />
+  <xsl:variable name="notshedby" select="@notshedBy" />
   <tr>
       <td bgcolor="yellow" valign="top">
   	<xsl:value-of select="@gene" />
 	<xsl:variable name="empty_string" select="''" />
-	<br/>
+	<br/>	
+	<small>
  	<xsl:if test="$empty_string!=$uniprot"> 
-		<small>
-			<a href="http://www.expasy.org/cgi-bin/niceprot.pl?{$uniprot}">UniProt</a><br/>
-			<a href="http://www.pdg.cnb.uam.es/UniPub/iHOP/in?dbrefs_1=SWISSPROT__AC|{$uniprot}">iHOP</a>
-		</small>
-	</xsl:if> 
+		<a href="http://www.expasy.org/cgi-bin/niceprot.pl?{$uniprot}">UniProt</a><br/>
+		<a href="http://www.pdg.cnb.uam.es/UniPub/iHOP/in?dbrefs_1=SWISSPROT__AC|{$uniprot}">iHOP</a>
+	</xsl:if>  
+	<xsl:if test="$empty_string!=$shedby">
+		<br />
+		shedBy: <xsl:value-of select="@shedBy" />
+	</xsl:if> 	
+	<xsl:if test="$empty_string!=$notshedby">
+		<br />
+		Not shedBy: <xsl:value-of select="@notshedBy" /> 
+	</xsl:if>
+	</small>
       </td>
       <td>
 	<table cellpadding="5">
@@ -73,7 +86,13 @@
 	</table>
       </td>
   </tr>
+ 
+
+
+
+ 
  </xsl:template>
+
 
  <xsl:template match="sol:reference">
   <xsl:variable name="url" select="@href" />
