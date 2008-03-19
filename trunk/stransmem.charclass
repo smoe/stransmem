@@ -1,0 +1,36 @@
+# Default character class file for data
+
+alphabet= ACDEFGHIKLMNPQRSTVWY
+
+# Character probabilities based on occurrence frequency
+p= _ 0.0174123
+p= A 0.079081
+p= C 0.0351874
+p= D 0.0540508
+p= E 0.0501814
+p= F 0.0287787
+p= G 0.0773882
+p= H 0.0272068
+p= I 0.0399033
+p= K 0.0365175
+p= L 0.0828295
+p= M 0.0143894
+p= N 0.0382104
+p= P 0.0846433
+p= Q 0.0365175
+p= R 0.0482467
+p= S 0.0813785
+p= T 0.0718259
+p= V 0.059734
+p= W 0.0125756
+p= Y 0.023942
+# TOTAL: 1
+
+
+# STOP character list
+# List of STOP characters (members of alphabet)
+# STOP= %?!  # Patterns do not cross over these stop characters
+
+# Character groups
+g= ILE [hydro_fob]
+g= KR [hydro_phil]
