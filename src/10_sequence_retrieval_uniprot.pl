@@ -42,7 +42,7 @@ die($@) unless ! $@;
 
 my $f=undef;
 my $fname;
-for $fname ("adam10_adam17","adam10","adam17","unknown","other") {
+for $fname ("adam10_adam17","adam10","adam17","unknown","other","unshed") {
    my $fname2 = "$fname.complete.fasta";
    if ( -r $fname2) {
 	unlink($fname2)      or die "Could not remove file $fname2\n";
