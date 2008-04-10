@@ -292,6 +292,10 @@ CD8B_HUMAN (P10966)
         title="Purification and functional properties of soluble forms of membrane cofactor protein (CD46) of complement: identification of forms increased in cancer patients' sera."
 	 year="1995" />
 </sol:variant>
+<sol:variant gene="NCAM1 (NCAM)_(CD56) (Neural cell adhesion molecule 1, 140 kDa isoform)" UniProt="P13591" spid="NCA11_HUMAN" shedBy="ADAM17/TACE">
+    <sol:reference type="pubmed" pmid="16277615" authors="Diestel S, Hinkle CL, Schmitz B, Maness PF." title="NCAM140 stimulates integrin-dependent cell migration by ectodomain shedding." journal="J Neurochem." year="2005" volume="95" number="6" pages="1777-84" /> 
+    <sol:reference type="pubmed" pmid="16805798" authors="Kalus I, Bormann U, Mzoughi M, Schachner M, Kleene R." title="Proteolytic cleavage of the neural cell adhesion molecule by ADAM17/TACE is involved in neurite outgrowth" year="2006" volume="98" number="1" pages="78-88" />
+</sol:variant>
 <sol:variant gene="ICAM-1 (CD54)" UniProt="P05362">
     <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1295888667_g.htm" title="NCBI PROW" />
     <sol:reference type="url" href="http://www.roche-applied-science.com/prod_inf/manuals/elisa_man/P83-86.pdf" title="h-sICAM-1 ELISA by Roche" />
@@ -510,6 +514,9 @@ CD8B_HUMAN (P10966)
   <sol:reference type="url" href="http://www.google.de/search?q=cache:e8xbU_bdQ2AC:www.acm-biotech.com/products/catalogue/other_human_soluble_molecule_e/body_other_human_soluble_molecule_e.html+soluble+CD21" title="ACM Biotech offers Human Soluble Molecule ELISA Kit" />
   <sol:reference type="pubmed" pmid="12904296" title="Cleavage of syndecan-1 by membrane type matrix metalloproteinase-1 stimulates cell migration." authors="Endo K, Takino T, Miyamori H, Kinsen H, Yoshizaki T, Furukawa M, Sato H." />
 </sol:variant>
+<sol:variant gene="SYND3 (Syndecan-3)" UniProt="O75056" spid="SDC3_HUMAN" shedBy="TIMP-3 sensitive metalloprotease">
+   <sol:reference type="pubmed" title="Syndecan-3 modulates food intake by interacting with the melanocortin/AgRP pathway." authors="Reizes O, Benoit SC, Strader AD, Clegg DJ, Akunuru S, Seeley RJ." pmid="12851299" journal="Ann N Y Acad Sci." year="2003" volume="994" pages="66-73" />
+</sol:variant>
 <sol:variant gene="CD141 (Thrombomodulin) (Fetomodulin) (THBD) (THRM)" UniProt="P07204" >
   <sol:reference type="url" href="http://www.google.de/search?q=cache:e8xbU_bdQ2AC:www.acm-biotech.com/products/catalogue/other_human_soluble_molecule_e/body_other_human_soluble_molecule_e.html+soluble+CD21" title="ACM Biotech offers Human Soluble Molecule ELISA Kit" />
   <sol:reference type="pubmed" pmid="12865735" authors="Wu KK." year="2003" title="Soluble thrombomodulin and coronary heart disease." />
@@ -570,6 +577,10 @@ CD8B_HUMAN (P10966)
 	authors="Loukovaara S, Immonen I, Koistinen R, Rudge J, Teramo KA, Laatikainen L, Hiilesmaa V, Kaaja RJ."
 	year="2004"
     />
+</sol:variant>
+<sol:variant gene="sTie2 (CD202b) (Tyrosine-protein kinase receptor TIE-2) (Tie2) (angiopoietin-1 receptor)" UniProt="Q02763" spid="TIE2_HUMAN">
+   <sol:reference type="pubmed" pmid="11448916" title="Soluble Tie2 and Flt1 extracellular domains in serum of patients with renal cancer and response to antiangiogenic therapy." authors="Harris AL, Reusch P, Barleon B, Hang C, Dobbs N, Marme D." journal="Clin Cancer Res." year="2001" volume="7" number="7" pages="1992-7" /> 
+   <sol:reference type="pubmed" pmid="12875855" authors="Chin KF, Greenman J, Reusch P, Gardiner E, Marme D, Monson JR." title="Vascular endothelial growth factor and soluble Tie-2 receptor in colorectal cancer: associations with disease recurrence." journal="Eur J Surg Oncol." year="2003" volume="29" number="6" pages="497-505" />
 </sol:variant>
 <sol:variant gene="CD227 (MUC1)" UniProt="P15941" spid="MUC1_HUMAN" shedBy="MT1-MMP mediates MUC1 shedding independent of TACE/ADAM17">
     <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/921344893_g.htm" title="NCBI PROW" />
