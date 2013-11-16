@@ -1,6 +1,6 @@
 <?xml-stylesheet type="text/xsl" href="soluble.xsl"  encoding="ISO-8859-1" ?>
 <sol:variantlist
-	xmlns:sol="http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble"
+	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
 >
 <sol:variant gene="Laminin gamma-2 chain (LAMC2) (Kalinin/nicein/epiligrin 100 kDa subunit)" shedBy="MT1-MMP" UniProt="Q13753" spid="LMG2_HUMAN">
    <sol:reference type="pubmed" pmid="15525652" title="Membrane-type matrix metalloproteinase-1 (MT1-MMP) is a processing enzyme for human laminin gamma 2 chain." authors="Koshikawa N, Minegishi T, Sharabi A, Quaranta V, Seiki M." year="2004" journal="J Biol Chem." />

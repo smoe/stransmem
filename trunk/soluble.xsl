@@ -1,7 +1,7 @@
 <xsl:stylesheet version='1.0'
 	xmlns:xsl='http://www.w3.org/1999/XSL/Transform'
 	xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:sol="http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble"
+	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
 >
  <xsl:output method="html" encoding="ISO-8859-1"/>
  <xsl:template match="/" >
@@ -37,11 +37,11 @@
     Them all, Dr. Saleh Ibrahim and Prof. Dr. Gudrun Brockmann is thanked for their positive and stimulating feedback.
     <hr/>
     <a href="http://www.inb.uni-luebeck.de/">Steffen Moeller</a>
-    <a href="mailto:moeller@inb.uni-luebeck.de">moeller@inb.uni-luebeck.de</a><br/>
+    <a href="mailto:steffen.moeller@uksh.de">steffen.moeller@uksh.de</a><br/>
     <small>
-    <a href="http://www.inb.uni-luebeck.de">Institute for Neuro- and Bioinformatics</a>
+    <a href="http://www.derma.uni-luebeck.de">Dermatology, Luebeck, Germany</a>
     </small><br/>
-    This page lives at: <a href="http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble_adhesion_markers.xml">http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble_adhesion_markers.xml</a>
+    This page lives at: <a href="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem/soluble_adhesion_markers.xml">http://bioinformatics.pzr.uni-rostock.de/~moeller/soluble_adhesion_markers.xml</a>
    </body>
   </html>
  </xsl:template>
