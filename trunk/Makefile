@@ -5,8 +5,12 @@ all:
 	@ echo
 	@ echo "Possible targets:"
 	@ echo
+	@ echo "  * soluble_adhesion_markers.html - recreates static page from xml + stylesheet"
 	@ echo "  * distribution - prepares gzipped tar file"
 	@ echo
+
+soluble_adhesion_markers.html: soluble.xsl soluble_adhesion_markers.xml
+	xsltproc soluble.xsl soluble_adhesion_markers.xml > soluble_adhesion_markers.html
 
 distribution:
 	tar czvf soluble_adhesion_markers.tar.gz soluble_adhesion_markers.html soluble_adhesion_markers.php soluble_adhesion_markers.xml soluble.xsd soluble.xsl
