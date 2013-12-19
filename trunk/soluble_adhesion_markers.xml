@@ -740,6 +740,9 @@ CC   -!- CATALYTIC ACTIVITY: CLEAVES TNF-ALPHA AT 76-ALA-|-VAL-77.
        year="2003" volume="301" number="1" pages="231-5" pmid="12535668" />
    <sol:reference type="url" href="http://www.bmb.leeds.ac.uk/staff/nmh/project1.html"
 	    title="Membrane Protein Scretases &amp; Alzheimer's Disease" />
+   <sol:cleavage name="" position="" sequence="" sheddase="">
+      <sol:product name="" kD="" cleavages="" />
+   </sol:cleavage>
 </sol:variant>
 <sol:variant gene="Kit-ligand (Stem cell factor) (SCF) (Mast cell growth factor) (MGF) (C-kit ligand)" UniProt="P21583">
     <summary>
