@@ -1,0 +1,61 @@
+<sol:targetgrouplist>
+<sol:targetgroup name="cPLA2">
+</sol:targetgroup>
+<sol:targetgroup name="serineproteases">
+</sol:targetgroup>
+<sol:targetgroup name="ATP">
+</sol:targetgroup>
+<sol:targetgroup name="Ca++-Chelator (intracellular)"> 
+<sol:sheddase name="Ca++-Chelator">
+<sol:targetgroup name="Ca++-Chelator (extracellular)"> 
+</sol:targetgroup>
+<sol:targetgroup name="BACE">
+   <sol:sheddase name="BACE (Beta-Amyloid-Cleaving-Enzyme) (Beta-secretase 1)" spid="BACE1_HUMAN" uniprot="P56817" />
+</sol:targetgroup>
+<sol:targetgroup name="EGFR">
+</sol:targetgroup>
+<sol:targetgroup name="GI inhibited Metalloproteases (primarily ADAM17)">
+  <sol:sheddase name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
+</sol:targetgroup>
+<sol:targetgroup name="Metalloproteases">
+  <sol:targetsubgroup name="GI inhibited Metalloproteases (primarily ADAM17)">
+  <sol:targetsubgroup name="GW inhibited Metalloproteases (primarily ADAM10)">
+</sol:targetgroup>
+<sol:targetgroup name="GW inhibited Metalloproteases (primarily ADAM10)">
+  <sol:sheddase name="ADAM10" spid="ADA10_HUMAN" uniprot="O14672" />
+</sol:targetgroup>
+<sol:targetgroup name="P2X/P2Y/NFkB">
+</sol:targetgroup>
+<sol:targetgroup name="PKC">
+</sol:targetgroup>
+<sol:targetgroup name="Proliferation">
+</sol:targetgroup>
+<sol:targetgroup name="saure Smase">
+</sol:targetgroup>
+<sol:targetgroup name="Integrin-alpha-6">
+</sol:targetgroup>
+<sol:targetgroup name="Proteasome">
+</sol:targetgroup>
+<sol:targetgroup name="PI3K/PIP3">
+</sol:targetgroup>
+<sol:targetgroup name="ErbB2">
+</sol:targetgroup>
+<sol:targetgroup name="Aspartateproteases">
+</sol:targetgroup>
+<sol:targetgroup name="Src">
+</sol:targetgroup>
+<sol:targetgroup name="P2XR">
+</sol:targetgroup>
+<sol:targetgroup name="PKC/PKA/MLCK">
+</sol:targetgroup>
+<sol:targetgroup name="G-protein">
+</sol:targetgroup>
+<sol:targetgroup name="Ca++-Efflux from ER">
+</sol:targetgroup>
+<sol:targetgroup name="Erk">
+</sol:targetgroup>
+<sol:targetgroup name="PLC">
+</sol:targetgroup>
+<sol:targetgroup name="Gamma-Secretase">
+</sol:targetgroup>
+</sol:targetgroupsheddaseslist>
