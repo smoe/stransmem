@@ -35,11 +35,8 @@
       <xsd:attribute name="vendor" type="xsd:string" />
       <xsd:attribute name="solvent" type="xsd:string" />
       <xsd:attribute name="concentration" type="xsd:string" />
-    </xsd:complexType>
-   </xsd:sequence>
-   <xsd:sequence>
-    <xsd:element name="labroutine" type="sol:labroutineType" />
-    <xsd:complexType name="labroutineType">
+      <xsd:attribute name="dillute" type="xsd:string" />
+      <xsd:attribute name="labroutine" type="xsd:string" />
     </xsd:complexType>
    </xsd:sequence>
   </xsd:complexType>

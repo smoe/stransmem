@@ -19,9 +19,12 @@
      <xsl:apply-templates />
 
     <h2>Acknowledgements</h2>
+    This work was supported by the DFG Graduate College "<a href="http://www.genes-environment-inflammation.de/">Genes Environment Inflammation</a>".
     <hr/>
-Steffen Moeller <a href="mailto:steffen.moeller@uksh.de">steffen.moeller@uksh.de</a><br/> <small> <a href="http://www.derma.uni-luebeck.de">Dermatology, Luebeck, Germany</a>
-    </small><br/>
+Steffen M&#246;ller <a href="mailto:steffen.moeller@uksh.de">steffen.moeller@uksh.de</a><br/> <small><a href="http://www.derma.uni-luebeck.de">Dermatology, L&#252;beck, Germany</a></small>
+<br />
+Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.reiss@uksh.de</a><br/> <small><a href="http://www.derma.uni-kiel.de">Dermatology, Kiel, Germany</a></small>
+    <br/>
     This page lives at <a href="http://code.google.com/p/stransmem/">http://code.google.com/p/stransmem/</a>.
    </body>
   </html>
@@ -30,24 +33,90 @@ Steffen Moeller <a href="mailto:steffen.moeller@uksh.de">steffen.moeller@uksh.de
  <xsl:template match="sol:modulatorlist">
     <h2>List of Modulators</h2>
     <table width="80%" border="1" cellpadding="2" align="center" >
-    <tr bgcolor="orange"><th>Modulator</th><th>Target</th><th>References</th></tr>
-    <xsl:apply-templates select="sol:variant"/>
+    <tr bgcolor="orange"><th>Modulator</th><th>Target Group<br />(effect)</th><th>Protocol</th><th>Source</th></tr>
+    <xsl:apply-templates select="sol:modulator"/>
     </table>
  
  </xsl:template>
  	<!-- <xsl:if test="not($uniprot='none')&$empty_string=$uniprot">  -->
 
  <xsl:template match="sol:modulator">
-  <xsl:variable name="name" select="@name" />
+  <xsl:variable name="long" select="@long" />
+  <xsl:variable name="short" select="@short" />
   <xsl:variable name="targetgroup" select="@targetgroup" />
+  <xsl:variable name="effect" select="@effect" />
+  <xsl:variable name="concentration" select="@concentration" />
+  <xsl:variable name="incubationtime" select="@incubationtime" />
+  <xsl:variable name="empty_string" select="''" />
   <tr>
       <td bgcolor="yellow" valign="top">
-  	<xsl:value-of select="@name" />
+  	<xsl:value-of select="@long" />
+	<xsl:if test="$empty_string!=$short">
+		(<xsl:value-of select="@short" />)
+	</xsl:if>
       </td>
       <td>
   	<xsl:value-of select="@targetgroup" />
+	<br />
+  	(<xsl:value-of select="@effect" />)
+      </td>
+      <td>
+	<xsl:if test="$empty_string!=$concentration">
+		Concentration: <xsl:value-of select="@concentration" /> 
+	</xsl:if>
+	<xsl:if test="$empty_string!=$concentration">
+		<br />
+		Incubation time: <xsl:value-of select="@incubationtime" /> 
+	</xsl:if>
+      </td>
+      <td>
+         <xsl:apply-templates select="sol:modulatorsource"/>
+         <xsl:apply-templates select="sol:labroutine"/>
       </td>
   </tr>
   </xsl:template>    
+
+ <xsl:template match="sol:modulatorsource">
+  <xsl:variable name="empty_string" select="''" />
+  <xsl:variable name="concentration" select="@concentration" />
+  <xsl:variable name="dillute" select="@dillute" />
+  <xsl:variable name="solvent" select="@solvent" />
+  <xsl:variable name="vendor" select="@vendor" />
+  <xsl:variable name="id" select="@id" />
+  <xsl:variable name="labroutine" select="@labroutine" />
+  <xsl:variable name="url" select="@url" />
+  <xsl:if test="$empty_string!=$concentration">
+  	Concentration: <xsl:value-of select="@concentration" /> 
+  </xsl:if>
+  <xsl:if test="$empty_string!=$dillute">
+  	<br />
+  	Dillute: <xsl:value-of select="@dillute" /> 
+  </xsl:if>
+  <xsl:if test="$empty_string!=$solvent">
+  	<br />
+  	Solvent: <xsl:value-of select="@solvent" /> 
+  </xsl:if>
+  <xsl:if test="$empty_string!=$vendor and $empty_string!=$id">
+  	<br />
+  	Vendor: <xsl:value-of select="@vendor" /> 
+  </xsl:if>
+  <xsl:choose>
+      <xsl:when test="$empty_string!=$vendor and $empty_string!=$id">
+  	<br />
+  	Vendor: <xsl:value-of select="@vendor" /> 
+      </xsl:when>
+      <xsl:otherwise>
+         <xsl:if test="$empty_string!=$id">
+  	       <br />
+         	ID: <xsl:value-of select="@id" /> 
+         </xsl:if>
+      </xsl:otherwise>
+  </xsl:choose>
+  <xsl:if test="$empty_string!=$labroutine">
+       <br />
+    	Routine: <xsl:value-of select="@labroutine" /> 
+  </xsl:if>
+ </xsl:template>
+
 
 </xsl:stylesheet>
