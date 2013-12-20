@@ -1,4 +1,7 @@
-<sol:targetgrouplist>
+<?xml-stylesheet type="text/xsl" href="sheddases.xsl"  encoding="ISO-8859-1" ?>
+<sol:targetgrouplist
+	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
+>
 <sol:targetgroup name="cPLA2">
 </sol:targetgroup>
 <sol:targetgroup name="serineproteases">
