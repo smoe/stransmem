@@ -41,4 +41,20 @@
    </xsd:sequence>
   </xsd:complexType>
  </xsd:complexType>
+
+ <xsd:element name="tagetgrouplist" type:"sol:targetgrouplistType" />
+ <xsd:complexType name="targetgrouplistType">
+  <xsd:attribute name="name" type="xsd:string" />
+  <xsd:sequence>
+   <xsd:element name="sheddase" type:"sol:sheddaseType" />
+   <xsd:complexType name="sheddaseType">
+    <xsd:attribute name="name">
+   </xsd:complexType>
+   <xsd:element name="targetsubgroup" type:"sol:targetsubgroupType" />
+   <xsd:complexType name="targetsubgroupType">
+    <xsd:attribute name="name">
+   </xsd:complexType>
+  </xsd:sequence>
+ </xsd:complexType>
+
 </xsd:schema> 
