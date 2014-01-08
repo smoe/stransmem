@@ -14,11 +14,9 @@
    <body>
     <h1 align="center">Groups of shedding enzymes of membrane proteins</h1>
 
-    Technically, this collects is to allow cross-references to sheddases
-    <ul>
-     <li>from a protein that may be cleaved by more than a single protease
-     <li>from biochemical compound lists
-    </ul>
+    Technically, this collection shall allow cross-references to sheddases
+    from a protein that may be cleaved by more than a single protease and
+    from biochemical compound lists.
 
      <xsl:apply-templates />
 
@@ -61,23 +59,23 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
   <xsl:variable name="empty_string" select="''" />
   <xsl:variable name="spid" select="@spid" />
   <xsl:variable name="uniprot" select="@uniprot" />
-  <xsl:value-of select="@name">
+  <xsl:value-of select="@name" />
   <xsl:if test="$empty_string!=$spid or $empty_string!=$uniprot">
   	<br />
   </xsl:if>
   
   <xsl:if test="$empty_string!=$spid">
-  	spid:<xsl:value-of select="@spid" /> 
+  	spid: <xsl:value-of select="@spid" /> 
   </xsl:if>
   <xsl:if test="$empty_string!=$uniprot">
-  	uniprot:<xsl:value-of select="@uniprot" /> 
+  	uniprot: <xsl:value-of select="@uniprot" /> 
   </xsl:if>
  </xsl:template>
 
  <xsl:template match="sol:targetsubgroup">
   <xsl:variable name="empty_string" select="''" />
   <xsl:variable name="name" select="@name" />
-  <br /><xsl:value-of select="@name">
+  <br /><xsl:value-of select="@name" />
  </xsl:template>
 
 
