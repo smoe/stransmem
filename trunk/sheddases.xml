@@ -9,11 +9,12 @@
 <sol:targetgroup name="ATP">
 </sol:targetgroup>
 <sol:targetgroup name="Ca++-Chelator (intracellular)"> 
-<sol:sheddase name="Ca++-Chelator">
+<sol:sheddase name="Ca++-Chelator" />
+</sol:targetgroup>
 <sol:targetgroup name="Ca++-Chelator (extracellular)"> 
 </sol:targetgroup>
 <sol:targetgroup name="BACE">
-   <sol:sheddase name="BACE (Beta-Amyloid-Cleaving-Enzyme) (Beta-secretase 1)" spid="BACE1_HUMAN" uniprot="P56817" />
+  <sol:sheddase name="BACE (Beta-Amyloid-Cleaving-Enzyme) (Beta-secretase 1)" spid="BACE1_HUMAN" uniprot="P56817" />
 </sol:targetgroup>
 <sol:targetgroup name="EGFR">
 </sol:targetgroup>
@@ -21,8 +22,8 @@
   <sol:sheddase name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
 </sol:targetgroup>
 <sol:targetgroup name="Metalloproteases">
-  <sol:targetsubgroup name="GI inhibited Metalloproteases (primarily ADAM17)">
-  <sol:targetsubgroup name="GW inhibited Metalloproteases (primarily ADAM10)">
+  <sol:targetsubgroup name="GI inhibited Metalloproteases (primarily ADAM17)" />
+  <sol:targetsubgroup name="GW inhibited Metalloproteases (primarily ADAM10)" />
 </sol:targetgroup>
 <sol:targetgroup name="GW inhibited Metalloproteases (primarily ADAM10)">
   <sol:sheddase name="ADAM10" spid="ADA10_HUMAN" uniprot="O14672" />
@@ -61,4 +62,4 @@
 </sol:targetgroup>
 <sol:targetgroup name="Gamma-Secretase">
 </sol:targetgroup>
-</sol:targetgroupsheddaseslist>
+</sol:targetgrouplist>
