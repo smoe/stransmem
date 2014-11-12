@@ -1,65 +1,70 @@
-<?xml-stylesheet type="text/xsl" href="sheddases.xsl"  encoding="ISO-8859-1" ?>
-<sol:targetgrouplist
+<?xml-stylesheet type="text/xsl" href="activitys.xsl"  encoding="ISO-8859-1" ?>
+<sol:activitygrouplist
 	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
 >
-<sol:targetgroup name="cPLA2">
-</sol:targetgroup>
-<sol:targetgroup name="serineproteases">
-</sol:targetgroup>
-<sol:targetgroup name="ATP">
-</sol:targetgroup>
-<sol:targetgroup name="Ca++-Chelator (intracellular)"> 
-<sol:sheddase name="Ca++-Chelator" />
-</sol:targetgroup>
-<sol:targetgroup name="Ca++-Chelator (extracellular)"> 
-</sol:targetgroup>
-<sol:targetgroup name="BACE">
-  <sol:sheddase name="BACE (Beta-Amyloid-Cleaving-Enzyme) (Beta-secretase 1)" spid="BACE1_HUMAN" uniprot="P56817" />
-</sol:targetgroup>
-<sol:targetgroup name="EGFR">
-</sol:targetgroup>
-<sol:targetgroup name="GI inhibited Metalloproteases (primarily ADAM17)">
-  <sol:sheddase name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
-</sol:targetgroup>
-<sol:targetgroup name="Metalloproteases">
-  <sol:targetsubgroup name="GI inhibited Metalloproteases (primarily ADAM17)" />
-  <sol:targetsubgroup name="GW inhibited Metalloproteases (primarily ADAM10)" />
-</sol:targetgroup>
-<sol:targetgroup name="GW inhibited Metalloproteases (primarily ADAM10)">
-  <sol:sheddase name="ADAM10" spid="ADA10_HUMAN" uniprot="O14672" />
-</sol:targetgroup>
-<sol:targetgroup name="P2X/P2Y/NFkB">
-</sol:targetgroup>
-<sol:targetgroup name="PKC">
-</sol:targetgroup>
-<sol:targetgroup name="Proliferation">
-</sol:targetgroup>
-<sol:targetgroup name="saure Smase">
-</sol:targetgroup>
-<sol:targetgroup name="Integrin-alpha-6">
-</sol:targetgroup>
-<sol:targetgroup name="Proteasome">
-</sol:targetgroup>
-<sol:targetgroup name="PI3K/PIP3">
-</sol:targetgroup>
-<sol:targetgroup name="ErbB2">
-</sol:targetgroup>
-<sol:targetgroup name="Aspartateproteases">
-</sol:targetgroup>
-<sol:targetgroup name="Src">
-</sol:targetgroup>
-<sol:targetgroup name="P2XR">
-</sol:targetgroup>
-<sol:targetgroup name="PKC/PKA/MLCK">
-</sol:targetgroup>
-<sol:targetgroup name="G-protein">
-</sol:targetgroup>
-<sol:targetgroup name="Ca++-Efflux from ER">
-</sol:targetgroup>
-<sol:targetgroup name="Erk">
-</sol:targetgroup>
-<sol:targetgroup name="PLC">
-</sol:targetgroup>
-<sol:targetgroup name="Gamma-Secretase">
-</sol:targetgroup>
-</sol:targetgrouplist>
+<sol:activitygroup name="cPLA2">
+</sol:activitygroup>
+<sol:activitygroup name="serineproteases" wikipedia="Serine_protease" ec="3.4.21.-">
+</sol:activitygroup>
+<sol:activitygroup name="ATP">
+</sol:activitygroup>
+<sol:activitygroup name="Ca++-Chelator" wikipedia="Chalation">
+  <sol:activitysubgroup name="Ca++-Chelator (intracellular)">
+  <sol:activitysubgroup name="Ca++-Chelator (extracellular)">
+</sol:activitygroup>
+<sol:activitygroup name="Ca++-Chelator (intracellular)"> 
+</sol:activitygroup>
+<sol:activitygroup name="Ca++-Chelator (extracellular)"> 
+</sol:activitygroup>
+<sol:activitygroup name="BACE" wikipedia="Beta-secretase_1">
+  <sol:activity name="BACE (Beta-Amyloid-Cleaving-Enzyme) (Beta-secretase 1)" spid="BACE1_HUMAN" uniprot="P56817" />
+</sol:activitygroup>
+<sol:activitygroup name="EGFR" wikipedia="Beta-secretase_1">
+</sol:activitygroup>
+<sol:activitygroup name="GI inhibited Metalloproteases (primarily ADAM17)">
+  <sol:activity name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
+</sol:activitygroup>
+<sol:activitygroup name="Metalloproteases" wikipedia="Metalloproteinase">
+  <sol:activitysubgroup name="GI inhibited Metalloproteases (primarily ADAM17)" />
+  <sol:activitysubgroup name="GW inhibited Metalloproteases (primarily ADAM10)" />
+</sol:activitygroup>
+<sol:activitygroup name="GW inhibited Metalloproteases (primarily ADAM10)">
+  <sol:activity name="ADAM10" spid="ADA10_HUMAN" uniprot="O14672" />
+</sol:activitygroup>
+<sol:activitygroup name="P2X/P2Y/NFkB" wikipedia="purinoreceptor,NF-kB">
+</sol:activitygroup>
+<sol:activitygroup name="PKC" wikipedia="Protein_kinase_C">
+</sol:activitygroup>
+<sol:activitygroup name="Proliferation">
+</sol:activitygroup>
+<sol:activitygroup name="saure Smase">
+</sol:activitygroup>
+<sol:activitygroup name="Integrin-alpha-6" wikipedia="ITGA6">
+</sol:activitygroup>
+<sol:activitygroup name="Proteasome" wikipedia="Proteasome">
+</sol:activitygroup>
+<sol:activitygroup name="PI3K/PIP3">
+</sol:activitygroup>
+<sol:activitygroup name="ErbB2">
+</sol:activitygroup>
+<sol:activitygroup name="Aspartateproteases" wikipedia="Aspartate protease">
+</sol:activitygroup>
+<sol:activitygroup name="Src" wikipedia="Tyrosinkinase_Src">
+<!-- Is this all kinases of the Src familiy or only c-Src? -->
+  <sol:solubiliser name="c-Src" spid="SRC_HUMAN" uniprot="P12931" />
+</sol:activitygroup>
+<sol:activitygroup name="P2XR" wikipedia="P2X_purinoreceptor">
+</sol:activitygroup>
+<sol:activitygroup name="PKC/PKA/MLCK">
+</sol:activitygroup>
+<sol:activitygroup name="G-protein">
+</sol:activitygroup>
+<sol:activitygroup name="Ca++-Efflux from ER">
+</sol:activitygroup>
+<sol:activitygroup name="Erk">
+</sol:activitygroup>
+<sol:activitygroup name="PLC">
+</sol:activitygroup>
+<sol:activitygroup name="Gamma-Secretase" wikipedia="Gamma_secretase">
+</sol:activitygroup>
+</sol:activitygrouplist>
