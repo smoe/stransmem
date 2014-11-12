@@ -1,5 +1,6 @@
 <xsl:stylesheet version='1.0'
 	xmlns:xsl='http://www.w3.org/1999/XSL/Transform'
+	xmlns:fn='http://www.w3.org/2005/xpath-functions'
 	xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
 >
@@ -43,7 +44,7 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
  <xsl:template match="sol:modulator">
   <xsl:variable name="long" select="@long" />
   <xsl:variable name="short" select="@short" />
-  <xsl:variable name="targetgroup" select="@targetgroup" />
+  <xsl:variable name="activitygroup" select="@activitygroup" />
   <xsl:variable name="effect" select="@effect" />
   <xsl:variable name="concentration" select="@concentration" />
   <xsl:variable name="incubationtime" select="@incubationtime" />
@@ -56,9 +57,18 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
 	</xsl:if>
       </td>
       <td>
-  	<xsl:value-of select="@targetgroup" />
+  	<xsl:value-of select="@activitygroup" />
 	<br />
   	(<xsl:value-of select="@effect" />)
+	<p />
+	<xsl:if test="$empty_string!=$activitygroup">
+	<xsl:element name="a">
+	  <xsl:attribute name="href">
+	     <xsl:value-of select="concat('http:sheddases.xml#',$activitygroup)" />
+	  </xsl:attribute>
+	  link to sheddase
+	</xsl:element>
+	</xsl:if>
       </td>
       <td>
 	<xsl:if test="$empty_string!=$concentration">
@@ -95,10 +105,6 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
   <xsl:if test="$empty_string!=$solvent">
   	<br />
   	Solvent: <xsl:value-of select="@solvent" /> 
-  </xsl:if>
-  <xsl:if test="$empty_string!=$vendor and $empty_string!=$id">
-  	<br />
-  	Vendor: <xsl:value-of select="@vendor" /> 
   </xsl:if>
   <xsl:choose>
       <xsl:when test="$empty_string!=$vendor and $empty_string!=$id">

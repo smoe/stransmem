@@ -28,7 +28,7 @@
   <xsd:element name="modulator" type="sol:modulatorType" />
   <xsd:complexType name="modulatorType">
    <xsd:attribute name="name" type="xsd:string" />
-   <xsd:attribute name="targetgroup" type="xsd:string" />
+   <xsd:attribute name="activitygroup" type="xsd:string" />
    <xsd:sequence>
     <xsd:element name="modulatorsource" type="sol:modulatorsourceType" />
     <xsd:complexType name="modulatorsourceType">
@@ -42,16 +42,16 @@
   </xsd:complexType>
  </xsd:complexType>
 
- <xsd:element name="tagetgrouplist" type:"sol:targetgrouplistType" />
- <xsd:complexType name="targetgrouplistType">
+ <xsd:element name="tagetgrouplist" type:"sol:activitygrouplistType" />
+ <xsd:complexType name="activitygrouplistType">
   <xsd:attribute name="name" type="xsd:string" />
   <xsd:sequence>
    <xsd:element name="sheddase" type:"sol:sheddaseType" />
    <xsd:complexType name="sheddaseType">
     <xsd:attribute name="name">
    </xsd:complexType>
-   <xsd:element name="targetsubgroup" type:"sol:targetsubgroupType" />
-   <xsd:complexType name="targetsubgroupType">
+   <xsd:element name="activitysubgroup" type:"sol:activitysubgroupType" />
+   <xsd:complexType name="activitysubgroupType">
     <xsd:attribute name="name">
    </xsd:complexType>
   </xsd:sequence>

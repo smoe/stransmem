@@ -32,30 +32,31 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
   </html>
  </xsl:template>
 
- <xsl:template match="sol:targetgrouplist">
+ <xsl:template match="sol:activitygrouplist">
     <h2>Groups of Sheddases</h2>
     <table width="80%" border="1" cellpadding="2" align="center" >
     <tr bgcolor="orange"><th>Group</th><th>Members</th></tr>
-    <xsl:apply-templates select="sol:targetgroup"/>
+    <xsl:apply-templates select="sol:activitygroup"/>
     </table>
  </xsl:template>
  	<!-- <xsl:if test="not($uniprot='none')&$empty_string=$uniprot">  -->
 
- <xsl:template match="sol:targetgroup">
+ <xsl:template match="sol:activitygroup">
   <xsl:variable name="name" select="@name" />
   <xsl:variable name="empty_string" select="''" />
   <tr>
       <td bgcolor="yellow" valign="top">
   	<xsl:value-of select="@name" />
+	<a name="{$name}" />
       </td>
       <td>
-         <xsl:apply-templates select="sol:sheddase"/>
-         <xsl:apply-templates select="sol:targetsubgroup"/>
+         <xsl:apply-templates select="sol:activity"/>
+         <xsl:apply-templates select="sol:activitysubgroup"/>
       </td>
   </tr>
   </xsl:template>    
 
- <xsl:template match="sol:sheddase">
+ <xsl:template match="sol:activity">
   <xsl:variable name="empty_string" select="''" />
   <xsl:variable name="spid" select="@spid" />
   <xsl:variable name="uniprot" select="@uniprot" />
@@ -72,7 +73,7 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
   </xsl:if>
  </xsl:template>
 
- <xsl:template match="sol:targetsubgroup">
+ <xsl:template match="sol:activitysubgroup">
   <xsl:variable name="empty_string" select="''" />
   <xsl:variable name="name" select="@name" />
   <br /><xsl:value-of select="@name" />
