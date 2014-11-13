@@ -13,20 +13,22 @@
    </head>
    <body>
     <h1 align="center">Groups of proteins affected by a modulatory compound</h1>
-
+    <p>
     Particularly so for the ADAM family of metalloproteinases one knows about
     subgroups of sheddases that are affected by individual compounds. Those
     chemical modulators are listed <a href="modulators.xml">separately</a>.
     The table with modulators may reference this table, which again may
     reference those proteins that one knows to be directly affected by the
     compound. The original motivation was to cluster sheddases together.
+    </p>
      <xsl:apply-templates />
-
+    <p>
     Please also see:
     <ul>
-      <li /><a href="modulators.xml">Modulators</a> of these biological processes/functions
-      <li /><a href="soluble_adhesion_markers.xml">Soluble Adhesion Markers</a>
+      <li><a href="modulators.xml">Modulators</a> of these biological processes/functions</li>
+      <li><a href="soluble_adhesion_markers.xml">Soluble Adhesion Markers</a></li>
     </ul>
+    </p>
 
     <h2>Acknowledgements</h2>
     This work was supported by the DFG Graduate College "<a href="http://www.genes-environment-inflammation.de/">Genes Environment Inflammation</a>".
@@ -43,7 +45,7 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
  <xsl:template match="sol:activitygrouplist">
     <h2>Groups of Effects</h2>
     <table width="80%" border="1" cellpadding="2" align="center" >
-    <tr bgcolor="orange"><th>Group</th><th>Members</th><th>Subgroup</th></tr>
+    <tr bgcolor="orange"><th>Group</th><th>Targets</th><th>Effect</th><th>Subgroup</th></tr>
     <xsl:apply-templates select="sol:activitygroup"/>
     </table>
  </xsl:template>
@@ -52,26 +54,39 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
  <xsl:template match="sol:activitygroup">
   <xsl:variable name="name" select="@name" />
   <xsl:variable name="wikipedia" select="@wikipedia" />
+  <xsl:variable name="go" select="@go" />
+  <xsl:variable name="goname" select="@goname" />
   <xsl:variable name="empty_string" select="''" />
   <tr>
       <td bgcolor="yellow" valign="top">
   	<xsl:value-of select="@name" />
-	<a name="{$name}" />
+	<a name="{$name}" /> <br />
 
 	<xsl:if test="$empty_string!=$wikipedia">
-	 wikipedia: 
-	 <xsl:element name="a">
+	 wikipedia:<xsl:element name="a">
 	   <xsl:attribute name="href">
 	      <xsl:value-of select="concat('http://en.wikipedia.org/wiki/',$wikipedia)" />
 	   </xsl:attribute>
 	   <xsl:value-of select="@wikipedia" /> 
 	 </xsl:element>
-	 <br />
+	</xsl:if>
+
+	<xsl:if test="$empty_string!=$go">
+	<xsl:if test="$empty_string!=$wikipedia"><br /></xsl:if>
+	 go:<xsl:element name="a">
+	   <xsl:attribute name="href">
+	      <xsl:value-of select="concat('http://amigo.geneontology.org/amigo/term/',$go)" />
+	   </xsl:attribute>
+	   <xsl:value-of select="@goname" /> 
+	 </xsl:element>
 	</xsl:if>
 
       </td>
       <td>
-         <xsl:apply-templates select="sol:activity"/>
+         <xsl:apply-templates select="sol:target"/>
+      </td>
+      <td>
+         <xsl:apply-templates select="sol:effect"/>
       </td>
       <td>
          <xsl:apply-templates select="sol:activitysubgroup"/>
@@ -79,7 +94,7 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
   </tr>
  </xsl:template>    
 
- <xsl:template match="sol:activity">
+ <xsl:template match="sol:target">
   <xsl:variable name="empty_string" select="''" />
   <xsl:variable name="spid" select="@spid" />
   <xsl:variable name="uniprot" select="@uniprot" />
@@ -96,6 +111,27 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
 	   <xsl:value-of select="concat('http://www.uniprot.org/uniprot/',$uniprot)" />
 	  </xsl:attribute>
 	  <xsl:value-of select="@uniprot" /> 
+	 </xsl:element>
+  </xsl:if>
+  <br />
+ </xsl:template>
+
+ <xsl:template match="sol:effect">
+  <xsl:variable name="empty_string" select="''" />
+  <xsl:variable name="uniprot" select="@uniprot" />
+  <xsl:value-of select="@gene" />
+  <xsl:if test="$empty_string!=$uniprot">
+         (<xsl:element name="a">
+          <xsl:attribute name="href">
+	   <xsl:value-of select="concat('http://www.uniprot.org/uniprot/',$uniprot)" />
+          </xsl:attribute>
+          <xsl:value-of select="@uniprot" />
+         </xsl:element>)
+	 <xsl:element name="a">
+	  <xsl:attribute name="href">
+           <xsl:value-of select="concat('http:soluble_adhesion_markers.xml#',$uniprot)" />
+	  </xsl:attribute>
+	  references
 	 </xsl:element>
   </xsl:if>
   <br />

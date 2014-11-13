@@ -8,7 +8,7 @@
 </sol:activitygroup>
 <sol:activitygroup name="ATP">
 </sol:activitygroup>
-<sol:activitygroup name="Ca++-Chelator" wikipedia="Chalation">
+<sol:activitygroup name="Ca++-Chelator" wikipedia="Chalation" go="GO:0046911" goname="metal chelating activity">
   <sol:activitysubgroup name="Ca++-Chelator (intracellular)" />
   <sol:activitysubgroup name="Ca++-Chelator (extracellular)" />
 </sol:activitygroup>
@@ -17,54 +17,57 @@
 <sol:activitygroup name="Ca++-Chelator (extracellular)"> 
 </sol:activitygroup>
 <sol:activitygroup name="BACE" wikipedia="Beta-secretase_1">
-  <sol:activity name="BACE (Beta-Amyloid-Cleaving-Enzyme) (Beta-secretase 1)" spid="BACE1_HUMAN" uniprot="P56817" />
+  <sol:target name="BACE (Beta-Amyloid-Cleaving-Enzyme) (Beta-secretase 1)" spid="BACE1_HUMAN" uniprot="P56817" />
 </sol:activitygroup>
-<sol:activitygroup name="EGFR" wikipedia="EGFR">
+<sol:activitygroup name="EGFR" wikipedia="EGFR" go="GO:1901184" goname="regulation of ERBB signaling pathway">
+  <sol:target uniprot="P00533" spid="EGFR_HUMAN" name="Epidermal growth factor receptor (EGFR, ERBB, ERBB1, HER1)" />
 </sol:activitygroup>
-<sol:activitygroup name="Metalloproteases">
+<sol:activitygroup name="Metalloproteases" go="GO:0008237" goname="metallopeptidase activity" wikipedia="Metalloproteinase">
   <sol:activitysubgroup name="GI inhibited Metalloproteases (primarily ADAM17)" />
   <sol:activitysubgroup name="GW inhibited Metalloproteases (primarily ADAM10)" />
   <sol:activitysubgroup name="Matrixmetalloproteases" />
 </sol:activitygroup>
 <sol:activitygroup name="Matrixmetalloproteases" wikipedia="Matrix_metalloproteinase" />
 <sol:activitygroup name="GW inhibited Metalloproteases (primarily ADAM10)" wikipedia="ADAM10">
-  <sol:activity name="ADAM10" spid="ADA10_HUMAN" uniprot="O14672" />
+  <sol:target name="ADAM10" spid="ADA10_HUMAN" uniprot="O14672" />
 </sol:activitygroup>
 <sol:activitygroup name="GI inhibited Metalloproteases (primarily ADAM17)" wikipedia="ADAM17">
-  <sol:activity name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
+  <sol:target name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
+  <sol:effect gene="TNF receptor type 1" synonyms="p55, CD120a, TNFR-1" uniprot="P19438" />
 </sol:activitygroup>
 <sol:activitygroup name="P2X/P2Y/NFkB" wikipedia="purinoreceptor,NF-kB">
 </sol:activitygroup>
-<sol:activitygroup name="PKC" wikipedia="Protein_kinase_C">
+<sol:activitygroup name="PKC" wikipedia="Protein_kinase_C" go="GO:0004697" goname="protein kinase C activity">
 </sol:activitygroup>
-<sol:activitygroup name="Proliferation">
+<sol:activitygroup name="Proliferation" go="GO:0008283" goname="Cellular Proliferation">
 </sol:activitygroup>
 <sol:activitygroup name="saure Smase" wikipedia="Acid_Sphingomyelinase">
 </sol:activitygroup>
-<sol:activitygroup name="neutrale Smase" wikipedia="Sphingomyelin phosphodiesterase">
+<sol:activitygroup name="neutrale Smase" wikipedia="Sphingomyelin phosphodiesterase" go="GO:0004767" goname="sphingomyelin phosphodiesterase activity">
 </sol:activitygroup>
 <sol:activitygroup name="Integrin-alpha-6" wikipedia="ITGA6">
 </sol:activitygroup>
-<sol:activitygroup name="Proteasome" wikipedia="Proteasome">
+<sol:activitygroup name="Proteasome" wikipedia="Proteasome" go="GO:0000502" goname="proteasome complex">
 </sol:activitygroup>
-<sol:activitygroup name="PI3K/PIP3">
+<sol:activitygroup name="PI3K/PIP3" wikipedia="Phosphoinositide 3-kinase">
 </sol:activitygroup>
 <sol:activitygroup name="ErbB2" wikipedia="HER2/neu">
 </sol:activitygroup>
-<sol:activitygroup name="Aspartateproteases" wikipedia="Aspartate protease">
+<sol:activitygroup name="Aspartateproteases" wikipedia="Aspartate protease" go="GO:0004190" goname="aspartic-type endopeptidase activity">
+   <sol:activesubgroup name="BACE" />
 </sol:activitygroup>
 <sol:activitygroup name="Src" wikipedia="Tyrosinkinase_Src">
 <!-- Is this all kinases of the Src familiy or only c-Src? -->
-  <sol:activity name="c-Src" spid="SRC_HUMAN" uniprot="P12931" />
+  <sol:target name="c-Src" spid="SRC_HUMAN" uniprot="P12931" />
 </sol:activitygroup>
 <sol:activitygroup name="P2XR" wikipedia="P2X_purinoreceptor">
-  <sol:activity uniprot="P51575" spid="P2RX1_HUMAN" name="P2X purinoceptor 1 (P2RX1, P2X1)" />
-  <sol:activity uniprot="Q9UBL9" spid="P2RX2_HUMAN" name="P2X purinoceptor 2 (P2RX2, P2X2)" />
-  <sol:activity uniprot="P56373" spid="P2RX3_HUMAN" name="P2X purinoceptor 3 (P2RX3)" />
-  <sol:activity uniprot="Q99571" spid="P2RX4_HUMAN" name="P2X purinoceptor 4 (P2RX4)" />
-  <sol:activity uniprot="Q93086" spid="P2RX5_HUMAN" name="P2X purinoceptor 5 (P2RX5, P2X5)" />
-  <sol:activity uniprot="O15547" spid="P2RX6_HUMAN" name="P2X purinoceptor 6 (P2RX6, P2RXL1, P2X6)" />
-  <sol:activity uniprot="Q99572" spid="P2RX7_HUMAN" name="P2X purinoceptor 7 (P2RX7)" />
+  <sol:target uniprot="P51575" spid="P2RX1_HUMAN" name="P2X purinoceptor 1 (P2RX1, P2X1)" />
+  <sol:target uniprot="Q9UBL9" spid="P2RX2_HUMAN" name="P2X purinoceptor 2 (P2RX2, P2X2)" />
+  <sol:target uniprot="P56373" spid="P2RX3_HUMAN" name="P2X purinoceptor 3 (P2RX3)" />
+  <sol:target uniprot="Q99571" spid="P2RX4_HUMAN" name="P2X purinoceptor 4 (P2RX4)" />
+  <sol:target uniprot="Q93086" spid="P2RX5_HUMAN" name="P2X purinoceptor 5 (P2RX5, P2X5)" />
+  <sol:target uniprot="O15547" spid="P2RX6_HUMAN" name="P2X purinoceptor 6 (P2RX6, P2RXL1, P2X6)" />
+  <sol:target uniprot="Q99572" spid="P2RX7_HUMAN" name="P2X purinoceptor 7 (P2RX7)" />
 </sol:activitygroup>
 <sol:activitygroup name="PKC/PKA/MLCK">
 </sol:activitygroup>
@@ -77,6 +80,6 @@
 <sol:activitygroup name="PLC" wikipedia="Phospholipase_C">
 </sol:activitygroup>
 <sol:activitygroup name="Gamma-Secretase" wikipedia="Gamma_secretase">
-  <sol:activity uniprot="P05067" spid="A4_HUMAN" name="Amyloid beta A4 protein (APP, A4, AD1)" />
+  <sol:target uniprot="P05067" spid="A4_HUMAN" name="Amyloid beta A4 protein (APP, A4, AD1)" />
 </sol:activitygroup>
 </sol:activitygrouplist>

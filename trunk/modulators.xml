@@ -5,10 +5,10 @@
 <sol:modulator long="N-(p-Amylcinnamoyl) anthranilic Acid" short="ACA" activitygroup="cPLA2" incubationtime="15' prior" concentration="15&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="Santa Cruz" id="sc-200734" solvent="DMSO" concentration="5.93mM" dillute="1:593" labroutine="Rei&#223;, Kiel" url="http://www.scbio.de/datasheet-200734-n-p-amylcinnamoyl-anthranilic-acid-aca.html" />
 </sol:modulator>
-<sol:modulator long="AEBSF" activitygroup="serineproteases" incubationtime="" concentration="100&#956;M" effect="inhibition">
+<sol:modulator long="4-(2-Aminoethyl) benzenesulfonyl fluoride hydrochloride" short="AEBSF" activitygroup="serineproteases" incubationtime="" concentration="100&#956;M" effect="inhibition" wikipedia="AEBSF">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="100mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Apyrase" activitygroup="ATP" incubationtime="15' prior" concentration="2U/ml" effect="inhibition">
+<sol:modulator long="Apyrase" activitygroup="ATP" incubationtime="15' prior" concentration="2U/ml" effect="inhibition" wikipedia="Apyrase">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="1kU/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="BAPTA-AM" activitygroup="Ca++-Chelator (intracellular)" incubationtime="15' prior" concentration="10-50&#956;M" effect="inhibition">
@@ -17,13 +17,13 @@
 <sol:modulator long="C3" activitygroup="BACE" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO?" concentration="10mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Cetuximab" activitygroup="EGFR" incubationtime="15' prior" concentration="10&#956;g/ml (20ug/ml)" effect="inhibition">
+<sol:modulator long="Cetuximab" activitygroup="EGFR" incubationtime="15' prior" concentration="10&#956;g/ml (20ug/ml)" effect="inhibition" wikipedia="Cetuximab">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="5mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="CRM197" activitygroup="HB-EGF" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="2mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="D609" activitygroup="saure Smase" incubationtime="1h?" concentration="10&#956;g/ml" effect="inhibition">
+<sol:modulator long="tricyclodecan-9-xanthogenate - please check" short="D609" activitygroup="saure Smase" incubationtime="1h?" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="10mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="EGTA" activitygroup="Ca++-Chelator (exctracellular)" incubationtime="15' prior" concentration="3mM" effect="inhibition">
@@ -44,55 +44,55 @@
 <sol:modulator long="GW" activitygroup="GW-inhibited Metalloproteases" incubationtime="15' prior" concentration="3&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO?" concentration="10mM" dillute="1:3333" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Hexokinase" activitygroup="ATP" incubationtime="15' prior" concentration="2U/ml" effect="inhibition">
+<sol:modulator long="Hexokinase" activitygroup="ATP???" incubationtime="15' prior" concentration="2U/ml" effect="inhibition" wikipedia="Hexokinase">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="1kU/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Hydroxyurea" activitygroup="Proliferation" incubationtime="over night" concentration="4mM" effect="inhibition">
+<sol:modulator long="Hydroxyurea" activitygroup="Proliferation" incubationtime="over night" concentration="4mM" effect="inhibition" wikipedia="Hydroxycarbamide">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="0.65M" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Imipramin" activitygroup="saure Smase" incubationtime="15'-1h" concentration="" effect="inhibition">
+<sol:modulator long="Imipramine" short="G 22355,Tofranil, melipramine" activitygroup="saure Smase" incubationtime="15'-1h" concentration="" effect="inhibition" wikipedia="Imipramine">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="5mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="Integrin-alpha-6-Ak" activitygroup="Integrin-alpha-6" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="Buffer?" concentration="200&#956;M" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Lactacystin" activitygroup="Protesome" incubationtime="" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="Lactacystin" activitygroup="Protesome" incubationtime="" concentration="10&#956;M" effect="inhibition" wikipedia="Lactacystin">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="LY294002" activitygroup="PI3K/PIP" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Marimastat" activitygroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="Marimastat" activitygroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition" wikipedia="Marimastat" comment="Not rather matrix metalloprotases???">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Neu-Ak (anti ErbB2)" activitygroup="ErbB2" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="Neu-Ak (anti ErbB2)" activitygroup="ErbB2" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition" wikipedia="Trastuzumab">
    <sol:modulatorsource vendor="" id="" solvent="Buffer?" concentration="100&#956;M" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="nSM-I" activitygroup="neutrale Smase" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="20mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Pepstatin A" activitygroup="Aspartateproteases" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Pepstatin A" activitygroup="Aspartateproteases" incubationtime="15' prior" concentration="" effect="inhibition" wikipedia="Pepstatin">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="1mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="PMSF" activitygroup="Serineproteases" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="phenylmethanesulfonylfluoride or phenylmethylsulfonyl fluoride" short="PMSF" activitygroup="Serineproteases" incubationtime="15' prior" concentration="" effect="inhibition" wikipedia="PMSF">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="2.5mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="PP2" activitygroup="Src" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Protein phosphatase 2" short="PP2" activitygroup="Src" incubationtime="15' prior" concentration="" effect="inhibition" wikipedia="Protein phosphatase 2">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="PPADS" activitygroup="P2XR" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="pyridoxalphosphate-6-azophenyl-2',4'-disulfonic acid" short="PPADS" activitygroup="P2XR" incubationtime="15' prior" concentration="" effect="inhibition" wikipedia="PPADS">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Ruthenium Red (RuR)" activitygroup="Ca++-Chelator (intercellular)" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Ruthenium Red" short="RuR" activitygroup="Ca++-Chelator (intercellular)" incubationtime="15' prior" concentration="" effect="inhibition" wikipedia="Ruthenium_red">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="Beta-Secretase-Inhibitor IV" activitygroup="BACE" incubationtime="" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Staurosporin" activitygroup="PKC/PKA/MLCK" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Staurosporine" activitygroup="PKC/PKA/MLCK" incubationtime="15' prior" concentration="" effect="inhibition" wikipedia="Staurosporine">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="2mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Suramin" activitygroup="G-protein" incubationtime="15' prior" concentration="50&#956;M" effect="inhibition">
+<sol:modulator long="Suramin" activitygroup="G-protein" incubationtime="15' prior" concentration="50&#956;M" effect="inhibition" wikipedia="Suramin">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="35mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <sol:modulator long="TAPI" activitygroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">

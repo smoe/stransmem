@@ -14,17 +14,21 @@
    </head>
    <body>
     <h1 align="center">Modulators of solubility of membrane proteins</h1>
-
-    This table summarises current techniques to inhibit or activate shedding enzymes. Those compounds may possibly not be given alone but in combination with others that act e.g. as cofactors to see differences between activated and non-activated sheddases.
+    <p>
+    This table summarises current techniques to inhibit or activate
+    shedding enzymes. Those compounds may possibly not be given alone
+    but in combination with others that act e.g. as cofactors to see
+    differences between activated and non-activated sheddases.
+    </p>
 
      <xsl:apply-templates />
-
+    <p>
     Please also see:
     <ul>
-      <li /><a href="activity.xml">Activity</a> - measurable effects of these inhibitors
-      <li /><a href="soluble_adhesion_markers.xml">Soluble Adhesion Markers - transmembrane proteins with known soluble variants</a>
+      <li><a href="activity.xml">Activity</a> - measurable effects of these inhibitors</li>
+      <li><a href="soluble_adhesion_markers.xml">Soluble Adhesion Markers - transmembrane proteins with known soluble variants</a></li>
     </ul>
-
+    </p>
 
     <h2>Acknowledgements</h2>
     This work was supported by the DFG Graduate College "<a href="http://www.genes-environment-inflammation.de/">Genes Environment Inflammation</a>".
@@ -55,13 +59,26 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
   <xsl:variable name="effect" select="@effect" />
   <xsl:variable name="concentration" select="@concentration" />
   <xsl:variable name="incubationtime" select="@incubationtime" />
+  <xsl:variable name="wikipedia" select="@wikipedia" />
   <xsl:variable name="empty_string" select="''" />
   <tr>
       <td bgcolor="yellow" valign="top">
   	<xsl:value-of select="@long" />
+	<a name="{$long}" />
 	<xsl:if test="$empty_string!=$short">
 		(<xsl:value-of select="@short" />)
 	</xsl:if>
+
+	<xsl:if test="$empty_string!=$wikipedia">
+	 <br />wikipedia:<xsl:element name="a">
+	   <xsl:attribute name="href">
+	      <xsl:value-of select="concat('http://en.wikipedia.org/wiki/',$wikipedia)" />
+	   </xsl:attribute>
+	   <xsl:value-of select="@wikipedia" /> 
+	 </xsl:element>
+	 <br />
+	</xsl:if>
+
       </td>
       <td>
 	<xsl:if test="$empty_string!=$activitygroup">
