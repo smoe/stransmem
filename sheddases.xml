@@ -1,6 +1,6 @@
-<?xml-stylesheet type="text/xsl" href="activitys.xsl"  encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="sheddases.xsl"  encoding="ISO-8859-1" ?>
 <sol:activitygrouplist
-	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
+	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem/"
 >
 <sol:activitygroup name="cPLA2">
 </sol:activitygroup>
@@ -9,8 +9,8 @@
 <sol:activitygroup name="ATP">
 </sol:activitygroup>
 <sol:activitygroup name="Ca++-Chelator" wikipedia="Chalation">
-  <sol:activitysubgroup name="Ca++-Chelator (intracellular)">
-  <sol:activitysubgroup name="Ca++-Chelator (extracellular)">
+  <sol:activitysubgroup name="Ca++-Chelator (intracellular)" />
+  <sol:activitysubgroup name="Ca++-Chelator (extracellular)" />
 </sol:activitygroup>
 <sol:activitygroup name="Ca++-Chelator (intracellular)"> 
 </sol:activitygroup>
@@ -21,15 +21,17 @@
 </sol:activitygroup>
 <sol:activitygroup name="EGFR" wikipedia="Beta-secretase_1">
 </sol:activitygroup>
-<sol:activitygroup name="GI inhibited Metalloproteases (primarily ADAM17)">
-  <sol:activity name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
-</sol:activitygroup>
 <sol:activitygroup name="Metalloproteases" wikipedia="Metalloproteinase">
   <sol:activitysubgroup name="GI inhibited Metalloproteases (primarily ADAM17)" />
   <sol:activitysubgroup name="GW inhibited Metalloproteases (primarily ADAM10)" />
+  <sol:activitysubgroup name="Matrixmetalloproteases" />
 </sol:activitygroup>
+<sol:activitygroup name="Matrixmetalloproteases" />
 <sol:activitygroup name="GW inhibited Metalloproteases (primarily ADAM10)">
   <sol:activity name="ADAM10" spid="ADA10_HUMAN" uniprot="O14672" />
+</sol:activitygroup>
+<sol:activitygroup name="GI inhibited Metalloproteases (primarily ADAM17)">
+  <sol:activity name="ADAM17" spid="ADA17_HUMAN" uniprot="P78536" />
 </sol:activitygroup>
 <sol:activitygroup name="P2X/P2Y/NFkB" wikipedia="purinoreceptor,NF-kB">
 </sol:activitygroup>
@@ -51,7 +53,7 @@
 </sol:activitygroup>
 <sol:activitygroup name="Src" wikipedia="Tyrosinkinase_Src">
 <!-- Is this all kinases of the Src familiy or only c-Src? -->
-  <sol:solubiliser name="c-Src" spid="SRC_HUMAN" uniprot="P12931" />
+  <sol:activity name="c-Src" spid="SRC_HUMAN" uniprot="P12931" />
 </sol:activitygroup>
 <sol:activitygroup name="P2XR" wikipedia="P2X_purinoreceptor">
 </sol:activitygroup>

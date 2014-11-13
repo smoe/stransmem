@@ -2,7 +2,7 @@
 <sol:variantlist
 	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
 >
-<sol:variant gene="Laminin gamma-2 chain (LAMC2) (Kalinin/nicein/epiligrin 100 kDa subunit)" shedBy="MT1-MMP" UniProt="Q13753" spid="LMG2_HUMAN">
+<sol:variant gene="Laminin gamma-2 chain (LAMC2) (Kalinin/nicein/epiligrin 100 kDa subunit)" shedGroup="Metalloproteases" shedBy="MT1-MMP" UniProt="Q13753" spid="LMG2_HUMAN">
    <sol:reference type="pubmed" pmid="15525652" title="Membrane-type matrix metalloproteinase-1 (MT1-MMP) is a processing enzyme for human laminin gamma 2 chain." authors="Koshikawa N, Minegishi T, Sharabi A, Quaranta V, Seiki M." year="2004" journal="J Biol Chem." />
 </sol:variant>
 <sol:variant gene="ADAM12" UniProt="O43184" spid="ADA12_HUMAN" alternativelySpliced="yes" notshedBy="any">
@@ -19,7 +19,7 @@
 <sol:variant gene="glutamyl aminopeptidase (aminopeptidase A)" UniProt="Q07075" spid="AMPE_HUMAN">
   <sol:reference type="pubmed" pmid="10871154" authors="Ramirez-Exposito MJ, Martinez JM, Prieto I, Alba F, Ramirez M." title="Comparative distribution of glutamyl and aspartyl aminopeptidase activities in mouse organs." year="2000" />
 </sol:variant>
-<sol:variant gene="heparin-binding epidermal growth factor-like growth factor (HB-EGF)" shedBy="MMP, induced by chelerythrine, ADAM10, ADAM17" UniProt="Q99075" spid="HBGF_HUMAN">
+<sol:variant gene="heparin-binding epidermal growth factor-like growth factor (HB-EGF)" shedGroup="Metalloproteases" shedBy="MMP, induced by chelerythrine, ADAM10, ADAM17" UniProt="Q99075" spid="HBGF_HUMAN">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="15490481" title="An oxidative stress mechanism mediates chelerythrine-induced heparin-binding EGF-like growth factor ectodomain shedding." authors="Kim J, Lin J, Adam RM, Lamb C, Shively SB, Freeman MR." year="2004" />
 </sol:variant>
@@ -105,7 +105,7 @@ CD8B_HUMAN (P10966)
 	</ul>
 -->
 </sol:variant>
-<sol:variant gene="CX3CL1 (Fractalkine) (FKN) (CX(3)CL1) (Neurotactin) (SCYD1) (NTT) (A-152E5.2)" interactsWith="CX(3)CR1" UniProt="P78423" spid="SYD1_HUMAN" shedBy="ADAM10">
+<sol:variant gene="CX3CL1 (Fractalkine) (FKN) (CX(3)CL1) (Neurotactin) (SCYD1) (NTT) (A-152E5.2)" interactsWith="CX(3)CR1" UniProt="P78423" spid="SYD1_HUMAN" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10">
    <sol:reference type="url" href="http://users.path.ox.ac.uk/~ciu/FPgroup/articles.pdf/ajp0302lucas.pdf" title="Lucas et al. 2001" />
   <sol:reference type="pubmed" pmid="15131578"
   	authors="Echigo T, Hasegawa M, Shimada Y, Takehara K, Sato S."
@@ -121,7 +121,7 @@ CD8B_HUMAN (P10966)
     gene="Neural cell adhesion molecule L1 (N-CAM L1) (CD171 antigen) (L1CAM) (CAML1) (MIC5)"
     UniProt="P32004"
     spid="L1CAM_HUMAN"
-    shedBy="ADAM10, ADAM17">
+    shedGroup="Metalloproteases" shedBy="ADAM10, ADAM17">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" authors="Sabine Mechtersheimer1, Paul Gutwein1, Nancy Agmon-Levin1, Alexander Stoeck1, Matthias Oleszewski1, Svenja Riedle1, Rolf Postina4, Falk Fahrenholz4, Mina Fogel2, Vance Lemmon3 and Peter Altevogt1" title="Ectodomain shedding of L1 adhesion molecule promotes cell migration by autocrine binding to integrins " journal="J. Cell Biol." volume="155" number="4" pages="661-674" comment="Explicitly confirms ADAM10" />
 </sol:variant>
@@ -207,7 +207,7 @@ CD8B_HUMAN (P10966)
       title="CD28 induces immunostimulatory signals in dendritic cells via CD80 and CD86."
       journal="Nat Immunol." volume="5" number="11" pages="1134-1142" year="2004" pmid="15467723" />
 </sol:variant>
-<sol:variant gene="CD30" UniProt="P28908" shedBy="ADAM17, ADAM10" >
+<sol:variant gene="CD30" UniProt="P28908" shedGroup="Metalloproteases" shedBy="ADAM17, ADAM10" >
     <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
     <sol:reference type="pubmed" pmid="11120787"
 	authors="H. P. Hansen, S. Dietrich, Kisseleva T, Mokros T, Mentlein R, Lange HH, Murphy G, Lemke H."
@@ -216,7 +216,7 @@ CD8B_HUMAN (P10966)
     <sol:reference type="pubmed" pmid="" authors="von Tresckow B, Kallen KJ, von Strandmann EP, Borchmann P, Lange H, Engert A, Hansen HP." title="Depletion of cellular cholesterol and lipid rafts increases shedding of CD30."
     journal="J Immunol." year="2004" volume="172" number="7" pages="4324-4331" />
 </sol:variant>
-<sol:variant gene="CD40" UniProt="P25942" shedBy="TACE">
+<sol:variant gene="CD40" UniProt="P25942" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17">
     <sol:reference type="pubmed" pmid="12810728"
         authors="Contin C, Pitard V, Itai T, Nagata S, Moreau JF, Dechanet-Merville J."
 	title="Membrane-anchored CD40 is processed by the tumor necrosis factor-alpha-converting enzyme. Implications for CD40 signaling."
@@ -269,7 +269,7 @@ CD8B_HUMAN (P10966)
     	year="2004" />
     PMID: 15163541 [PubMed - indexed for MEDLINE]
 </sol:variant>
-<sol:variant gene="CD44 (Phagocytic glycoprotein I) (PGP-1) (HUTCH-I) (Extracellular matrix receptor-III) (ECMR-III) (GP90 lymphocyte homing/adhesion receptor) (Hermes antigen) (Hyaluronate receptor) (Heparan sulfate proteoglycan) (Epican) (CDw44) (LHR)" UniProt="P16070" shedBy="ADAM17, ADAM10">
+<sol:variant gene="CD44 (Phagocytic glycoprotein I) (PGP-1) (HUTCH-I) (Extracellular matrix receptor-III) (ECMR-III) (GP90 lymphocyte homing/adhesion receptor) (Hermes antigen) (Hyaluronate receptor) (Heparan sulfate proteoglycan) (Epican) (CDw44) (LHR)" UniProt="P16070" shedGroup="Metalloproteases" shedBy="ADAM17, ADAM10">
    <summary>
    Capacity to mediate inflammatory cell function and tumor growth and metastasis
    </summary>
@@ -292,7 +292,7 @@ CD8B_HUMAN (P10966)
         title="Purification and functional properties of soluble forms of membrane cofactor protein (CD46) of complement: identification of forms increased in cancer patients' sera."
 	 year="1995" />
 </sol:variant>
-<sol:variant gene="NCAM1 (NCAM)_(CD56) (Neural cell adhesion molecule 1, 140 kDa isoform)" UniProt="P13591" spid="NCA11_HUMAN" shedBy="ADAM17/TACE">
+<sol:variant gene="NCAM1 (NCAM)_(CD56) (Neural cell adhesion molecule 1, 140 kDa isoform)" UniProt="P13591" spid="NCA11_HUMAN" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17/TACE">
     <sol:reference type="pubmed" pmid="16277615" authors="Diestel S, Hinkle CL, Schmitz B, Maness PF." title="NCAM140 stimulates integrin-dependent cell migration by ectodomain shedding." journal="J Neurochem." year="2005" volume="95" number="6" pages="1777-84" /> 
     <sol:reference type="pubmed" pmid="16805798" authors="Kalus I, Bormann U, Mzoughi M, Schachner M, Kleene R." title="Proteolytic cleavage of the neural cell adhesion molecule by ADAM17/TACE is involved in neurite outgrowth" year="2006" volume="98" number="1" pages="78-88" />
 </sol:variant>
@@ -343,20 +343,20 @@ CD8B_HUMAN (P10966)
        journal="Eur J Obstet Gynecol Reprod Biol."
        year="2004" volume="113" number="1" pages="21-25" />
 </sol:variant>
-<sol:variant gene="L-Selectin (CD62L) (LAM-1) (Leukocyte surface antigen Leu-8) (TQ1) (gp90-MEL)  (LECAM1)" UniProt="P14151" shedBy="ADAM17" notshedBy="ADAM10">
+<sol:variant gene="L-Selectin (CD62L) (LAM-1) (Leukocyte surface antigen Leu-8) (TQ1) (gp90-MEL)  (LECAM1)" UniProt="P14151" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17" notshedBy="ADAM10">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1790847313_g.htm" title="NCBI PROW" />
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="15249540" title="Endomucin, a sialomucin expressed in high endothelial venules, supports L-selectin-mediated rolling." authors="Kanda H, Tanaka T, Matsumoto M, Umemoto E, Ebisuno Y, Kinoshita M, Noda M, Kannagi R, Hirata T, Murai T, Fukuda M, Miyasaka M." />
    <sol:reference type="pubmed" pmid="15030584" title="Serum-soluble selectin levels in patients with rheumatoid arthritis and systemic sclerosis." authors="Ates A, Kinikli G, Turgay M, Duman M." />
 </sol:variant>
-<sol:variant gene="Major prion protein (PRNP) (PRP)" UniProt="P04156" spid="PRIO_HUMAN" shedBy="ADAM10, ADAM17">
+<sol:variant gene="Major prion protein (PRNP) (PRP)" UniProt="P04156" spid="PRIO_HUMAN" shedGroup="Metalloproteases" shedBy="ADAM10, ADAM17">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" authors="Cisse MA, Sunyach C, Lefranc-Jullien S, Postina R, Vincent B, Checler F." title="The disintegrin ADAM9 indirectly contributes to the physiological processing of cellular prion by modulating ADAM10 activity." journal="J. Biol. Chem." year="2005" volume="280" number="49" pages="40624-31" pmid="16236709" />
 </sol:variant>
-<sol:variant gene="Serotransferrin (Transferrin) (TF)" UniProt="P02787" spid="TRFE_HUMAN" shedBy="ADAM12">
+<sol:variant gene="Serotransferrin (Transferrin) (TF)" UniProt="P02787" spid="TRFE_HUMAN" shedGroup="Metalloproteases" shedBy="ADAM12">
   <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sorensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
 </sol:variant>
-<sol:variant gene="transferrin receptor (CD71) (T9) (p90)" UniProt="P02786" spid="TFR1_HUMAN" shedBy="Metalloproteinase">
+<sol:variant gene="transferrin receptor (CD71) (T9) (p90)" UniProt="P02786" spid="TFR1_HUMAN" shedGroup="Metalloproteases" shedBy="Metalloproteinase">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1445562251_g.htm" title="NCBI PROW" />
    <sol:reference type="pubmed" pmid="12904899" title="Decreased expression of membrane alpha4beta1, alpha5beta1 integrins and transferrin receptor on erythroblasts in splenectomized patients with beta-thalassemia intermedia. Parallel assessment of serum soluble transferrin receptors levels." authors="Kossiva L, Paterakis G, Tassiopoulos S, Papadhimitriou SI, Voukouti E, Gligori I, Rombos Y." year="2003" journal="Ann Hematol." volume="82" number="9" pages="579-584" />
    <sol:reference type="pubmed" pmid="12163483" authors="Kaup M, Dassler K, Weise C, Fuchs H." title="Shedding of the transferrin receptor is mediated constitutively by an integral membrane metalloprotease sensitive to tumor necrosis factor alpha protease inhibitor-2" journal="J Biol Chem." year="2002" volume="277" number="41" pages="38494-39502" />
@@ -422,14 +422,14 @@ CD8B_HUMAN (P10966)
 	year="1996"
   />
 </sol:variant>
-<sol:variant gene="CD117 (stem cell factor receptor) (SCFR) (c-Kit) (c-kit)" UniProt="P10721" shedBy="mediated by TACE">
+<sol:variant gene="CD117 (stem cell factor receptor) (SCFR) (c-Kit) (c-kit)" UniProt="P10721" shedGroup="Metalloproteases" shedBy="mediated by TACE">
     <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/472932579_g.htm" title="NCBI PROW" />
     <sol:reference type="pubmed" pmid="10942367"
         authors="Akin C, Schwartz LB, Kitoh T, Obayashi H, Worobec AS, Scott LM, Metcalfe DD."
  	title="Soluble stem cell factor receptor (CD117) and IL-2 receptor alpha chain (CD25) levels in the plasma of patients with mastocytosis: relationships to disease severity and bone marrow pathology."
         year="2000" />
 </sol:variant>
-<sol:variant gene="TNF receptor type 1 (p55) (CD120a) (TNFR-1)" UniProt="P19438" shedBy="ADAM17" notshedBy="ADAM10">
+<sol:variant gene="TNF receptor type 1 (p55) (CD120a) (TNFR-1)" UniProt="P19438" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17" notshedBy="ADAM10">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1028691370_g.htm" title="NCBI PROW" />
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="12712835"
@@ -453,7 +453,7 @@ CD8B_HUMAN (P10966)
 	year="2003" />
    <sol:reference type="pubmed" pmid="14625290" authors="Cruz AC, Frank BT, Edwards ST, Dazin PF, Peschon JJ, Fang KC." title="Tumor necrosis factor-alpha-converting enzyme controls surface expression of c-Kit and survival of embryonic stem cell-derived mast cells." journal="J Biol Chem." year="2004" volume="279" number="7" pages="5612-20." />
 </sol:variant>
-<sol:variant gene="sInterleukin-1R-2" shedBy="TACE">
+<sol:variant gene="sInterleukin-1R-2" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17">
         <sol:reference type="pubmed" pmid="12096138" year="2002" title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases." authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS." />
 </sol:variant>
 <sol:variant gene="sInterleukin-2R (IL-2R)">
@@ -463,7 +463,7 @@ CD8B_HUMAN (P10966)
 <sol:variant gene="sInterleukin-4R (IL-4R) (CD124)" UniProt="P24394" splicing="yes" >
    <sol:reference authors="Chilton PM, Fernandez-Botran R." title="Production of soluble IL-4 receptors by murine spleen cells is regulated by T cell activation and IL-4." journal="J Immunol." year="1993" volume="151" number="11" pages="5907-5917" />
 	</sol:variant>
-<sol:variant gene="sInterleukin-6R-1 (IL-6R-alpha) (CD126)" UniProt="P08887" shedBy="ADAM17, ADAM10">
+<sol:variant gene="sInterleukin-6R-1 (IL-6R-alpha) (CD126)" UniProt="P08887" shedGroup="Metalloproteases" shedBy="ADAM17, ADAM10">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/110467603_g.htm" title="NCBI PROW" />
    <sol:reference type="pubmed" pmid="12096138" year="2002" title="A proteomic approach for the identification of cell-surface proteins shed by metalloproteases." authors="Guo L, Eisenman JR, Mahimkar RM, Peschon JJ, Paxton RJ, Black RA, Johnson RS." />
@@ -509,12 +509,12 @@ CD8B_HUMAN (P10966)
 	year="2004" />
 </sol:variant>
 <sol:variant gene="CD138 (Syndecan-1) (SDC1) (SYND1)" UniProt="P18827"
-	shedBy="Recombinant syndecan-1 core protein was shown to be cleaved by recombinant MT1-MMP or MT3-MMP preferentially at the Gly245-Leu246 peptide bond. Substitution of Gly245 of syndecan-1 with Leu significantly reduced shedding from HT1080/SDC cells and cell migration. These results suggest that the shedding of syndecan-1 promoted by MT1-MMP through the preferential cleavage of Gly245-Leu246 peptide bond stimulates cell migration."
+	shedGroup="Metalloproteases" shedBy="Recombinant syndecan-1 core protein was shown to be cleaved by recombinant MT1-MMP or MT3-MMP preferentially at the Gly245-Leu246 peptide bond. Substitution of Gly245 of syndecan-1 with Leu significantly reduced shedding from HT1080/SDC cells and cell migration. These results suggest that the shedding of syndecan-1 promoted by MT1-MMP through the preferential cleavage of Gly245-Leu246 peptide bond stimulates cell migration."
 	>
   <sol:reference type="url" href="http://www.google.de/search?q=cache:e8xbU_bdQ2AC:www.acm-biotech.com/products/catalogue/other_human_soluble_molecule_e/body_other_human_soluble_molecule_e.html+soluble+CD21" title="ACM Biotech offers Human Soluble Molecule ELISA Kit" />
   <sol:reference type="pubmed" pmid="12904296" title="Cleavage of syndecan-1 by membrane type matrix metalloproteinase-1 stimulates cell migration." authors="Endo K, Takino T, Miyamori H, Kinsen H, Yoshizaki T, Furukawa M, Sato H." />
 </sol:variant>
-<sol:variant gene="SYND3 (Syndecan-3)" UniProt="O75056" spid="SDC3_HUMAN" shedBy="TIMP-3 sensitive metalloprotease">
+<sol:variant gene="SYND3 (Syndecan-3)" UniProt="O75056" spid="SDC3_HUMAN" shedGroup="Metalloproteases" shedBy="TIMP-3 sensitive metalloprotease">
    <sol:reference type="pubmed" title="Syndecan-3 modulates food intake by interacting with the melanocortin/AgRP pathway." authors="Reizes O, Benoit SC, Strader AD, Clegg DJ, Akunuru S, Seeley RJ." pmid="12851299" journal="Ann N Y Acad Sci." year="2003" volume="994" pages="66-73" />
 </sol:variant>
 <sol:variant gene="CD141 (Thrombomodulin) (Fetomodulin) (THBD) (THRM)" UniProt="P07204" >
@@ -534,7 +534,7 @@ CD8B_HUMAN (P10966)
 		href="http://www3.interscience.wiley.com/cgi-bin/fulltext/66003995/PDFSTART" />
     <sol:reference type="pubmed" pmid="" title="Serum soluble CTLA-4 levels are increased in diffuse cutaneous systemic sclerosis." authors="Sato S, Fujimoto M, Hasegawa M, Komura K, Yanaba K, Hayakawa I, Matsushita T, Takehara K." journal="Rheumatology" year="2004" volume="43" number="10" pages="1261-6" />
 </sol:variant>
-<sol:variant gene="TNF-related activation protein (TRAP) (CD40-L) (CD154 antigen)" UniProt="P29965" shedBy="metalloproteinase">
+<sol:variant gene="TNF-related activation protein (TRAP) (CD40-L) (CD154 antigen)" UniProt="P29965" shedGroup="Metalloproteases" shedBy="metalloproteinase">
    <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1386987261_g.htm" title="NCBI PROW" />
   <sol:reference type="pubmed" pmid="15176497"
       authors="Garmendia JV, Zabaleta M, Blanca I, Bianco NE, De Sanctis JB."
@@ -582,7 +582,7 @@ CD8B_HUMAN (P10966)
    <sol:reference type="pubmed" pmid="11448916" title="Soluble Tie2 and Flt1 extracellular domains in serum of patients with renal cancer and response to antiangiogenic therapy." authors="Harris AL, Reusch P, Barleon B, Hang C, Dobbs N, Marme D." journal="Clin Cancer Res." year="2001" volume="7" number="7" pages="1992-7" /> 
    <sol:reference type="pubmed" pmid="12875855" authors="Chin KF, Greenman J, Reusch P, Gardiner E, Marme D, Monson JR." title="Vascular endothelial growth factor and soluble Tie-2 receptor in colorectal cancer: associations with disease recurrence." journal="Eur J Surg Oncol." year="2003" volume="29" number="6" pages="497-505" />
 </sol:variant>
-<sol:variant gene="CD227 (MUC1)" UniProt="P15941" spid="MUC1_HUMAN" shedBy="MT1-MMP mediates MUC1 shedding independent of TACE/ADAM17">
+<sol:variant gene="CD227 (MUC1)" UniProt="P15941" spid="MUC1_HUMAN" shedGroup="Metalloproteases" shedBy="MT1-MMP mediates MUC1 shedding independent of TACE/ADAM17">
     <sol:reference type="url" href="http://www.ncbi.nlm.nih.gov/prow/guide/921344893_g.htm" title="NCBI PROW" />
     <sol:reference type="pubmed" pmid="15142990" title="Tumor necrosis factor alpha stimulates MUC1 synthesis and ectodomain release in a human uterine epithelial cell line." authors="Thathiah A, Brayman M, Dharmaraj N, Julian JJ, Lagow EL, Carson DD." journal="Endocrinology" year="2004" volume="145" number="9" pages="4192-203" />
     <sol:reference type="pubmed" pmid="15130087" authors="Thathiah A, Carson DD." title="MT1-MMP mediates MUC1 shedding independent of TACE/ADAM17" journal="Biochem J."  year="2004" volume="382(Pt 1)" pages="363-373"/>
@@ -614,7 +614,7 @@ CD8B_HUMAN (P10966)
        title="Cleavage of the TrkA neurotrophin receptor by multiple metalloproteases generates signalling-competent truncated forms."
        year="1999" />
 </sol:variant>
-<sol:variant gene="Angiotensin-converting enzyme (ACE) (Dipeptidyl carboxypeptidase I) (Kininase II) (CD143 antigen) (DCP1)" UniProt="P12821" shedBy="ACE secretase which is some unidentified ADAM">
+<sol:variant gene="Angiotensin-converting enzyme (ACE) (Dipeptidyl carboxypeptidase I) (Kininase II) (CD143 antigen) (DCP1)" UniProt="P12821" shedGroup="Metalloproteases" shedBy="ACE secretase which is some unidentified ADAM">
 	<sol:reference  href="http://www.bmb.leeds.ac.uk/staff/nmh/project1.html"
 	   title="Membrane Protein Scretases &amp; Alzheimer's Disease" />
 	<sol:reference type="pubmed" pmid="12799421" authors="Parkin ET, Tan F, Skidgel RA, Turner AJ, Hooper NM." title="The ectodomain shedding of angiotensin-converting enzyme is independent of its localisation in lipid rafts." journal="J Cell Sci." yaer="2003" volume="116(Pt 15)" pages="3079-3087" />
@@ -627,29 +627,31 @@ CD8B_HUMAN (P10966)
 	    title="Solution structure of the C-terminal domain of the ciliary neurotrophic factor (CNTF) receptor and ligand free associations among components of the CNTF receptor complex."
 	    pmid="12707266" year="2003" />
 </sol:variant>
-<sol:variant gene="TGF-alpha" UniProt="P01135" spid="TGFA_HUMAN" shedBy="MMP/ADAM" >
+<sol:variant gene="TGF-alpha" UniProt="P01135" spid="TGFA_HUMAN" shedGroup="Metalloproteases" shedBy="MMP/ADAM" >
   <sol:reference type="pubmed" pmid="15502346" title="Effect of MMP/ADAM Inhibitors on Goblet Cell Hyperplasia in Cultured Human Bronchial Epithelial Cells." authors="Yoshisue H, Hasegawa K." year="2004"  />
 </sol:variant>
-<sol:variant gene="TGF-beta-1 (Transforming growth factor beta-1) (TGFB1)" Uniprot="P01137" spid="TGFB1_HUMAN" shedBy="ADAM17" notshedBy="ADAM10" >
+<sol:variant gene="TGF-beta-1 (Transforming growth factor beta-1) (TGFB1)" Uniprot="P01137" spid="TGFB1_HUMAN" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17" notshedBy="ADAM10" >
   <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
 </sol:variant>
 <sol:variant gene="Betaglycan" synonyms="TGF-beta receptor" UniProt="Q03167"
-	shedBy="Regulated by Pervanadate and Mediated by Membrane Type Matrix Metalloprotease-1"
-	comment="A second (smaller) variant is said to be a product of MT-MMP2"
-	>
+	shedGroup="Metalloproteases" shedBy="Regulated by Pervanadate and Mediated by Membrane Type Matrix Metalloprotease-1"
+	comment="A second (smaller) variant is said to be a product of MT-MMP2">
 	<sol:reference type="pubmed" pmid="14672946" title="The shedding of betaglycan is regulated by pervanadate and mediated by membrane type matrix metalloprotease-1." authors="Velasco-Loyden G, Arribas J, Lopez-Casillas F." />
 </sol:variant>
 <sol:variant gene="Low-density lipoprotein receptor-related protein 1 (LPR)" UniProt="Q07954"
 	synonyms="LRP, LRP1, Alpha-2-macroglobulin receptor, A2MR, Apolipoprotein E receptor, APOER, CD91"
-	shedBy="MMP-2, its activator MT1-MMP, the metalloproteinases MT2-MMP, MT3-MMP and MT4-MMP also degrade LRP"
+	shedGroup="Metalloproteases" shedBy="MMP-2, its activator MT1-MMP, the metalloproteinases MT2-MMP, MT3-MMP and MT4-MMP also degrade LRP"
 	>
 	<sol:reference type="pubmed" pmid="14645246" title="The low density lipoprotein receptor-related protein LRP is regulated by membrane type-1 matrix metalloproteinase (MT1-MMP) proteolysis in malignant cells." authors="Rozanov DV, Hahn-Dantona E, Strickland DK, Strongin AY." />
 </sol:variant>
 <!-- <sol:variant gene="LG-selectin" /> -->
-<sol:variant gene="CD93" UniProt="Q9NPY3" spid="C1QR1_HUMAN" shedBy="independent from TACE" >
+<sol:variant gene="CD93" UniProt="Q9NPY3" spid="C1QR1_HUMAN" comment="Induced by TNFa on PBMC, 1,10-phenanthroline inhibited phorbol ester-triggered shedding of CD93" shedGroup="Matrixmetalloproteases" notShedBy="MMP-17, ADAM17" >
    <sol:reference type="pubmed" pmid="16002728" authors="Bohlson SS, Silva R, Fonseca MI, Tenner AJ."
    title="CD93 Is Rapidly Shed from the Surface of Human Myeloid Cells and the Soluble Form Is Detected in Human Plasma."
    journal="J Immunol." year="2005" volume="175" number="2" pages="1239-1247" />
+   <sol:reference type="pubmed" journal="J Intern Med." year="2011" volume="270" number="3" pages="229-236" doi="10.1111/j.1365-2796.2011.02364.x."
+   title="Plasma CD93 concentration is a potential novel biomarker for coronary artery disease."
+   authors="Mastig A, Silveira A, Wagsaeter D, Orvik J, Backlund A, Samnegart A, Khademi M, Hellenius ML, Leander K, Olsson T, Uhlen, de Faire U, Eriksson P, Hamsten A." />
 </sol:variant>
 <sol:variant gene="AXL (ARK, UFO)" spid="UFO_HUMAN" UniProt="P30530" >
   <sol:reference type="pubmed" pmid="8816929" authors="Costa M, Bellosta P, Basilico C." title="Cleavage and release of a soluble form of the receptor tyrosine kinase ARK in vitro and in vivo." year="1996" />
@@ -671,7 +673,7 @@ CD8B_HUMAN (P10966)
 <sol:variant gene="sortilin (neurotensin (NT) receptor-3) (NTR3)" UniProt="Q99523" spid="SORT_HUMAN">
   <sol:reference type="pubmed" pmid="12419319" title="Shedding of the luminal domain of the neurotensin receptor-3/sortilin in the HT29 cell line." authors="Navarro V, Vincent JP, Mazella J." />
 </sol:variant>
-<sol:variant gene="LR11 (SorLA-1)"  UniProt="Q92673" shedBy="furin-mediated cleavage by a metalloproteinase" >
+<sol:variant gene="LR11 (SorLA-1)"  UniProt="Q92673" shedGroup="Metalloproteases" shedBy="furin-mediated cleavage by a metalloproteinase" >
   <sol:reference type="pubmed" pmid="14764453" title="LR11, an LDL receptor gene family member, is a novel regulator of smooth muscle cell migration." authors="Zhu Y, Bujo H, Yamazaki H, Ohwaki K, Jiang M, Hirayama S, Kanaki T, Shibasaki M, Takahashi K, Schneider WJ, Saito Y." year="2004" />
   <sol:reference type="pubmed" title="Activation and functional characterization of the mosaic receptor SorLA/LR11" pmid="11294867" authors="Jacobsen L, Madsen P, Jacobsen C, Nielsen MS, Gliemann J, Petersen CM." year="2001" />
   <sol:reference type="pubmed" pmid="11821067" authors="Jacobsen L, Madsen P, Nielsen MS, Geraerts WP, Gliemann J, Smit AB, Petersen CM." title="The sorLA cytoplasmic domain interacts with GGA1 and -2 and defines minimum requirements for GGA binding." />
@@ -680,32 +682,32 @@ CD8B_HUMAN (P10966)
 <sol:variant gene="LOX-1 (Lectin-like oxidized LDL receptor-1)" UniProt="Q9TTK7" >
   <sol:reference type="pubmed" pmid="15206153" year="2004" title="Measurement of oxidized LDL and its soluble receptors" authors="Kume N." />
 </sol:variant>
-<sol:variant gene="LDLr" UniProt="P01130" shedBy="TACE">
+<sol:variant gene="LDLr" UniProt="P01130" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17">
   <sol:reference type="pubmed" pmid="14728679" authors="Begg MJ, Sturrock ED, van der Westhuyzen DR." title="Soluble LDL-R are formed by cell surface cleavage in response to phorbol esters." />
 </sol:variant>
-<sol:variant gene="SHPS-1 " UniProt="P78324" shedBy="TACE">
+<sol:variant gene="SHPS-1 " UniProt="P78324" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17">
    <sol:reference type="pubmed" title="Ectodomain shedding of SHPS-1 and its role in regulation of cell migration." authors="Ohnishi H, Kobayashi H, Okazawa H, Ohe Y, Tomizawa K, Sato R, Matozaki T." journal="J Biol Chem." year="2004" volume="279" number="27" pages="27878-2887" pmid="15123722" />
 </sol:variant>
-<sol:variant gene="Jagged 1 " UniProt="P78504" shedBy="alpha-secretase and presenilin/gamma-secretase" >
+<sol:variant gene="Jagged 1 " UniProt="P78504" shedGroup="Gamma-Secretase,Alpha-Secretase" shedBy="alpha-secretase and presenilin/gamma-secretase" >
   <sol:reference type="pubmed" pmid="12826675" authors="LaVoie MJ, Selkoe DJ." title="The Notch ligands, Jagged and Delta, are sequentially processed by alpha-secretase and presenilin/gamma-secretase and release signaling fragments." journal="J Biol Chem." year="2003" volume="278" pages="34427-37" />
   <sol:reference type="pubmed" pmid="12551931" title="The Notch ligands, Delta1 and Jagged2, are substrates for presenilin-dependent 'gamma-secretase' cleavage." authors="Ikeuchi T, Sisodia SS." year="2003" journal="J Biol Chem." vol="278" pages="7751-4" />
   <sol:reference type="pubmed" pmid="14769803" title="The non-transmembrane form of Delta1, but not of Jagged1, induces normal migratory behavior accompanied by fibroblast growth factor receptor 1-dependent transformation." authors="Trifonova R, Small D, Kacer D, Kovalenko D, Kolev V, Mandinova A, Soldi R, Liaw L, Prudovsky I, Maciag T." journal="J Biol Chem." year="2004" volume="279" number="14" pages="13285-8" />
 </sol:variant>
-<sol:variant gene="Notch1 (Notch receptor)" UniProt="P46531" spid="NOTC1_HUMAN" comment="Cytoplasmic cleavage" shedBy="ADAM10, ADAM17">
+<sol:variant gene="Notch1 (Notch receptor)" UniProt="P46531" spid="NOTC1_HUMAN" comment="Cytoplasmic cleavage" shedGroup="Metalloproteases" shedBy="ADAM10, ADAM17">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
  <sol:reference type="pubmed" pmid="9244302" authors="Blaumueller CM, Qi H, Zagouras P, Artavanis-Tsakonas S." year="1997" title="Intracellular cleavage of Notch leads to a heterodimeric receptor on the plasma membrane." />
 </sol:variant>
-<sol:variant gene="GHBP, soluble form of GHR (groth hormone receptor)" UniProt="P10912" shedBy="TACE" >
+<sol:variant gene="GHBP, soluble form of GHR (groth hormone receptor)" UniProt="P10912" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17" >
    <sol:reference authors="Yue Zhang, Jing Jiang, Roy A. Black, Gerhard Baumann and Stuart J. Frank"
     title="Tumor Necrosis Factor- Converting Enzyme (TACE) Is a Growth Hormone Binding Protein (GHBP) Sheddase: The Metalloprotease TACE/ADAM-17 Is Critical for (PMA-Induced) GH Receptor Proteolysis and GHBP Generation" year="2000" />
 </sol:variant>
-<sol:variant gene="gpV (CD42D antigen) (GP5)" UniProt="P40197" spid="GPV_HUMAN" shedBy="ADAM17" notshedBy="ADAM10" >
+<sol:variant gene="gpV (CD42D antigen) (GP5)" UniProt="P40197" spid="GPV_HUMAN" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17" notshedBy="ADAM10" >
  <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
 </sol:variant>
-<sol:variant gene="Interleukin-15 receptor alpha chain (IL15RA)(IL-15R-alpha)" UniProt="Q13261" spid="I15RA_HUMAN" shedBy="ADAM17" notshedBy="ADAM10">
+<sol:variant gene="Interleukin-15 receptor alpha chain (IL15RA)(IL-15R-alpha)" UniProt="Q13261" spid="I15RA_HUMAN" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17" notshedBy="ADAM10">
 <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
 </sol:variant>
-<sol:variant gene="TNF-alpha (Tumor necrosis factor)" UniProt="P01375" shedBy="ADAM17" notshedBy="ADAM10" spid="TNFA_HUMAN">
+<sol:variant gene="TNF-alpha (Tumor necrosis factor)" UniProt="P01375" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17" notshedBy="ADAM10" spid="TNFA_HUMAN">
 	<summary>
 [2] (SWISS-PROT:<a href="http://srs.ebi.ac.uk/srs6bin/cgi-bin/wgetz?-e+[SWALL-ACC:'P01375']">P01375</a>), a cytokine<br/>
 SWISS-PROT describes it well, cleavage site also mentioned in [2]. 
@@ -771,6 +773,9 @@ CC   -!- CATALYTIC ACTIVITY: CLEAVES TNF-ALPHA AT 76-ALA-|-VAL-77.
 <sol:variant gene="c-erbB-2 (MLN 19) (Her-2)" UniProt="P04626" spid="ERB2_HUMAN">
   <sol:reference type="pubmed" title="Serum levels of c-erbb-2 correlate with advanced stage and liver metastasis in colorectal cancer." authors="Polychronidis AC, Tsaroucha AK, Anagnostoulis SK, Efstathiou EE, Georgiadis PG, Simopoulos CE." pmid="12943051" />
   <sol:reference type="pubmed" pmid="12767812" title="Purification of Her-2 extracellular domain and identification of its cleavage site." authors="Yuan CX, Lasut AL, Wynn R, Neff NT, Hollis GF, Ramaker ML, Rupar MJ, Liu P, Meade R." year="2003" comment="PAEQR ASP was identified most likely as a primary site of cleavage, PA EQRASP as a minor site, that generate the ECD. The sites of cleavage are within the signature motif P/GX(5-7)P/G highly conserved in the EGF receptor family." />
+</sol:variant>
+<sol:variant gene="ELR1" organism="Equiis caballus (Horse)" UniProt="Q4G265" spid="Q4G265_HORSE" splicing="yes">
+  <sol:reference journal="PLoS One." year="2013" volume="8" number="11" pages="e79299" doi="10.1371/journal.pone.0079299." title="The soluble form of the EIAV receptor encoded by an alternative splicing variant inhibits EIAV infection of target cells." authors="Lin YZ1, Yang F, Zhang SQ, Sun LK, Wang XF, Du C, Zhou JH." />
 </sol:variant>
 <comments>
 <h3>Hm...</h3>
@@ -871,7 +876,7 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
       journal="Oncogene" year="1997" volume="15" number="12" pages="1385-1394" />
 </sol:variant>
 
-<sol:variant gene="Soluble E-Cadherin" UniProt="P12830" shedBy="ADAM10" notshedBy="ADAM17" >
+<sol:variant gene="Soluble E-Cadherin" UniProt="P12830" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10" notshedBy="ADAM17" >
 <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="10390008"
         author="A S Protheroe, R E Banks, M Mzimba1, W H Porter, J Southgate, P N Singh, M Bosomworth, P Harnden, P H Smith, P Whelan and P J Selby"
@@ -879,7 +884,7 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 	year="1999"
    />
 </sol:variant>
-<sol:variant gene="N-Cadherin (CDH2)" UniProt="P19022" spid="CADH2_HUMAN" shedBy="ADAM10" notshedBy="ADAM17" >
+<sol:variant gene="N-Cadherin (CDH2)" UniProt="P19022" spid="CADH2_HUMAN" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10" notshedBy="ADAM17" >
  <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
  <sol:reference type="pubmed" name="De Wever O, Derycke L, Hendrix A, De Meerleer G, Godeau F, Depypere H, Bracke M." title="Soluble cadherins as cancer biomarkers." journal="Clin Exp Metastasis" year="2007" volume="24" number="8" pages="685-97" pmid="17952616" />
 </sol:variant>
@@ -893,10 +898,10 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 <sol:variant gene="FGF receptor 2 (FGFR2)" UniProt="P21802" spid="FGR2_HUMAN" >
    <sol:reference type="pubmed" pmid="15310757" authors=" 	Tanimoto Y, Yokozeki M, Hiura K, Matsumoto K, Nakanishi H, Matsumoto T, Marie PJ, Moriyama K." title="A soluble form of fibroblast growth factor receptor 2 (FGFR2) with S252W mutation acts as an efficient inhibitor for the enhanced osteoblastic differentiation caused by FGFR2 activation in Apert syndrome." year="2004" journal="J. Biol. Chem." volume="279" number="44" pages="45926-34" />
 </sol:variant>
-<sol:variant gene="Delta 1 (Delta1)" UniProt="O00548" spid="DLL1_HUMAN" shedBy="ADAM10" notshedBy="ADAM17">
+<sol:variant gene="Delta 1 (Delta1)" UniProt="O00548" spid="DLL1_HUMAN" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10" notshedBy="ADAM17">
   <sol:reference type="pubmed" pmid="14769803" title="The non-transmembrane form of Delta1, but not of Jagged1, induces normal migratory behavior accompanied by fibroblast growth factor receptor 1-dependent transformation." authors="Trifonova R, Small D, Kacer D, Kovalenko D, Kolev V, Mandinova A, Soldi R, Liaw L, Prudovsky I, Maciag T." journal="J Biol Chem." year="2004" volume="279" number="14" pages="13285-8" />
 </sol:variant>
-<sol:variant gene="P-selectin glycoprotein ligand-1 (PSGL-1) (CD162)" UniProt="Q14242" spid="SEPL_HUMAN" shedBy="BACE1">
+<sol:variant gene="P-selectin glycoprotein ligand-1 (PSGL-1) (CD162)" UniProt="Q14242" spid="SEPL_HUMAN" shedGroup="BACE" shedBy="BACE1">
   <sol:reference type="pubmed" pmid="15466853" authors="Hirata T, Furukawa Y, Yang BG, Hieshima K, Fukuda M, Kannagi R, Yoshie O, Miyasaka M." title="Human PSGL-1 interacts with the skin-associated chemokine CCL27 via sulfated tyrosines at the PSGL-1 amino terminus." journal="J Biol Chem." year="2004" />
   <sol:reference type="pubmed" pmid="14507929" title="The cell adhesion protein P-selectin glycoprotein ligand-1 is a substrate for the aspartyl protease BACE1." authors="Lichtenthaler SF, Dominguez DI, Westmeyer GG, Reiss K, Haass C, Saftig P, De Strooper B, Seed B." journal="J Biol Chem." year="2003" volume="278" number="49" pages="48713-9" />
 </sol:variant>
@@ -938,7 +943,7 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 		 journal="Adv Exp Med Biol." year="2007"
 		 volume="602" pages="15-21" />
 </sol:variant>
-<sol:variant gene="Tomoregulin-2 (Transmembrane protein with EGF-like and two follistatin-like domains) (TR-2) (Hyperplastic polyposis protein 1)(TMEFF2)" UniProt="Q9UIK5" spid="TEFF2_HUMAN" shedBy="ADAM17">
+<sol:variant gene="Tomoregulin-2 (Transmembrane protein with EGF-like and two follistatin-like domains) (TR-2) (Hyperplastic polyposis protein 1)(TMEFF2)" UniProt="Q9UIK5" spid="TEFF2_HUMAN" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17">
 	<sol:reference author="Ali N, Knaueper V."
 		       title="Phorbol ester-induced shedding of the prostate cancer marker transmembrane protein with epidermal growth factor and two follistatin motifs 2 is mediated by the disintegrin and metalloproteinase-17."
 		       year="2007"
@@ -981,10 +986,10 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
    <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q8WWT6" title="Q8WWT6_HUMAN Coxsackie-adenovirus-receptor isoform CAR4/7 {GENE:Name=CXADR} - Homo sapiens (Human)" />
    <sol:reference type="url" href="http://ca.expasy.org/cgi-bin/niceprot.pl?Q8WWT7" title="Q8WWT7_HUMAN Coxsackie-adenovirus-receptor isoform CAR3/7 {GENE:Name=CXADR} - Homo sapiens (Human)" />
 </sol:variant>
-	<sol:variant gene="Endothelial protein C receptor (EPCR)" UniProt="Q9UNN8" shedBy="metalloprotease" >
+	<sol:variant gene="Endothelial protein C receptor (EPCR)" UniProt="Q9UNN8" shedGroup="Metalloproteases" shedBy="metalloprotease" >
    <sol:reference authors="Jun Xu, Dongfeng Qu, Naomi L. Esmon, and Charles T. Esmon" title="Metalloproteolytic Release of Endothelial Cell Protein C Receptor" journal="J. Biol. Chem." voume="27" number="8" pages="6038-6044" year="2000" />
 </sol:variant>
-<sol:variant gene="Collagen XVII" UniProt="Q9UMD9" shedBy="sheddases of disintegrin and metalloproteinase(ADAM) family; TACE, TNF-alpha converting enzyme, is the major physiological proteinase" cleavedAt="analysis of defined smaller deletions pointed to the stretch of amino acid residues 528-547 as important for sheddase recognition and cleavage">
+<sol:variant gene="Collagen XVII" UniProt="Q9UMD9" shedGroup="Metalloproteases" shedBy="sheddases of disintegrin and metalloproteinase(ADAM) family; TACE, TNF-alpha converting enzyme, is the major physiological proteinase" cleavedAt="analysis of defined smaller deletions pointed to the stretch of amino acid residues 528-547 as important for sheddase recognition and cleavage">
    <sol:reference type="pubmed" pmid="16020548" authors="Zimina EP, Bruckner-Tuderman L, Franzke CW." title="Shedding of collagen XVII ectodomain depends on plasma membrane microenvironment." journal="J Biol Chem." year="2005" />
    <sol:reference type="pubmed" pmid="15047704" authors="Franzke CW, Tasanen K, Borradori L, Huotari V, Bruckner-Tuderman L." title="Shedding of collagen XVII/BP180: structural motifs influence cleavage from cell surface." journal="J. Biol. Chem." year="2004" volume="279" number="23" pages="24521-24529" />
 </sol:variant>
@@ -1004,10 +1009,10 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 <sol:variant gene="CD10 (Neutral endopeptidase 24.11) (Neprilysin) (MME) (NEP)" UniProt="P08473" spid="NEP_HUMAN">
   <sol:reference type="pubmed" pmid="11309283" title="Neutral endopeptidase inhibits neuropeptide-mediated transactivation of the insulin-like growth factor receptor-Akt cell survival pathway." />
 </sol:variant>
-<sol:variant gene="Pro-epidermal growth factor (EGF)" UniProt="P01133" spid="EGF_HUMAN" shedBy="ADAM10" notshedBy="ADAM17">
+<sol:variant gene="Pro-epidermal growth factor (EGF)" UniProt="P01133" spid="EGF_HUMAN" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10" notshedBy="ADAM17">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
 </sol:variant>
-<sol:variant gene="Betacellulin (BTC)" UniProt="P35070" spid="BTC_HUMAN" shedBy="ADAM10" notshedBy="ADAM17">
+<sol:variant gene="Betacellulin (BTC)" UniProt="P35070" spid="BTC_HUMAN" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10" notshedBy="ADAM17">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
 </sol:variant>
 
