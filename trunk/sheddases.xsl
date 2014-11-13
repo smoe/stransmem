@@ -43,18 +43,23 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
 
  <xsl:template match="sol:activitygroup">
   <xsl:variable name="name" select="@name" />
+  <xsl:variable name="wikipedia" select="@wikipedia" />
   <xsl:variable name="empty_string" select="''" />
   <tr>
       <td bgcolor="yellow" valign="top">
   	<xsl:value-of select="@name" />
 	<a name="{$name}" />
+
+	<xsl:if test="$empty_string!=$wikipedia">
+	 wikipedia: <xsl:value-of select="@wikipedia" /> 
+	</xsl:if>
       </td>
       <td>
          <xsl:apply-templates select="sol:activity"/>
          <xsl:apply-templates select="sol:activitysubgroup"/>
       </td>
   </tr>
-  </xsl:template>    
+ </xsl:template>    
 
  <xsl:template match="sol:activity">
   <xsl:variable name="empty_string" select="''" />
