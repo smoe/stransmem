@@ -32,6 +32,12 @@
 
      <xsl:apply-templates />
 
+    Please also see:
+    <ul>
+      <li /><a href="activity.xml">Activity</a>- measurable effects of these inhibitors
+      <li /><a href="modulators.xml">Modulators</a> of these biological processes/functions
+    </ul>
+
     <h2>Acknowledgements</h2>
     Dr. Harald Illges is thanked for his contribution to sCD21, Dr. Dr. Eilhard Mix is thanked for a couple of entries he initiated. Dr. Melissa Cline is thanked for her pointer to the related work in Chris Lee's group. 
     Them all, Dr. Saleh Ibrahim and Prof. Dr. Gudrun Brockmann is thanked for their positive and stimulating feedback.

@@ -2,132 +2,132 @@
 <sol:modulatorlist
 	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
 >
-<sol:modulator long="N-(p-Amylcinnamoyl) anthranilic Acid" short="ACA" solubilisergroup="cPLA2" incubationtime="15' prior" concentration="15&#956;M" effect="inhibition">
+<sol:modulator long="N-(p-Amylcinnamoyl) anthranilic Acid" short="ACA" activitygroup="cPLA2" incubationtime="15' prior" concentration="15&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="Santa Cruz" id="sc-200734" solvent="DMSO" concentration="5.93mM" dillute="1:593" labroutine="Rei&#223;, Kiel" url="http://www.scbio.de/datasheet-200734-n-p-amylcinnamoyl-anthranilic-acid-aca.html" />
 </sol:modulator>
-<sol:modulator long="AEBSF" solubilisergroup="serineproteases" incubationtime="" concentration="100&#956;M" effect="inhibition">
+<sol:modulator long="AEBSF" activitygroup="serineproteases" incubationtime="" concentration="100&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="100mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Apyrase" solubilisergroup="ATP" incubationtime="15' prior" concentration="2U/ml" effect="inhibition">
+<sol:modulator long="Apyrase" activitygroup="ATP" incubationtime="15' prior" concentration="2U/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="1kU/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="BAPTA-AM" solubilisergroup="Ca++-Chelator (intracellular)" incubationtime="15' prior" concentration="10-50&#956;M" effect="inhibition">
+<sol:modulator long="BAPTA-AM" activitygroup="Ca++-Chelator (intracellular)" incubationtime="15' prior" concentration="10-50&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="30mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="C3" solubilisergroup="BACE" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
+<sol:modulator long="C3" activitygroup="BACE" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO?" concentration="10mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Cetuximab" solubilisergroup="EGFR" incubationtime="15' prior" concentration="10&#956;g/ml (20ug/ml)" effect="inhibition">
+<sol:modulator long="Cetuximab" activitygroup="EGFR" incubationtime="15' prior" concentration="10&#956;g/ml (20ug/ml)" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="5mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="CRM197" solubilisergroup="HB-EGF" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
+<sol:modulator long="CRM197" activitygroup="HB-EGF" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="2mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="D609" solubilisergroup="saure Smase" incubationtime="1h?" concentration="10&#956;g/ml" effect="inhibition">
+<sol:modulator long="D609" activitygroup="saure Smase" incubationtime="1h?" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="10mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="EGTA" solubilisergroup="Ca++-Chelator (exctracellular)" incubationtime="15' prior" concentration="3mM" effect="inhibition">
+<sol:modulator long="EGTA" activitygroup="Ca++-Chelator (exctracellular)" incubationtime="15' prior" concentration="3mM" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O (NaOH buffered)" concentration="976mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Evans Blue" solubilisergroup="P2X/P2Y/NFkB" incubationtime="15' prior" concentration="5-100&#956;M" effect="inhibition">
+<sol:modulator long="Evans Blue" activitygroup="P2X/P2Y/NFkB" incubationtime="15' prior" concentration="5-100&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="GI" solubilisergroup="GI-inhibited Metalloproteases" incubationtime="15' prior" concentration="3&#956;M" effect="inhibition">
+<sol:modulator long="GI" activitygroup="GI-inhibited Metalloproteases" incubationtime="15' prior" concentration="3&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO?" concentration="10mM" dillute="1:3333" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="GM6001" solubilisergroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="GM6001" activitygroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="GÖ6976" solubilisergroup="PKC" incubationtime="15' prior" concentration="5&#956;M" effect="inhibition">
+<sol:modulator long="GÖ6976" activitygroup="PKC" incubationtime="15' prior" concentration="5&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="GW" solubilisergroup="GW-inhibited Metalloproteases" incubationtime="15' prior" concentration="3&#956;M" effect="inhibition">
+<sol:modulator long="GW" activitygroup="GW-inhibited Metalloproteases" incubationtime="15' prior" concentration="3&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO?" concentration="10mM" dillute="1:3333" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Hexokinase" solubilisergroup="ATP" incubationtime="15' prior" concentration="2U/ml" effect="inhibition">
+<sol:modulator long="Hexokinase" activitygroup="ATP" incubationtime="15' prior" concentration="2U/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="1kU/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Hydroxyurea" solubilisergroup="Proliferation" incubationtime="over night" concentration="4mM" effect="inhibition">
+<sol:modulator long="Hydroxyurea" activitygroup="Proliferation" incubationtime="over night" concentration="4mM" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="0.65M" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Imipramin" solubilisergroup="saure Smase" incubationtime="15'-1h" concentration="" effect="inhibition">
+<sol:modulator long="Imipramin" activitygroup="saure Smase" incubationtime="15'-1h" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="5mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Integrin-alpha-6-Ak" solubilisergroup="Integrin-alpha-6" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
+<sol:modulator long="Integrin-alpha-6-Ak" activitygroup="Integrin-alpha-6" incubationtime="15' prior" concentration="10&#956;g/ml" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="Buffer?" concentration="200&#956;M" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Lactacystin" solubilisergroup="Protesome" incubationtime="" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="Lactacystin" activitygroup="Protesome" incubationtime="" concentration="10&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="LY294002" solubilisergroup="PI3K/PIP" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="LY294002" activitygroup="PI3K/PIP" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Marimastat" solubilisergroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="Marimastat" activitygroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Neu-Ak (anti ErbB2)" solubilisergroup="ErbB2" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="Neu-Ak (anti ErbB2)" activitygroup="ErbB2" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="Buffer?" concentration="100&#956;M" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="nSM-I" solubilisergroup="neutrale Smase" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="nSM-I" activitygroup="neutrale Smase" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O?" concentration="20mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Pepstatin A" solubilisergroup="Aspartateproteases" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Pepstatin A" activitygroup="Aspartateproteases" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="1mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="PMSF" solubilisergroup="Serineproteases" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="PMSF" activitygroup="Serineproteases" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="2.5mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="PP2" solubilisergroup="Src" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="PP2" activitygroup="Src" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="PPADS" solubilisergroup="P2XR" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="PPADS" activitygroup="P2XR" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Ruthenium Red (RuR)" solubilisergroup="Ca++-Chelator (intercellular)" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Ruthenium Red (RuR)" activitygroup="Ca++-Chelator (intercellular)" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Beta-Secretase-Inhibitor IV" solubilisergroup="BACE" incubationtime="" concentration="" effect="inhibition">
+<sol:modulator long="Beta-Secretase-Inhibitor IV" activitygroup="BACE" incubationtime="" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mg/ml" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Staurosporin" solubilisergroup="PKC/PKA/MLCK" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Staurosporin" activitygroup="PKC/PKA/MLCK" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="2mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Suramin" solubilisergroup="G-protein" incubationtime="15' prior" concentration="50&#956;M" effect="inhibition">
+<sol:modulator long="Suramin" activitygroup="G-protein" incubationtime="15' prior" concentration="50&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="H2O" concentration="35mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="TAPI" solubilisergroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
+<sol:modulator long="TAPI" activitygroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Thapsigargin" solubilisergroup="Ca++-Efflux from ER" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="Thapsigargin" activitygroup="Ca++-Efflux from ER" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="1mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="U0126" solubilisergroup="Erk" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="U0126" activitygroup="Erk" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="U73122" solubilisergroup="PLC" incubationtime="15' prior" concentration="" effect="inhibition">
+<sol:modulator long="U73122" activitygroup="PLC" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="4.3mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
-<sol:modulator long="Gamma-Secretory-Inhibitor IX" solubilisergroup="Gamma-Secretase" incubationtime="min 6h-24h prior" effect="inhibition" concentration="1&#956;M">
+<sol:modulator long="Gamma-Secretory-Inhibitor IX" activitygroup="Gamma-Secretase" incubationtime="min 6h-24h prior" effect="inhibition" concentration="1&#956;M">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="25mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
 <!--
-<sol:modulator long="U1B666a" solubilisergroup="" incubationtime="" concentration="" effect="inhibition">
+<sol:modulator long="U1B666a" activitygroup="" incubationtime="" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" concentration="" dillute="" />
    <sol:labroutine long="Rei&#223;, Kiel" solvent="" />
 </sol:modulator>
-<sol:modulator long="FFA (Flutenamic Acid)" solubilisergroup="" incubationtime="" concentration="" effect="inhibition">
+<sol:modulator long="FFA (Flutenamic Acid)" activitygroup="" incubationtime="" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" concentration="" dillute="" />
    <sol:labroutine long="Rei&#223;, Kiel" solvent="DMSO" />
 </sol:modulator>
-<sol:modulator long="OPLS" solubilisergroup="" incubationtime="" concentration="" effect="inhibition">
+<sol:modulator long="OPLS" activitygroup="" incubationtime="" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" concentration="" dillute="" />
    <sol:labroutine long="Rei&#223;, Kiel" solvent="H2O" />
 </sol:modulator>
-<sol:modulator long="Phosphocholin (PC)" solubilisergroup="" incubationtime="" concentration="" effect="inhibition">
+<sol:modulator long="Phosphocholin (PC)" activitygroup="" incubationtime="" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" concentration="" dillute="" />
    <sol:labroutine long="Rei&#223;, Kiel" solvent="H2O" />
 </sol:modulator>
-<sol:modulator long="Probenecid" solubilisergroup="" incubationtime="" concentration="" effect="inhibition">
+<sol:modulator long="Probenecid" activitygroup="" incubationtime="" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" concentration="" dillute="" />
    <sol:labroutine long="Rei&#223;, Kiel" solvent="DMSO" />
 </sol:modulator>

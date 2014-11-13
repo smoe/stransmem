@@ -19,6 +19,13 @@
 
      <xsl:apply-templates />
 
+    Please also see:
+    <ul>
+      <li /><a href="activity.xml">Activity</a> - measurable effects of these inhibitors
+      <li /><a href="soluble_adhesion_markers.xml">Soluble Adhesion Markers - transmembrane proteins with known soluble variants</a>
+    </ul>
+
+
     <h2>Acknowledgements</h2>
     This work was supported by the DFG Graduate College "<a href="http://www.genes-environment-inflammation.de/">Genes Environment Inflammation</a>".
     <hr/>
@@ -57,17 +64,17 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
 	</xsl:if>
       </td>
       <td>
-  	<xsl:value-of select="@activitygroup" />
-	<br />
-  	(<xsl:value-of select="@effect" />)
-	<p />
 	<xsl:if test="$empty_string!=$activitygroup">
-	<xsl:element name="a">
+	 <xsl:element name="a">
 	  <xsl:attribute name="href">
-	     <xsl:value-of select="concat('http:sheddases.xml#',$activitygroup)" />
+	   <xsl:value-of select="concat('http:activity.xml#',$activitygroup)" />
 	  </xsl:attribute>
-	  link to sheddase
-	</xsl:element>
+  	  <xsl:value-of select="@activitygroup" />
+	 </xsl:element>
+	 <br />
+	</xsl:if>
+	<xsl:if test="$empty_string!=$effect">
+  	 (<xsl:value-of select="@effect" />)
 	</xsl:if>
       </td>
       <td>
