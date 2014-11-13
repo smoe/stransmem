@@ -13,9 +13,12 @@
    </head>
    <body>
     <h1 align="center">Soluble variants of membrane proteins</h1>
+    <p>
     This work is described in a <a href="http://www.bioinfo.de/isb/2005/05/0028/">paper</a>
     that recently appeared in In Silico Biology.
+    </p>
     <h2><a href="soluble_maker.pl.gz">SolubleMaker</a>: Predicted soluble variants from UniProt</h2>
+    <p>
     In order to determine soluble variants in your local set of
     mass spectra please consider to feed your peptide identification
     tool with the sequences derived from the tool
@@ -24,25 +27,31 @@
     region in dependence of the sidedness of the insertion into the
     membrane. The tool can be used to return the extracellular or the
     intracellular products of the cleavage.
+    </p>
     <h2><a href="soluble_variants_of_membrane_proteins/">Predicted soluble splice-variants of transmembrane proteins</a></h2>
+    <p>
     A program available for download <a href="soluble_variants_of_membrane_proteins/human.pl.gz">here</a> created the <a
     href="soluble_variants_of_membrane_proteins/">following list</a>
     of putative soluble splice-variants of proteins predicted to be
     transmembrane.
+    </p>
 
      <xsl:apply-templates />
 
+    <p>
     Please also see:
     <ul>
-      <li /><a href="activity.xml">Activity</a>- measurable effects of these inhibitors
-      <li /><a href="modulators.xml">Modulators</a> of these biological processes/functions
+      <li><a href="activity.xml">Activity</a>- measurable effects of these inhibitors</li>
+      <li><a href="modulators.xml">Modulators</a> of these biological processes/functions</li>
     </ul>
+    </p>
 
     <h2>Acknowledgements</h2>
     Dr. Harald Illges is thanked for his contribution to sCD21, Dr. Dr. Eilhard Mix is thanked for a couple of entries he initiated. Dr. Melissa Cline is thanked for her pointer to the related work in Chris Lee's group. 
     Them all, Dr. Saleh Ibrahim and Prof. Dr. Gudrun Brockmann is thanked for their positive and stimulating feedback.
     <hr/>
     <a href="http://www.inb.uni-luebeck.de/">Steffen Moeller</a>
+
     <a href="mailto:steffen.moeller@uksh.de">steffen.moeller@uksh.de</a><br/>
     <small>
     <a href="http://www.derma.uni-luebeck.de">Dermatology, Luebeck, Germany</a>
@@ -66,9 +75,11 @@
   <xsl:variable name="uniprot" select="@UniProt" />
   <xsl:variable name="shedby" select="@shedBy" />
   <xsl:variable name="notshedby" select="@notshedBy" />
+  <xsl:variable name="shedgroup" select="@shedGroup" />
   <tr>
       <td bgcolor="yellow" valign="top">
   	<xsl:value-of select="@gene" />
+	<a name="{$uniprot}" />
 	<xsl:variable name="empty_string" select="''" />
 	<br/>	
 	<small>
@@ -79,6 +90,9 @@
 	<xsl:if test="$empty_string!=$shedby">
 		<br />
 		shedBy: <xsl:value-of select="@shedBy" />
+	</xsl:if> 	
+	<xsl:if test="$empty_string!=$shedgroup">
+		(<a href="{$shedgroup}"><xsl:value-of select="@shedGroup" /></a>)
 	</xsl:if> 	
 	<xsl:if test="$empty_string!=$notshedby">
 		<br />
