@@ -330,8 +330,9 @@ CD8B_HUMAN (P10966)
 </sol:variant>
 <sol:variant gene="P-Selectin (CD62P) (Granule membrane protein 140) (GMP-140) (PADGEM) (LECAM3) (SELP) (GMRP)" UniProt="P16109">
     <sol:reference type="url" title="NCBI PROW" href="http://www.ncbi.nlm.nih.gov/PROW/guide/1213700185_g.htm" />
-    <sol:reference type="pubmed" pmid="99034306" authors="Blann AD, Devine C, Amiral J, McCollum CN."
-        title="Soluble adhesion molecules, endothelial markers and atherosclerosis risk factors in abdominal aortic aneurysm: a comparison with claudicants and healthy controls." year="1998" />
+    <sol:reference type="pubmed" pmid="9818997" authors="Blann AD, Devine C, Amiral J, McCollum CN."
+        title="Soluble adhesion molecules, endothelial markers and atherosclerosis risk factors in abdominal aortic aneurysm: a comparison with claudicants and healthy controls."
+	year="1998" volume="9" number="6" pages="479-484" journal="Blood Coagul Fibrinolysis"  />
 </sol:variant>
 <sol:variant gene="E-Selectin (CD62E) Endothelial leukocyte adhesion molecule 1) (ELAM-1) (Leukocyte-endothelial cell adhesion molecule 2) (LECAM2)" UniProt="P16581">
     <sol:reference type="url" title="NCBI PROW" href="http://www.ncbi.nlm.nih.gov/PROW/guide/515234854_g.htm" />

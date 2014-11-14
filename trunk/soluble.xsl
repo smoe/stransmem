@@ -117,7 +117,7 @@
        <xsl:when test="'pubmed'=$type"> 
         <xsl:variable name="pmid" select="@pmid" />
     	<a href='http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids={$pmid}'>
-        <xsl:value-of select="@title" /></a>
+        <xsl:value-of select="@title" /></a> (<xsl:value-of select="@year" />)
        </xsl:when>
        <xsl:when test="'personal-communication'=$type">
   <xsl:variable name="name" select="@name" />
