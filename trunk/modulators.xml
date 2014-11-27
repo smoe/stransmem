@@ -64,6 +64,7 @@
 </sol:modulator>
 <sol:modulator long="Marimastat" activitygroup="Metalloproteases" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition" wikipedia="Marimastat" comment="Not rather matrix metalloprotases???">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
+   <sol:modulatorsource vendor="British Biotech, Inc." id="BB-2516" solvent="" concentration="" dillute="" labroutine="?" />
 </sol:modulator>
 <sol:modulator long="Neu-Ak (anti ErbB2)" activitygroup="ErbB2" incubationtime="15' prior" concentration="10&#956;M" effect="inhibition" wikipedia="Trastuzumab">
    <sol:modulatorsource vendor="" id="" solvent="Buffer?" concentration="100&#956;M" dillute="" labroutine="Rei&#223;, Kiel" />
@@ -101,6 +102,8 @@
 <sol:modulator long="Thapsigargin" activitygroup="Ca++-Efflux from ER" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="1mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
+<sol:modulator long="Tissue inhibitor of metalloproteinase 1" short="TIMP-1" activitygroup="Matrix Metalloprotease inhibition by TIMP-1" />
+<sol:modulator long="Tissue inhibitor of metalloproteinase 2" short="TIMP-2" activitygroup="Matrix Metalloprotease inhibition by TIMP-2" />
 <sol:modulator long="U0126" activitygroup="Erk" incubationtime="15' prior" concentration="" effect="inhibition">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="10mM" dillute="" labroutine="Rei&#223;, Kiel" />
 </sol:modulator>
@@ -109,6 +112,18 @@
 </sol:modulator>
 <sol:modulator long="Gamma-Secretory-Inhibitor IX" activitygroup="Gamma-Secretase" incubationtime="min 6h-24h prior" effect="inhibition" concentration="1&#956;M">
    <sol:modulatorsource vendor="" id="" solvent="DMSO" concentration="25mM" dillute="" labroutine="Rei&#223;, Kiel" />
+</sol:modulator>
+<sol:modulator long="batimastat" activitygroup="Matrixmetalloproteases">
+   <sol:modulatorsource id="BB-94" vendor="British Biotech, Inc." />
+</sol:modulator>
+<sol:modulator long="CT1418" activitygroup="Matrixmetalloproteases">
+   <sol:modulatorsource vendor="Celltech Therapeutics" />
+</sol:modulator>
+<sol:modulator long="CGS27023A" activitygroup="Matrixmetalloproteases">
+   <sol:modulatorsource vendor="Novartis Pharmaceuticals" />
+</sol:modulator>
+<sol:modulator long="RO31-9790" activitygroup="Matrixmetalloproteases">
+   <sol:modulatorsource vendor="Roche" />
 </sol:modulator>
 <!--
 <sol:modulator long="U1B666a" activitygroup="" incubationtime="" concentration="" effect="inhibition">

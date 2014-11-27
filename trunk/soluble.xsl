@@ -110,14 +110,28 @@
 
  <xsl:template match="sol:reference">
   <xsl:variable name="url" select="@href" />
+  <xsl:variable name="date" select="@date" />
+  <xsl:variable name="volume" select="@volume" />
+  <xsl:variable name="pages" select="@pages" />
+  <xsl:variable name="issue" select="@issue" />
+  <xsl:variable name="year" select="@year" />
+  <xsl:variable name="journal" select="@journal" />
+  <xsl:variable name="authors" select="@authors" />
   <tr>
    <td>
       <xsl:variable name="type" select="@type" />
       <xsl:choose> 
        <xsl:when test="'pubmed'=$type"> 
         <xsl:variable name="pmid" select="@pmid" />
+	<xsl:variable name="empty_string" select="''" />
+        <xsl:if test="$empty_string!=$authors"><xsl:value-of select="@authors" /></xsl:if>
+	<xsl:if test="$empty_string!=$year"> (<xsl:value-of select="@year" />) </xsl:if>
     	<a href='http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=pubmed&amp;dopt=Abstract&amp;list_uids={$pmid}'>
-        <xsl:value-of select="@title" /></a> (<xsl:value-of select="@year" />)
+	<xsl:value-of select="@title" /></a>
+	<xsl:if test="$empty_string!=$journal">, <xsl:value-of select="@journal" /></xsl:if>
+	<xsl:if test="$empty_string!=$volume"> <xsl:value-of select="@volume" /></xsl:if>
+	<xsl:if test="$empty_string!=$issue"><xsl:value-of select="@issue" /></xsl:if>
+	<xsl:if test="$empty_string!=$pages">:<xsl:value-of select="@pages" /></xsl:if>
        </xsl:when>
        <xsl:when test="'personal-communication'=$type">
   <xsl:variable name="name" select="@name" />

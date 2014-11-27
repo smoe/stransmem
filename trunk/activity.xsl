@@ -97,22 +97,29 @@ Karina Rei&#223; and coworkers <a href="mailto:steffen.moeller@uksh.de">karina.r
  <xsl:template match="sol:target">
   <xsl:variable name="empty_string" select="''" />
   <xsl:variable name="spid" select="@spid" />
+  <xsl:variable name="pmid" select="@pmid" />
   <xsl:variable name="uniprot" select="@uniprot" />
-  <xsl:value-of select="@name" />
-  <xsl:if test="$empty_string!=$spid or $empty_string!=$uniprot">
-  </xsl:if>
   <xsl:if test="$empty_string!=$spid">
-  	; spid: <xsl:value-of select="@spid" /> 
-  </xsl:if>
+  <xsl:value-of select="@spid" /> </xsl:if>
+  <xsl:text> </xsl:text>
   <xsl:if test="$empty_string!=$uniprot">
-  	; uniprot:
-	 <xsl:element name="a">
+	 (<xsl:element name="a">
 	  <xsl:attribute name="href">
 	   <xsl:value-of select="concat('http://www.uniprot.org/uniprot/',$uniprot)" />
 	  </xsl:attribute>
 	  <xsl:value-of select="@uniprot" /> 
+	 </xsl:element>)
+  	<xsl:text> </xsl:text>
+  </xsl:if>
+  <xsl:if test="$empty_string!=$pmid">
+	 <xsl:element name="a">
+	  <xsl:attribute name="href">
+	   <xsl:value-of select="concat('http://www.ncbi.nlm.nih.gov/pubmed/',$pmid)" />
+	  </xsl:attribute>
+	  <xsl:text>Pubmed </xsl:text>
 	 </xsl:element>
   </xsl:if>
+  <xsl:element name="i"><xsl:value-of select="@name" /></xsl:element>
   <br />
  </xsl:template>
 

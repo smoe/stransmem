@@ -3,7 +3,7 @@
 	xmlns:sol="http://master.dermacloud.uni-luebeck.de/~moeller/stransmem"
 >
 <sol:variant gene="Laminin gamma-2 chain (LAMC2) (Kalinin/nicein/epiligrin 100 kDa subunit)" shedGroup="Metalloproteases" shedBy="MT1-MMP" UniProt="Q13753" spid="LMG2_HUMAN">
-   <sol:reference type="pubmed" pmid="15525652" title="Membrane-type matrix metalloproteinase-1 (MT1-MMP) is a processing enzyme for human laminin gamma 2 chain." authors="Koshikawa N, Minegishi T, Sharabi A, Quaranta V, Seiki M." year="2004" journal="J Biol Chem." />
+   <sol:reference type="pubmed" pmid="15525652" title="Membrane-type matrix metalloproteinase-1 (MT1-MMP) is a processing enzyme for human laminin gamma 2 chain." authors="Koshikawa N, Minegishi T, Sharabi A, Quaranta V, Seiki M." year="2004" journal="J Biol Chem." volume="280" issue="1" pages="88-93" />
 </sol:variant>
 <sol:variant gene="ADAM12" UniProt="O43184" spid="ADA12_HUMAN" alternativelySpliced="yes" notshedBy="any">
   <sol:reference type="pubmed" pmid="18081311" title="Catalytic properties of ADAM12 and its domain deletion mutants." authors="Jacobsen J, Visse R, Sorensen HP, Enghild JJ, Brew K, Wewer UM, Nagase H." journal="Biochemistry" year="2008" volume="47" number="2" pages="537-47" />
@@ -820,7 +820,7 @@ CC   -!- CATALYTIC ACTIVITY: CLEAVES TNF-ALPHA AT 76-ALA-|-VAL-77.
     year="1998"
     ismb="1-57059-541-0" />
 <li><b>[2]</b>
-<sol:reference type="book" author="Angus Thomson"
+<sol:reference type="book" authors="Angus Thomson"
     title="The Cytokine Handbook"
     edition="3rd" publisher="Academic Press"
     year="1998" isbn="0-12-689662-3" />
@@ -880,7 +880,7 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 <sol:variant gene="Soluble E-Cadherin" UniProt="P12830" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10" notshedBy="ADAM17" >
 <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
    <sol:reference type="pubmed" pmid="10390008"
-        author="A S Protheroe, R E Banks, M Mzimba1, W H Porter, J Southgate, P N Singh, M Bosomworth, P Harnden, P H Smith, P Whelan and P J Selby"
+        authors="A S Protheroe, R E Banks, M Mzimba1, W H Porter, J Southgate, P N Singh, M Bosomworth, P Harnden, P H Smith, P Whelan and P J Selby"
 	title="Urinary concentrations of the soluble adhesion molecule E-cadherin and total protein in patients with bladder cancer"
 	year="1999"
    />
@@ -938,14 +938,14 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 <sol:variant gene="RANKL (receptor activator of NF-kappaB ligand) TRANCE (OPGL, Tumor necrosis factor (TNF)-related activation-induced cytokine, osteoprotegerin ligand)" UniProt="O14788" spid="TN11_HUMAN" shedBy="ADAM17, ADAM19" notshedBy="">
   <sol:reference type="pubmed" pmid="15275972" title="Expression of membrane-bound and soluble receptor activator of NF-kappaB ligand (RANKL) in human T cells." authors="Kanamaru F, Iwai H, Ikeda T, Nakajima A, Ishikawa I, Azuma M." journal="Immunol Lett." year="2004" volume="94" number="3" pages="239-46" /> 
   <sol:reference type="pubmed" pmid="11278735" title="Biochemical and pharmacological criteria define two shedding activities for TRANCE/OPGL that are distinct from the tumor necrosis factor alpha convertase." authors="Schlondorff J, Lum L, Blobel CP." journal="J Biol Chem." year="2001" volume="276" number="18" pages="14665-74" />
-  <sol:reference type="pubmed" pmid="12682046" author="Chesneau V, Becherer JD, Zheng Y, Erdjument-Bromage H, Tempst P, Blobel CP." title="Catalytic properties of ADAM19." journal="J Biol Chem." year="2003" volume="278" number="25" pages="22331-40" />
-  <sol:reference type="pubmed" pmid="17966383" author="Hikita A, Tanaka S."
+  <sol:reference type="pubmed" pmid="12682046" authors="Chesneau V, Becherer JD, Zheng Y, Erdjument-Bromage H, Tempst P, Blobel CP." title="Catalytic properties of ADAM19." journal="J Biol Chem." year="2003" volume="278" number="25" pages="22331-40" />
+  <sol:reference type="pubmed" pmid="17966383" authors="Hikita A, Tanaka S."
 		 title="Ectodomain shedding of receptor activator of NF-kappaB ligand."
 		 journal="Adv Exp Med Biol." year="2007"
 		 volume="602" pages="15-21" />
 </sol:variant>
 <sol:variant gene="Tomoregulin-2 (Transmembrane protein with EGF-like and two follistatin-like domains) (TR-2) (Hyperplastic polyposis protein 1)(TMEFF2)" UniProt="Q9UIK5" spid="TEFF2_HUMAN" shedGroup="GI inhibited Metalloproteases (primarily ADAM17)" shedBy="ADAM17">
-	<sol:reference author="Ali N, Knaueper V."
+	<sol:reference authors="Ali N, Knaueper V."
 		       title="Phorbol ester-induced shedding of the prostate cancer marker transmembrane protein with epidermal growth factor and two follistatin motifs 2 is mediated by the disintegrin and metalloproteinase-17."
 		       year="2007"
 		       journal="J Biol Chem." volume="282" number="52" pages="37378-88"
@@ -999,7 +999,7 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
   <sol:reference type="pubmed" pmid="" authors="Moser B, Hudson BI, Schmidt AM." title="Soluble RAGE: a hot new biomarker for the hot joint?" journal="Arthritis Res Ther." year="2005" volume="7" number="4" pages="142-144" />
   <sol:reference type="pubmed" pmid="15987483" authors="Pullerits R, Bokarewa M, Dahlberg L, Tarkowski A." title="Decreased levels of soluble receptor for advanced glycation end products in patients with rheumatoid arthritis indicating deficient inflammatory control." journal="Arthritis Res Ther." year="2005" volume="7" number="4" pages="R817-824" />
   <sol:reference type="pubmed" pmid="15930093" authors="Forbes JM, Thorpe SR, Thallas-Bonke V, Pete J, Thomas MC, Deemer ER, Bassal S, El-Osta A, Long DM, Panagiotopoulos S, Jerums G, Osicka TM, Cooper ME." title="Modulation of Soluble Receptor for Advanced Glycation End Products by Angiotensin Converting Enzyme-1 Inhibition in Diabetic Nephropathy." journal="J Am Soc Nephrol." year="2005" />
-  <sol:reference type="pubmed" pmid="" author="Hanford LE, Enghild JJ, Valnickova Z, Petersen SV, Schaefer LM, Schaefer TM, Reinhart TA, Oury TD." title="Purification and characterization of mouse soluble receptor for advanced glycation end products (sRAGE)." journal="J Biol Chem." year="2004" volume="279" number="48" pages="50019-50024" />
+  <sol:reference type="pubmed" pmid="" authors="Hanford LE, Enghild JJ, Valnickova Z, Petersen SV, Schaefer LM, Schaefer TM, Reinhart TA, Oury TD." title="Purification and characterization of mouse soluble receptor for advanced glycation end products (sRAGE)." journal="J Biol Chem." year="2004" volume="279" number="48" pages="50019-50024" />
 </sol:variant>
 <sol:variant gene="CD74 (Ii) (DHLAG) (HLA class II histocompatibility antigen, gamma chain)" UniProt="P04233" spid="HG2A_HUMAN" shedBy="caspase B">
   <sol:reference type="pubmed" pmid="7729872" authors="Beswick EJ, Bland DA, Suarez G, Barrera CA, Fan X, Reyes VE." title="Helicobacter pylori binds to CD74 on gastric epithelial cells and stimulates interleukin-8 production." journal="Infect Immun." year="2005" volume="73" number="5" pages="2736-2743" />
@@ -1015,6 +1015,9 @@ href="http://www.jbc.org/cgi/content/full/276/18/14665"
 </sol:variant>
 <sol:variant gene="Betacellulin (BTC)" UniProt="P35070" spid="BTC_HUMAN" shedGroup="GW inhibited Metalloproteases (primarily ADAM10)" shedBy="ADAM10" notshedBy="ADAM17">
    <sol:reference type="personal-communication" name="Andreas Ludwig" email="aludwig@biochem.uni-kiel.de" />
+</sol:variant>
+<sol:variant gene="TIMP1" UniProt="P01033" spid="TIMP1_HUMANA">
+   <sol:reference type="pubmed" pmid="22223664" journal="Proc Natl Acad Sci U S A." year="2012" volume="109" issue="6" pages="E309-E316" doi="10.1073/pnas.1115083109" title="Tissue inhibitor of metalloproteinase-1 (TIMP-1) regulates mesenchymal stem cells through let-7f microRNA and Wnt/.-catenin signaling" authors="Egea V, Zahler S, Rieth N, Neth P, Popp T, Kehe K, Jochum M, Ries C." />
 </sol:variant>
 
 <!--

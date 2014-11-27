@@ -82,4 +82,32 @@
 <sol:activitygroup name="Gamma-Secretase" wikipedia="Gamma_secretase">
   <sol:target uniprot="P05067" spid="A4_HUMAN" name="Amyloid beta A4 protein (APP, A4, AD1)" />
 </sol:activitygroup>
+<sol:activitygroup name="Matrix Metalloprotease inhibition by TIMP" >
+   <sol:activitysubgroup name="Matrix Metalloprotease inhibition by TIMP-1" />
+   <sol:activitysubgroup name="Matrix Metalloprotease inhibition by TIMP-2" />
+</sol:activitygroup>
+<sol:activitygroup name="Matrix Metalloprotease inhibition by TIMP-1" wikipedia="TIMP1" comment="Not acting on MMP-14">
+  <!-- http://www.ncbi.nlm.nih.gov/pubmed/9731514 -->
+  <sol:target uniprot="P03956" spid="MMP1_HUMAN" name="Matrix metalloproteinase-1" />
+  <sol:target uniprot="P14780" spid="MMP2_HUMAN" name="Matrix metalloproteinase-2" pmid="14983226"/>
+  <sol:target uniprot="P08254" spid="MMP3_HUMAN" name="Matrix metalloproteinase-3" />
+  <sol:target uniprot="P09237" spid="MMP7_HUMAN" name="Matrilysin, Matrix metalloproteinase-7" />
+  <sol:target uniprot="P22894" spid="MMP8_HUMAN" name="Neutrophil collagenase, Matrix metalloproteinase-8" />
+  <sol:target uniprot="P14780" spid="MMP9_HUMAN" name="Matrix metalloproteinase-9" pmid="14983226"/>
+  <sol:target uniprot="P09238" spid="MMP10_HUMAN" name="Stromelysin-2, Matrix metalloproteinase-10" />
+  <sol:target uniprot="P24347" spid="MMP11_HUMAN" name="Stromelysin-3, Matrix metalloproteinase-11" />
+  <sol:target uniprot="P39900" spid="MMP12_HUMAN" name="Macrophage metalloelastase, Matrix metalloproteinase-12" />
+  <sol:target uniprot="P45452" spid="MMP13_HUMAN" name="Matrix metalloproteinase-13" />
+  <sol:target uniprot="" spid="MMP16_HUMAN" name="Matrix metalloproteinase-16" />
+  <sol:effect uniprot="" spid="" name="Cleavage of 14-Ala-|-Leu-15 and 16-Tyr-|-Leu-17 in B chain of insulin by MMP7, activates Procollagenase" />
+  <sol:effect uniprot="" spid="" name="type I, II, and III collagens by MMP8" />
+  <sol:effect uniprot="" spid="" name="Can degrade fibronectin, gelatins of type I, III, IV, and V; weakly collagens III, IV, and V. Activates procollagenase.. MMP10" />
+  <sol:effect uniprot="" spid="" name="Hydrolysis of soluble and insoluble elastin. Specific cleavages are also produced at 14-Ala-|-Leu-15 and 16-Tyr-|-Leu-17 in the B chain of insulin. MMP12" />
+  <sol:effect uniprot="" spid="" name="Endopeptidase that degrades various components of the extracellular matrix, such as collagen type III and fibronectin. Activates progelatinase A. Involved in the matrix remodeling of blood vessels. Isoform short cleaves fibronectin and also collagen type III, but at lower rate. It has no effect on type I, II, IV and V collagen. However, upon interaction with CSPG4, it may be involved in degradation and invasion of type I collagen by melanoma cells.. MMP16" />
+</sol:activitygroup>
+<sol:activitygroup name="Matrix Metalloprotease inhibition by TIMP-2" wikipedia="TIMP2">
+  <sol:target uniprot="P14780" spid="MMP2_HUMAN" name="Matrix metalloproteinase-2" pmid="14983226"/>
+  <!-- http://www.ncbi.nlm.nih.gov/pubmed/9731514 -->
+  <sol:effect  />
+</sol:activitygroup>
 </sol:activitygrouplist>
