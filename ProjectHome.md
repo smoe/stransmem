@@ -1,0 +1,6 @@
+Signals to be passed to cells either pass the plasma membrane (like for instance some hormones with receptors in
+the nucleus) or they are sensed on the cellular surface by membrane proteins (olfaction, inflammation, ..., the presumed majority of sensory events).
+
+Albeit frequently overseen in biological and particularly bioinformatical considerations, many transmembrane proteins have soluble variants. There are plenty of non-sensatory biological processes that involve membrane proteins, but these aside, it is particularly intuitive to think of such soluble variants as competitive binders to ligands that cannot induce intracellular cascades (e.g., the soluble receptor for TNF alpha). In other cases, the soluble variant itself is the signal (e.g., TNF alpha itself).
+
+This project presents a dataset of soluble membrane proteins that were collected from the literature. It shall become the basis for future efforts of the computational biology community to find patterns in sequence or structure that might allow for the prediction of the existence of a soluble variant. The data is organized in an XML file and allows, if known, the distinction between solubilization that is induced by alternative splicing and such that resulted from proteolytic cleavage by a protease.
